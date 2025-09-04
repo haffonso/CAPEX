@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CTI.M.Forecast",
+	"Hierarchies@Code.links":
+	[
+		"CTI.M.Forecast.hierarchies/CTI.M.Forecast.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CTI.M.Forecast')/Hierarchies('CTI.M.Forecast')"
+	}
+}

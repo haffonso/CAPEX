@@ -1,0 +1,54 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#LASTCHANGE Added support for sending packages via the API
+#GENERALCOMMENT This process packages up TM1 Metadata and adds it to a user defined folder. 
+#DATASOURCECOMMENT Not Applicable
+#PROLOGCOMMENT Runs an external file, QUBEdocs_CreatePackage.bat to package up the metadata and Upload.ps1 script to upload to the QUBEdocs Cloud
+#METADATACOMMENT Not Applicable
+#DATACOMMENT Not Applicable
+#EPILOGCOMMENT Not Applicable
+
+
+IF(pDestFolder @= '');
+ ITEMREJECT('QUBEdocs output directory or token not found.  Please run the QUBEdocs Package Creator with a QUBEdocs output directory specified.');
+ PROCESSERROR;
+ENDIF;
+
+sDataDirectoryFolder = '.\';
+ 
+IF(scan('\',pDestFolder) =0);
+
+ sUser = TM1User();
+ EXECUTEPROCESS('}QUBEdocs Update','pUpdate','Y','pGenerate','N','pServer','','pConnection','','pClearStats','N');
+ sPackageCreatorPath = 'PowerShell.exe Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; .\QUBEdocsFiles\Upload.ps1 ';
+ sExecuteStr =  sPackageCreatorPath  |  '''' |  pDestFolder|  ''''  |  ' ''' | sUser | ''' ' | sDataDirectoryFolder;
+ELSE;
+ pDestFolder = if(subst(pDestFolder,long(pDestFolder),long(pDestFolder)) @<>'\',pDestFolder | '\',pDestFolder);
+ EXECUTEPROCESS('}QUBEdocs Update','pUpdate','Y','pGenerate','N','pServer','','pConnection','','pClearStats','N');
+  sPackageCreatorPath = '.\QUBEdocsFiles\QUBEdocs_CreatePackage.bat';
+  sExecuteStr =  '' | sPackageCreatorPath | ' "' | sDataDirectoryFolder | '" "' | pDestFolder | '"';
+ENDIF;
+
+EXECUTECOMMAND(sExecuteStr,0);
+ASCIIOUTPUT('.\QUBEdocsFiles\QUBEdocsExecuteStr.txt',sExecuteStr);
+
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

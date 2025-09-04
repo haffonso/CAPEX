@@ -1,0 +1,24 @@
+{
+	"@type":"Hierarchy",
+	"Name":"_Metrica_UF",
+	"Elements":
+	[
+		{
+			"Name":"ICMS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PIS COFINS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IPI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Frete",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

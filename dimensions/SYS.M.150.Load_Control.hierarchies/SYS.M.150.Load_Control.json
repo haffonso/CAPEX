@@ -1,0 +1,76 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SYS.M.150.Load_Control",
+	"Elements":
+	[
+		{
+			"Name":"SourceForServer",
+			"Type":"String"
+		},
+		{
+			"Name":"SourceForClient",
+			"Type":"String"
+		},
+		{
+			"Name":"Rejected Files",
+			"Type":"String"
+		},
+		{
+			"Name":"Date",
+			"Type":"String"
+		},
+		{
+			"Name":"User",
+			"Type":"String"
+		},
+		{
+			"Name":"Message",
+			"Type":"String"
+		},
+		{
+			"Name":"DataHora Inicio",
+			"Type":"String"
+		},
+		{
+			"Name":"DataHora Fim",
+			"Type":"String"
+		},
+		{
+			"Name":"Usuário",
+			"Type":"String"
+		},
+		{
+			"Name":"Mensagem de Log",
+			"Type":"String"
+		},
+		{
+			"Name":"Registros Processados",
+			"Type":"String"
+		},
+		{
+			"Name":"Tempo de Execução",
+			"Type":"String"
+		},
+		{
+			"Name":"Caminho do Arquivo de Rejeitado",
+			"Type":"String"
+		},
+		{
+			"Name":"Debug (S/N)",
+			"Type":"String"
+		},
+		{
+			"Name":"Gerar log de alteração (S/N)",
+			"Type":"String"
+		},
+		{
+			"Name":"Caminho do Arquivo Fonte",
+			"Type":"String"
+		},
+		{
+			"Name":"Prefixo do Arquivo",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":[]
+}

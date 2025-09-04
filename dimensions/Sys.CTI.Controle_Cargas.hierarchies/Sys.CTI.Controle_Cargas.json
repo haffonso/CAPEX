@@ -1,0 +1,20 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Sys.CTI.Controle_Cargas",
+	"Elements":
+	[
+		{
+			"Name":"DataHoraInicio",
+			"Type":"String"
+		},
+		{
+			"Name":"DataHoraFim",
+			"Type":"String"
+		},
+		{
+			"Name":"TempoDeDuracao",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":[]
+}

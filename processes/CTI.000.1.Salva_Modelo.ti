@@ -1,0 +1,26 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#ExecuteProcess('CTI.001.Hiperparametros');
+
+ExecuteProcess('CTI.002.Escolher_Modelo');
+
+ExecuteProcess('CTI.004.Previsao');
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

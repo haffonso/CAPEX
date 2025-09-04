@@ -1,0 +1,42 @@
+{
+	"@type":"Hierarchy",
+	"Name":"_UF",
+	"Elements":
+	[
+		{
+			"Name":"Total UF",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MG",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RJ",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total UF",
+			"ComponentName":"SP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total UF",
+			"ComponentName":"MG",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total UF",
+			"ComponentName":"RJ",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

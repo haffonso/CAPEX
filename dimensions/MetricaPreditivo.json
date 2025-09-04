@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"MetricaPreditivo",
+	"Hierarchies@Code.links":
+	[
+		"MetricaPreditivo.hierarchies/MetricaPreditivo.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('MetricaPreditivo')/Hierarchies('MetricaPreditivo')"
+	}
+}

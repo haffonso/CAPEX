@@ -1,0 +1,133 @@
+{
+	"@type":"NativeView",
+	"Name":"CTI - SmartCo - Contabilizacoes",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Month')/Hierarchies('Month')/Subsets('M')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')"
+				},
+				"Alias":"Lancamentos",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saldo Inicial')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Entradas de Caixa')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saída de Caixa')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - CAIXA E BANCOS')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002 - CONTAS A RECEBER')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.1 - Contas a Receber - 01')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.2 - Contas a Receber - 02')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.3 - Contas a Receber - 03')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.4 - Contas a Receber - 04')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.5 - Contas a Receber - 05')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.6 - Contas a Receber - 06')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.7 - Contas a Receber - 07')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.8 - Contas a Receber - 08')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.9 - Contas a Receber - 09')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.10 - Contas a Receber - 10')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500 - FORNECEDORES')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500.1 - Conta de Fornecedores - 01')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500.2 - Conta de Fornecedores - 02')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500.3 - Conta de Fornecedores - 03')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.1 - Contas a Pagar - 01')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.2 - Contas a Pagar - 02')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.3 - Contas a Pagar - 03')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.4 - Contas a Pagar - 04')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.5 - Contas a Pagar - 05')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.6 - Contas a Pagar - 06')"
+					},
+					{
+						"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.7 - Contas a Pagar - 07')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Year')/Hierarchies('Year')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y3')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Version')/Hierarchies('Version')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Version 1')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":true,
+	"SuppressEmptyRows":true,
+	"FormatString":"0.#########"
+}

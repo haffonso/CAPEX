@@ -1,0 +1,21 @@
+{
+	"@type":"Process",
+	"Name":"Teste1",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"Teste1.ti",
+	"UIData":"_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutar",
+			"Prompt":"",
+			"Value":"Executar (Sim  ou Não)?",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

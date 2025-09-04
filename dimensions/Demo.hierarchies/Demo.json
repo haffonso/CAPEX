@@ -1,0 +1,77 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Demo",
+	"Elements":
+	[
+		{
+			"Name":"Total Centro de Custo",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Teste",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Centro Custo 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Centro Custo 1.1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Centro Custo 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Centro Custo 1.2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Centro Custo 2",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Centro de Custo",
+			"ComponentName":"Teste",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Centro de Custo",
+			"ComponentName":"Centro Custo 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Centro de Custo",
+			"ComponentName":"Centro Custo 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Centro Custo 2",
+			"ComponentName":"Centro Custo 1.1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Centro Custo 2",
+			"ComponentName":"Centro Custo 1.2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Centro Custo 1.1",
+			"ComponentName":"Centro Custo 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Centro Custo 1.2",
+			"ComponentName":"Centro Custo 2",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Demo.subsets/Default.json"
+	]
+}

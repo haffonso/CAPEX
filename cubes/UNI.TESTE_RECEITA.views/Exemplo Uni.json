@@ -1,0 +1,43 @@
+{
+	"@type":"MDXView",
+	"Name":"Exemplo Uni",
+	"MDX@Code.link":"Exemplo Uni.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Version].[Version]" : "Caption_Default",
+			"[Year].[Year]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[UNI.D.Canais].[UNI.D.Canais]" : 
+			{
+				"Expression" : "{[UNI.D.Canais].[UNI.D.Canais].MEMBERS}"
+			},
+			"[UNI_DIM.Material].[UNI_DIM.Material]" : 
+			{
+				"Expression" : "{[UNI_DIM.Material].[UNI_DIM.Material].MEMBERS}"
+			},
+			"[Version].[Version]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			},
+			"[Year].[Year]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Month].[Month]" : false,
+			"[UNI.D.Canais].[UNI.D.Canais]" : false,
+			"[UNI.M.Metricas].[UNI.M.Metricas]" : false,
+			"[UNI_DIM.Material].[UNI_DIM.Material]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CTI.D.Year_Month",
+	"Hierarchies@Code.links":
+	[
+		"CTI.D.Year_Month.hierarchies/CTI.D.Year_Month.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CTI.D.Year_Month')/Hierarchies('CTI.D.Year_Month')"
+	}
+}

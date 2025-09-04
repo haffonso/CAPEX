@@ -1,0 +1,33 @@
+{
+	"@type":"MDXView",
+	"Name":"Drill",
+	"MDX@Code.link":"Drill.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[JobType].[JobType]" : "Caption_Default",
+			"[Version].[Version]" : "Caption_Default",
+			"[Year].[Year]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[JobType].[JobType]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Drill"
+			},
+			"[Version].[Version]" : 
+			{
+				"Expression" : "{[Version].[Version].[Version 1]}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[JobTypeAssumption].[JobTypeAssumption]" : false,
+			"[JobType].[JobType]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false
+		}
+	}
+}

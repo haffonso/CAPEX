@@ -1,0 +1,1 @@
+SELECT {[Month].[Month].[Year]} ON 0, {EXCEPT(DISTINCT({[product].[product].[20000],DESCENDANTS([product].[product].[20000] , 99 , LEAVES)}) , {[product].[product].[20000]})} ON 1 FROM [Revenue] WHERE ([organization].[organization].[101], [Revenue].[Revenue].[Units Sold], [Channel].[Channel].[20], [Year].[Year].[Y2], [Version].[Version].[Version 1])

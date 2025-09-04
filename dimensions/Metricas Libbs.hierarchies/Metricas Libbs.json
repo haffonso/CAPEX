@@ -1,0 +1,20 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Metricas Libbs",
+	"Elements":
+	[
+		{
+			"Name":"Venda",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Demanda",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ruptura",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,96 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Pai",
+	"Elements":
+	[
+		{
+			"Name":"Elm 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Neto 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Elm 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Elm2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Neto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Elm",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Filho",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Pai",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"All Pai",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Neto 2",
+			"ComponentName":"Elm 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Neto 2",
+			"ComponentName":"Elm 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Neto",
+			"ComponentName":"Elm",
+			"Weight":1
+		},
+		{
+			"ParentName":"Neto",
+			"ComponentName":"Elm2",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Pai",
+			"ComponentName":"Total",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Pai",
+			"ComponentName":"Pai",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Pai",
+			"ComponentName":"Filho",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Pai",
+			"ComponentName":"Neto",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Pai",
+			"ComponentName":"Neto 2",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

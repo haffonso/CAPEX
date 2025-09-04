@@ -1,0 +1,15 @@
+{
+	"@type":"Dimension",
+	"Name":"_Periodo",
+	"AllLeavesHierarchyName":"Leaves",
+	"Hierarchies@Code.links":
+	[
+		"_Periodo.hierarchies/_Periodo.json",
+		"_Periodo.hierarchies/Ano.json",
+		"_Periodo.hierarchies/Mês.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"NovoCubo",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Account')"
+		},
+		{
+			"@id":"Dimensions('BI Measure')"
+		},
+		{
+			"@id":"Dimensions('Currency')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		}
+	],
+	"Views@Code.links":[]
+}

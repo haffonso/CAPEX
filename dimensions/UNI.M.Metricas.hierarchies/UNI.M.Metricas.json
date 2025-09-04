@@ -1,0 +1,32 @@
+{
+	"@type":"Hierarchy",
+	"Name":"UNI.M.Metricas",
+	"Elements":
+	[
+		{
+			"Name":"Volume",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Preço",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Receita Bruta",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Impostos",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"% Imposto",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Receita Liquida",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

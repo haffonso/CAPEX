@@ -1,0 +1,24 @@
+{
+	"@type":"Cube",
+	"Name":"MAP.CLASSIFICACAO_PRECO",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('Channel')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('MAP.M.TIPO_PRECO_SKU')"
+		}
+	],
+	"Rules@Code.link":"MAP.CLASSIFICACAO_PRECO.rules",
+	"Views@Code.links":
+	[
+		"MAP.CLASSIFICACAO_PRECO.views/Default.json"
+	]
+}

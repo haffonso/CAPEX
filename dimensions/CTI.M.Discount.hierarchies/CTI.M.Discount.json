@@ -1,0 +1,23 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CTI.M.Discount",
+	"Elements":
+	[
+		{
+			"Name":"% Discount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Discont Test",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Discount Test 2",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"CTI.M.Discount.subsets/% Discount.json"
+	]
+}

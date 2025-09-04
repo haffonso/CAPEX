@@ -1,0 +1,8 @@
+
+
+
+
+FEEDERS;
+
+[{'Budget','Actual'},'Product Total','Marketing Investment'] =>
+	DB('Line Item Detail','Total Company','6410 Advertising','Total',!Year,!Version,'Item',!Month);

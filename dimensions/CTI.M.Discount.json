@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CTI.M.Discount",
+	"Hierarchies@Code.links":
+	[
+		"CTI.M.Discount.hierarchies/CTI.M.Discount.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CTI.M.Discount')/Hierarchies('CTI.M.Discount')"
+	}
+}

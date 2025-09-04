@@ -1,0 +1,3 @@
+['Preço'] =C: ConsolidatedAvg( 2, '_Premissas por Produto', !'_Periodo', !'_Produto', !'_Metrica_Produto'  );
+
+['CPV']   =C: ConsolidatedAvg( 2, '_Premissas por Produto', !'_Periodo', !'_Produto', !'_Metrica_Produto'  );

@@ -1,0 +1,5 @@
+['Receita Bruta'] =N: ['Volume']*['Preço'];
+
+['Impostos'] = N: ['Receita Bruta'] * ['% Imposto'] ;
+
+['% Imposto'] = n:DB( 'UNI.IMPOSTOS', !Year, !Month, !Version, '% Impostos' );

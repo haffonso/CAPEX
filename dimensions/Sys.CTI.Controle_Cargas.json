@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Sys.CTI.Controle_Cargas",
+	"Hierarchies@Code.links":
+	[
+		"Sys.CTI.Controle_Cargas.hierarchies/Sys.CTI.Controle_Cargas.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Sys.CTI.Controle_Cargas')/Hierarchies('Sys.CTI.Controle_Cargas')"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"_Tel_PC",
+	"Alias":"Caption_Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('product')/Hierarchies('product')/Elements('20000')"
+		},
+		{
+			"@id":"Dimensions('product')/Hierarchies('product')/Elements('30000')"
+		}
+	]
+}

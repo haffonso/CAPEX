@@ -1,0 +1,34 @@
+{
+	"@type":"Cube",
+	"Name":"CTI.100.DFs.Demonstracoes_Financeiras",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')"
+		}
+	],
+	"Rules@Code.link":"CTI.100.DFs.Demonstracoes_Financeiras.rules",
+	"Views@Code.links":
+	[
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Areas de DBs.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Balance.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Cash Flow.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Contabilizacoes.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Contabilizacoes - ENTRADAS.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Flag Real (Forecast).json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Prazos Medios.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Prazos Medios - Pagamentos.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/CTI - SmartCo - Prazos Medios - Recebimentos.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/Default.json",
+		"CTI.100.DFs.Demonstracoes_Financeiras.views/Demo.json"
+	]
+}

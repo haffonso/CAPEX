@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"ALL.D.FamilaSKU",
+	"Hierarchies@Code.links":
+	[
+		"ALL.D.FamilaSKU.hierarchies/ALL.D.FamilaSKU.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ALL.D.FamilaSKU')/Hierarchies('ALL.D.FamilaSKU')"
+	}
+}

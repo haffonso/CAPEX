@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"}WF_RemoveNodeAssignment",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}WF_RemoveNodeAssignment.ti",
+	"UIData":"_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pWorkflow",
+			"Prompt":"Nome do Workflow",
+			"Value":"FCO.010",
+			"Type":"String"
+		},
+		{
+			"Name":"pCheck",
+			"Prompt":"Deseja desatribuir o nó aos grupos configurados?",
+			"Value":"N",
+			"Type":"String"
+		},
+		{
+			"Name":"pNode",
+			"Prompt":"Usado somente para limpeza massiva",
+			"Value":"",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"Z_Andre",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Z_Produto')"
+		},
+		{
+			"@id":"Dimensions('Z_Ano')"
+		}
+	],
+	"Views@Code.links":[]
+}

@@ -1,0 +1,31 @@
+{
+	"@type":"Cube",
+	"Name":"UNI.TESTE_RECEITA",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('UNI.D.Canais')"
+		},
+		{
+			"@id":"Dimensions('UNI_DIM.Material')"
+		},
+		{
+			"@id":"Dimensions('UNI.M.Metricas')"
+		}
+	],
+	"Rules@Code.link":"UNI.TESTE_RECEITA.rules",
+	"Views@Code.links":
+	[
+		"UNI.TESTE_RECEITA.views/Exemplo Uni.json",
+		"UNI.TESTE_RECEITA.views/Exemplo Uni - por canal.json"
+	]
+}

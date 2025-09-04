@@ -1,0 +1,1706 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}QUBEdocs Object",
+	"ElementsSortType":"ByHierarchy",
+	"ComponentsSortType":"ByName",
+	"Elements":
+	[
+		{
+			"Name":"All Objects",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"All Chores",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CHO:cache_views",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CHO:Reset_Demo_FOPMImage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Cubes",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Allocation Calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Allocation Source Definition",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Asset Life",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Benefit Assumptions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Calendar",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Capital",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Compensation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Compensation Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Depreciation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Employee",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Exchange Rates",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:ExternalFactors",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:FcstMethod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:GLTransactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Income Statement",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Income Statement Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Job Code Assumptions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Job Type Assumption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Line Item Detail",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Metrics",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Phased Costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:QubeDocs Definitions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Rate BOM",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Relative Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Revenue Assumptions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Revenue Metrics",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Revenue Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Social Media",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Spread Methods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Supply Chain",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Task Workflow",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Transaction Log",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Version Copy Control",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Version Subset Control",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Workflow Overview",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Workflow Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUB:Z_Andre",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Dimensions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:A_Ano",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:A_Cliente",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:A_Produto",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Account",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Account Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Allocation Calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Allocation List",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Allocation Source Definition",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Asset Life",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Asset Types",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Benefit",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:BI Measure",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Calendar",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Capital",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:CapitalList",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Channel",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Compensation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Currency",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Currency Calc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Depreciation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Employee",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:EmployeeList",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Employee Name",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Exchange Rate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Exchange Rate Type",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:ExternalFactors",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:FcstMethod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:jobcode",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:JobCodeAsmpt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:JobType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:JobTypeAssumption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:LineItem_PickList",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:LineItemDetail",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:LineItemList",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Log Count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Log Details",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Metrics",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Metrics Indicators",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Month",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:MonthMap",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Month Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Numbered List",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:OpExSubset_Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:organization",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:organization:By VP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:organization:Leaves",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Organization Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:PhasedCosts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Plant",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:product",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:product:Color",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:product:Leaves",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:product:Size",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:ProductSubset_PickList",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:QubeDocs Application",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:QubeDocs Definition",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:QUBEdocs Import Folders",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:QubeDocs Measure",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:QUBEdocs Setup Item",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Rate Measure",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Relative Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:RevenueAsmpt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:SM Entries",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:SM Reviews",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Spread Methods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:State Owner",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:String",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Supply Chain Measures",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:T_Ano",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:T_Cliente",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:T_Loja",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:T_Produto",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:T_Produto:Leaves",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:T_Produto:Total Produto",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Task",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Task Workflow Measure",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:TrxID",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:TrxMeasures",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Version Copy Measures",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Version Reporting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Version Subset Measures",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Version Subsets",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Workflow Info",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Year",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Z_Ano",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Z_Produto",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Processes",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"PRO:Acquire_IS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Add_Product",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Add Product Vision",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:cache_views",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Complete_Target",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_Product_SupplyChain",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_RevAsmpt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_Revenue_Compare_Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_Revenue_Spread_Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_SKU_detail_BOM",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_TargetSet_Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:copy_version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:copy_version_control",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:create_default_subset",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:create_transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:create_version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:cube Task Workflow reset Status",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Delete Persistent Feeders",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Dim - Copy Employee Names",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Export Dimensions to SPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Export External Factors to SPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ExportToSPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ExportToSPSSPro",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Export UnitsSold to SPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ImportFromSPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ImportFromSPSSPro",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Load_PYActuals",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Load UnitsSold from SPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Load Workflow Info",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Log - Reset Log Process",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Log - Update Log Cube",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:New Process",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:QUBEdocs Create Package",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:QUBEdocs Package Logfiles",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:QUBEdocs Refresh",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:RefreshMdxHierarchy",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Release_IS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:reset_alias",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:reset_demo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:reset_demo_FOPMImage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Reset Concert",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ResetRevenueData",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Run SPSS Prediction",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:set_compare_version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:set_default_version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Set_Security_Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:SetGlobalVariables",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:SPSSCreateNewMeasures",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:test000",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Update_AcctFcstMethod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Update_NewProduct_Fcst",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:update_organization",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Update_RevenueAsmpts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:UpdateISFromRevenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Server",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"All Objects",
+			"ComponentName":"All Chores",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Objects",
+			"ComponentName":"All Cubes",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Objects",
+			"ComponentName":"All Dimensions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Objects",
+			"ComponentName":"All Processes",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Objects",
+			"ComponentName":"Server",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Chores",
+			"ComponentName":"CHO:cache_views",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Chores",
+			"ComponentName":"CHO:Reset_Demo_FOPMImage",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Allocation Calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Allocation Source Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Asset Life",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Benefit Assumptions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Calendar",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Capital",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Compensation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Compensation Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Depreciation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Employee",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Exchange Rates",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:ExternalFactors",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:FcstMethod",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:GLTransactions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Income Statement",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Income Statement Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Job Code Assumptions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Job Type Assumption",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Line Item Detail",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Metrics",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Phased Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:QubeDocs Definitions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Rate BOM",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Relative Time",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Revenue Assumptions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Revenue Metrics",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Revenue Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Social Media",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Spread Methods",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Supply Chain",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Task Workflow",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Transaction Log",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Version Copy Control",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Version Subset Control",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Workflow Overview",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Workflow Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Z_Andre",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:A_Ano",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:A_Cliente",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:A_Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Account",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Account Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Allocation Calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Allocation List",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Allocation Source Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Asset Life",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Asset Types",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Benefit",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:BI Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Calendar",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Capital",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:CapitalList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Channel",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Compensation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Currency",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Currency Calc",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Depreciation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Employee",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:EmployeeList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Employee Name",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Exchange Rate",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Exchange Rate Type",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:ExternalFactors",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:FcstMethod",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:jobcode",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:JobCodeAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:JobType",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:JobTypeAssumption",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:LineItem_PickList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:LineItemDetail",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:LineItemList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Log Count",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Log Details",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Metrics",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Metrics Indicators",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Month",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:MonthMap",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Month Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Numbered List",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:OpExSubset_Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:organization",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:organization:By VP",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:organization:Leaves",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Organization Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:PhasedCosts",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Plant",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:product",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:product:Color",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:product:Leaves",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:product:Size",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:ProductSubset_PickList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QubeDocs Application",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QubeDocs Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QUBEdocs Import Folders",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QubeDocs Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QUBEdocs Setup Item",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Rate Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Relative Time",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:RevenueAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:SM Entries",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:SM Reviews",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Spread Methods",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:State Owner",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:String",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Supply Chain Measures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Ano",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Cliente",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Loja",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Produto:Leaves",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Produto:Total Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Task",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Task Workflow Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:TrxID",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:TrxMeasures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version Copy Measures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version Subset Measures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version Subsets",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Workflow Info",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Year",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Z_Ano",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Z_Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Acquire_IS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Add_Product",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Add Product Vision",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:cache_views",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Complete_Target",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_Product_SupplyChain",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_RevAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_Revenue_Compare_Units",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_Revenue_Spread_Units",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_SKU_detail_BOM",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_TargetSet_Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:copy_version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:copy_version_control",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:create_default_subset",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:create_transactions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:create_version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:cube Task Workflow reset Status",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Delete Persistent Feeders",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Dim - Copy Employee Names",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Export Dimensions to SPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Export External Factors to SPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ExportToSPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ExportToSPSSPro",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Export UnitsSold to SPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ImportFromSPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ImportFromSPSSPro",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Load_PYActuals",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Load UnitsSold from SPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Load Workflow Info",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Log - Reset Log Process",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Log - Update Log Cube",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:New Process",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:QUBEdocs Create Package",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:QUBEdocs Package Logfiles",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:QUBEdocs Refresh",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:RefreshMdxHierarchy",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Release_IS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:reset_alias",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:reset_demo",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:reset_demo_FOPMImage",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Reset Concert",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ResetRevenueData",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Run SPSS Prediction",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:set_compare_version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:set_default_version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Set_Security_Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:SetGlobalVariables",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:SPSSCreateNewMeasures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:test000",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Update_AcctFcstMethod",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Update_NewProduct_Fcst",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:update_organization",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Update_RevenueAsmpts",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:UpdateISFromRevenue",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"}QUBEdocs Object.subsets/Chores.json",
+		"}QUBEdocs Object.subsets/Cubes.json",
+		"}QUBEdocs Object.subsets/Dimensions.json",
+		"}QUBEdocs Object.subsets/Processes.json"
+	]
+}

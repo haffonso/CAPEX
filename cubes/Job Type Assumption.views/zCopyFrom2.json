@@ -1,0 +1,17 @@
+{
+	"@type":"MDXView",
+	"Name":"zCopyFrom2",
+	"MDX@Code.link":"zCopyFrom2.mdx",
+	"Meta" : 
+	{
+		"Aliases" : {},
+		"ContextSets" : {},
+		"ExpandAboves" : 
+		{
+			"[JobTypeAssumption].[JobTypeAssumption]" : false,
+			"[JobType].[JobType]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false
+		}
+	}
+}

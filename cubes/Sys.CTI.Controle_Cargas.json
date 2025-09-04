@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"Sys.CTI.Controle_Cargas",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}Processes')"
+		},
+		{
+			"@id":"Dimensions('Sys.CTI.Controle_Cargas')"
+		}
+	],
+	"Views@Code.links":[]
+}

@@ -1,0 +1,95 @@
+{
+	"@type":"Subset",
+	"Name":"CTI - SmartCo - Cash Flow",
+	"Alias":"Lancamentos",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('FLUXO DE CAIXA')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 01')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 02')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 04')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 05')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 06')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 07')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 10')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 11')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 31')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 32')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 33')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 12')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 13')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 14')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 15')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 16')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 17')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 18')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 19')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 20')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 21')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 22')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 23')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 24')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 25')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 26')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 29')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Fluxo de Caixa - 30')"
+		}
+	]
+}

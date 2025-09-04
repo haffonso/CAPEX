@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Expression":"{DRILLDOWNMEMBER({[CTI.M.DFs.Demostracoes_Financeiras].[CTI.M.DFs.Demostracoes_Financeiras].[ÁREA DE MOVIMENTAÇÕES DE CONTAS]} , {[CTI.M.DFs.Demostracoes_Financeiras].[CTI.M.DFs.Demostracoes_Financeiras].[ÁREA DE MOVIMENTAÇÕES DE CONTAS]} , RECURSIVE)}"
+}

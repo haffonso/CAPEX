@@ -1,0 +1,30 @@
+{
+	"@type":"Cube",
+	"Name":"CTI.008.Revenue_TS",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('CTI.D.Year_Month')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('Channel')"
+		},
+		{
+			"@id":"Dimensions('Revenue')"
+		}
+	],
+	"Rules@Code.link":"CTI.008.Revenue_TS.rules",
+	"Views@Code.links":
+	[
+		"CTI.008.Revenue_TS.views/Default.json"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"_Metrica_Produto",
+	"Elements":
+	[
+		{
+			"Name":"Preço",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CPV",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

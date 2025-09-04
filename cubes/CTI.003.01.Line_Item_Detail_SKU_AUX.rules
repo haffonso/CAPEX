@@ -1,0 +1,7 @@
+# SkipCheck
+['6410 Advertising','Item'] = N:
+	DB('Line Item Detail',!organization,!Account,!LineItemList,!Year,!Version,!LineItemDetail,!Month)
+	*
+	(DB('Revenue',!organization,'Channel Total',!product,!Month,!Year,!Version,'Volume - Units')
+	\
+	DB('Revenue',!organization,'Channel Total','Product Total',!Month,!Year,!Version,'Volume - Units'));

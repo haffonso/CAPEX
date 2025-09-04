@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"Caption_Default",
+	"Expression":"{DRILLDOWNMEMBER({[product].[product].[Product Total]} , {[product].[product].[Product Total],[product].[product].[40000],[product].[product].[30000],[product].[product].[20000]} , RECURSIVE)}"
+}

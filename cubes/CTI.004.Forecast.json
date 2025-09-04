@@ -1,0 +1,40 @@
+{
+	"@type":"Cube",
+	"Name":"CTI.004.Forecast",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Channel')"
+		},
+		{
+			"@id":"Dimensions('CTI.D.Forecast')"
+		},
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.Forecast')"
+		}
+	],
+	"Rules@Code.link":"CTI.004.Forecast.rules",
+	"Views@Code.links":
+	[
+		"CTI.004.Forecast.views/Backtest.json",
+		"CTI.004.Forecast.views/Backtest 2.json",
+		"CTI.004.Forecast.views/Backteste 2.json",
+		"CTI.004.Forecast.views/Backteste Workspace.json",
+		"CTI.004.Forecast.views/Default.json"
+	]
+}

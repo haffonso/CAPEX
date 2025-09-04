@@ -1,0 +1,30 @@
+{
+	"@type":"MDXView",
+	"Name":"Default",
+	"MDX@Code.link":"Default.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[_Produto].[_Produto]" : "Descricao"
+		},
+		"ContextSets" : 
+		{
+			"[_Periodo].[_Periodo]" : 
+			{
+				"Expression" : "{[_Periodo].[_Periodo].MEMBERS}"
+			},
+			"[_UF].[_UF]" : 
+			{
+				"Expression" : "{[_UF].[_UF].MEMBERS}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[_Metrica_Vendas].[_Metrica_Vendas]" : false,
+			"[_Periodo].[_Periodo]" : false,
+			"[_Produto].[_Produto]" : false,
+			"[_UF].[_UF]" : false
+		}
+	}
+}

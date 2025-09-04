@@ -1,0 +1,29 @@
+{
+	"@type":"Cube",
+	"Name":"CTI.PRICE_BY_CONTRACT",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('ALL.D.FamilaSKU')"
+		},
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('ALL.M.PriceContract')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"CTI.PRICE_BY_CONTRACT.views/Default.json"
+	]
+}

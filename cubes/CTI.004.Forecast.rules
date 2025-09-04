@@ -1,0 +1,5 @@
+#['Budget',CTI.D.Forecast:'Actual'] = N:
+#IF(DB('CTI.005.Hiper_Parametros',!organization,!product,!Channel,'Prever') @= 'Sim'
+#	,DB('Revenue',!organization,!Channel,!product,!Month,!Year,'Actual','Volume - Units')
+#	,Continue
+#);

@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"_Metrica_Produto",
+	"Hierarchies@Code.links":
+	[
+		"_Metrica_Produto.hierarchies/_Metrica_Produto.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('_Metrica_Produto')/Hierarchies('_Metrica_Produto')"
+	}
+}

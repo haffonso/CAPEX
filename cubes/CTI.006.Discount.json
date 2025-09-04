@@ -1,0 +1,34 @@
+{
+	"@type":"Cube",
+	"Name":"CTI.006.Discount",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Channel')"
+		},
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.Discount')"
+		}
+	],
+	"Rules@Code.link":"CTI.006.Discount.rules",
+	"Views@Code.links":
+	[
+		"CTI.006.Discount.views/Default.json",
+		"CTI.006.Discount.views/Descontos.json"
+	]
+}

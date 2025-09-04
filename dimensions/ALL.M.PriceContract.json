@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"ALL.M.PriceContract",
+	"Hierarchies@Code.links":
+	[
+		"ALL.M.PriceContract.hierarchies/ALL.M.PriceContract.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ALL.M.PriceContract')/Hierarchies('ALL.M.PriceContract')"
+	}
+}

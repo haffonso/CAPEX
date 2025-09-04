@@ -1,0 +1,6 @@
+SkipCheck;
+
+['CTI.M.Discount':'Discont Test'] = N: ['% Discount'] + 1 ;
+
+Feeders;
+['% Discount'] => ['Discont Test'] ;

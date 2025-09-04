@@ -1,0 +1,46 @@
+{
+	"@type":"MDXView",
+	"Name":"Analise Por Organização",
+	"MDX@Code.link":"Analise Por Organização.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Account].[Account]" : "Caption_Default",
+			"[Version].[Version]" : "Caption_Default",
+			"[Year].[Year]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[Currency Calc].[Currency Calc]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			},
+			"[Month].[Month]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "MY"
+			},
+			"[Version].[Version]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Current"
+			},
+			"[Year].[Year]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Account].[Account]" : false,
+			"[Currency Calc].[Currency Calc]" : false,
+			"[Month].[Month]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false,
+			"[organization].[organization]" : false
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"A_Cliente",
+	"Hierarchies@Code.links":
+	[
+		"A_Cliente.hierarchies/A_Cliente.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('A_Cliente')/Hierarchies('A_Cliente')"
+	}
+}

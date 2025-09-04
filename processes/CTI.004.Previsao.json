@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"CTI.004.Previsao",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"CTI.004.Previsao.ti",
+	"UIData":"_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

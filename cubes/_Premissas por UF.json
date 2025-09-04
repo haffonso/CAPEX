@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"_Premissas por UF",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('_Periodo')"
+		},
+		{
+			"@id":"Dimensions('_UF')"
+		},
+		{
+			"@id":"Dimensions('_Metrica_UF')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"_Premissas por UF.views/Default.json"
+	]
+}

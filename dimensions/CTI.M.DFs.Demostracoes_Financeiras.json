@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CTI.M.DFs.Demostracoes_Financeiras",
+	"Hierarchies@Code.links":
+	[
+		"CTI.M.DFs.Demostracoes_Financeiras.hierarchies/CTI.M.DFs.Demostracoes_Financeiras.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')"
+	}
+}

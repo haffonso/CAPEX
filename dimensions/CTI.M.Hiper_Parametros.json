@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CTI.M.Hiper_Parametros",
+	"Hierarchies@Code.links":
+	[
+		"CTI.M.Hiper_Parametros.hierarchies/CTI.M.Hiper_Parametros.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CTI.M.Hiper_Parametros')/Hierarchies('CTI.M.Hiper_Parametros')"
+	}
+}

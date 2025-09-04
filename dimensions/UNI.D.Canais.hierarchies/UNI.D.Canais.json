@@ -1,0 +1,65 @@
+{
+	"@type":"Hierarchy",
+	"Name":"UNI.D.Canais",
+	"Elements":
+	[
+		{
+			"Name":"Loja",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Digital",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tradicional",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outros",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Canais",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total Loja e Dig.",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Canais",
+			"ComponentName":"Loja",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Canais",
+			"ComponentName":"Digital",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Canais",
+			"ComponentName":"Tradicional",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Canais",
+			"ComponentName":"Outros",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Loja e Dig.",
+			"ComponentName":"Loja",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Loja e Dig.",
+			"ComponentName":"Digital",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

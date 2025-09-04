@@ -1,0 +1,14 @@
+{
+	"@type":"Dimension",
+	"Name":"zzteste",
+	"AllLeavesHierarchyName":"Leaves",
+	"Hierarchies@Code.links":
+	[
+		"zzteste.hierarchies/zzteste.json",
+		"zzteste.hierarchies/Pai.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('zzteste')/Hierarchies('zzteste')"
+	}
+}

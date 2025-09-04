@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"NOVO CUBO 1",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('PhasedCosts')"
+		},
+		{
+			"@id":"Dimensions('T_Ano')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		}
+	],
+	"Views@Code.links":[]
+}

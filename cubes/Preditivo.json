@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"Preditivo",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('ALL.D.Periodo')"
+		},
+		{
+			"@id":"Dimensions('MetricaPreditivo')"
+		}
+	],
+	"Views@Code.links":[]
+}

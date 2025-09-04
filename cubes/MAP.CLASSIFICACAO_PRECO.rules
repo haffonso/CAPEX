@@ -1,0 +1,9 @@
+['Tipo_Preco_Final']=S:
+IF((DB('MAP.CLASSIFICACAO_PRECO',!organization,!Channel,!product,'Tipo_Preco')@=' '
+&
+DB('}ElementAttributes_product',!product,'familia')@<>' '),
+	'Price List',
+	DB('MAP.CLASSIFICACAO_PRECO',!organization,!Channel,!product,'Tipo_Preco')
+)
+;
+

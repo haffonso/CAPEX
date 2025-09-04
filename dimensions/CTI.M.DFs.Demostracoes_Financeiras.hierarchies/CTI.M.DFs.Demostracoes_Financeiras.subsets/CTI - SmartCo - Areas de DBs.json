@@ -1,0 +1,52 @@
+{
+	"@type":"Subset",
+	"Name":"CTI - SmartCo - Areas de DBs",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('ÁREA DE DB')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('REVENUE')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Gross Revenue (DB)')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('COST')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Cost of Sales (DB)')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('OPEX')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Payroll (DB)')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Office Expense (DB)')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Travel (DB)')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Occupancy (DB)')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Marketing (DB)')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('CAPEX')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Depreciation (DB)')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('ALLOCATION')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('Allocation (DB)')"
+		}
+	]
+}

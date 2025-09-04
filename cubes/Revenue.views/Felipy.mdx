@@ -1,0 +1,1 @@
+SELECT {[Month].[Month].[Q4^Oct], [Month].[Month].[Q4^Nov], [Month].[Month].[Q4^Dec]} ON 0, {DRILLDOWNMEMBER({TM1SubsetToSet([product].[product],"Default","public")}, {[product].[product].[21000]})} ON 1 FROM [Revenue] WHERE ([organization].[organization].[103], [Revenue].[Revenue].[Units Sold], [Channel].[Channel].[10], [Year].[Year].[Y2], [Version].[Version].[Version 1])

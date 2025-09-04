@@ -1,0 +1,17 @@
+#region Prolog
+
+vteste = 0;
+
+#endregion
+#region Data
+
+
+
+#endregion
+#region Epilog
+
+
+vTeste = 
+CellGetN( 'Revenue', '101', '10', '21002', 'Apr', 'Y2', 'Version 1', 'Units Sold' );
+vteste = 10;
+#endregion

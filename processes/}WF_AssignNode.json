@@ -1,0 +1,27 @@
+{
+	"@type":"Process",
+	"Name":"}WF_AssignNode",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}WF_AssignNode.ti",
+	"UIData":"_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pWorkflow",
+			"Prompt":"Nome do WOrkflow",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pCheck",
+			"Prompt":"Deseja desatribuir o nó aos grupos configurados?",
+			"Value":"S",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

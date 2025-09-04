@@ -1,0 +1,34 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Total Centro de Custo')"
+		},
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Teste')"
+		},
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Centro Custo 1')"
+		},
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Centro Custo 2')"
+		},
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Total Centro Custo 2')"
+		},
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Centro Custo 1.1')"
+		},
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Centro Custo 1')"
+		},
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Centro Custo 1.2')"
+		},
+		{
+			"@id":"Dimensions('Demo')/Hierarchies('Demo')/Elements('Centro Custo 2')"
+		}
+	]
+}

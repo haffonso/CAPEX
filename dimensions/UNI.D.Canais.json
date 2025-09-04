@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"UNI.D.Canais",
+	"Hierarchies@Code.links":
+	[
+		"UNI.D.Canais.hierarchies/UNI.D.Canais.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('UNI.D.Canais')/Hierarchies('UNI.D.Canais')"
+	}
+}

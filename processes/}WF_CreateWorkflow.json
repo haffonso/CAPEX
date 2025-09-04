@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"}WF_CreateWorkflow",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}WF_CreateWorkflow.ti",
+	"UIData":"_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pWorkflow",
+			"Prompt":"Name of the new Workflow",
+			"Value":"Budget",
+			"Type":"String"
+		},
+		{
+			"Name":"pReplace",
+			"Prompt":"Replace an existing Workflow with the same name ",
+			"Value":"Y",
+			"Type":"String"
+		},
+		{
+			"Name":"pGroupPrefix",
+			"Prompt":"Prefix for groups created for this workflow ",
+			"Value":"WF_",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

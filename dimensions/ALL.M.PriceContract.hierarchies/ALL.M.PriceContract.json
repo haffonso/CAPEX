@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ALL.M.PriceContract",
+	"Elements":
+	[
+		{
+			"Name":"Price by Contracto",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

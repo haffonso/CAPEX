@@ -1,0 +1,21 @@
+{
+	"@type":"Cube",
+	"Name":"_Premissas por Produto",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('_Periodo')"
+		},
+		{
+			"@id":"Dimensions('_Produto')"
+		},
+		{
+			"@id":"Dimensions('_Metrica_Produto')"
+		}
+	],
+	"Rules@Code.link":"_Premissas por Produto.rules",
+	"Views@Code.links":
+	[
+		"_Premissas por Produto.views/Default.json"
+	]
+}

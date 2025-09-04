@@ -1,0 +1,25 @@
+{
+	"@type":"Cube",
+	"Name":"zzteste",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('zzteste')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.Discount')"
+		}
+	],
+	"Rules@Code.link":"zzteste.rules",
+	"Views@Code.links":
+	[
+		"zzteste.views/% Discount.json",
+		"zzteste.views/Default.json"
+	]
+}

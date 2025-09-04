@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CTI.M.Forecast",
+	"Elements":
+	[
+		{
+			"Name":"Value",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

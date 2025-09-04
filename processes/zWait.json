@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"zWait",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"zWait.ti",
+	"UIData":"_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

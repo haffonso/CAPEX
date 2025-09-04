@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CTI.M.Marketing_Investment",
+	"Hierarchies@Code.links":
+	[
+		"CTI.M.Marketing_Investment.hierarchies/CTI.M.Marketing_Investment.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CTI.M.Marketing_Investment')/Hierarchies('CTI.M.Marketing_Investment')"
+	}
+}

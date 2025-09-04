@@ -1,0 +1,1787 @@
+['_Base.']=STET;
+['Actual']=STET;
+['Actual x Budget']=STET;
+[]=IF(['Actual x Budget']=1,['Actual'],continue);
+
+# []=IF(['Actual x Budget']=1,['Actual'],continue);
+# É {} pois so tem uma metrica, mas poderia ser ['Valor']
+
+
+### ------------------------------------------------------------------------ DBs -------------------------------------------------------------------------------
+
+
+
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# INICIO ######
+
+# Movimentar do Cubo INCOME STATEMENT  para a AREA de DB
+
+
+## REVENUE
+
+#Region REVENUE (DB)
+### EXEMPLO:
+
+### Criar na Dimensao CTI.M.DFs.Demostracoes_Financeiras a metrica que recebera o valor
+['Gross Revenue (DB)' ]  =  N:
+### Fazer o DB para buscar a informacao
+	DB('Income Statement','Base','Total Company',!Year,!Month,'4999 Gross Revenue',!Version) ;
+
+#Endregion
+
+
+#Region COST (DB)
+['Cost of Sales (DB)'] = N:
+	DB('Income Statement','Base','Total Company',!Year,!Month,'5999 Cost of Sales',!Version) ;
+
+#Endregion
+
+
+#Region# OPEX (DB)
+['Payroll (DB)'] = N:
+	DB('Income Statement','Base','Total Company',!Year,!Month,'6099 PAYROLL',!Version) ;
+['Office Expense (DB)'] = N:
+	DB('Income Statement','Base','Total Company',!Year,!Month,'6199 OFFICE EXPENSE',!Version) ;
+['Travel (DB)'] = N:
+	DB('Income Statement','Base','Total Company',!Year,!Month,'6299 TRAVEL',!Version) ;
+['Occupancy (DB)'] = N:
+	DB('Income Statement','Base','Total Company',!Year,!Month,'6399 OCCUPANCY',!Version) ;
+['Marketing (DB)'] = N:
+	DB('Income Statement','Base','Total Company',!Year,!Month,'6499 MARKETING',!Version) ;
+#['Total Operating Expense (DB)'] = N:
+#	DB('Income Statement','Base','Total Company',!Year,!Month,'Total Operating Expense',!Version) ;
+#['Net Profit (DB)'] = N:
+#	DB('Income Statement','Base','Total Company',!Year,!Month,'Net Profit',!Version) ;
+
+#Endregion
+
+
+#Region CAPEX (DB)
+['Depreciation (DB)'] = N:
+	DB('Income Statement','Base','Total Company',!Year,!Month,'6599 DEPRECIATION',!Version) ;
+
+#Endregion
+
+
+#Region ALLOCATION (DB)
+['Allocation (DB)'] = N:
+	DB('Income Statement','Base','Total Company',!Year,!Month,'6699 ALLOCATIONS',!Version) * (-1) ;
+
+#Endregion
+
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# FINAL ######
+
+
+
+
+### ----------------------------------------------------------------------------- BALANCO --------------------------------------------------------------------------------------------
+
+# Abaixo temos Saldo do Balanço puxando das Movimentações
+
+## ATIVO
+
+['Caixa e Bancos']=N:['001 - CAIXA E BANCOS'];
+['Caixa e Bancos']=N:['001 - CAIXA E BANCOS'];
+['Contas a Receber - 01']=N:['002.1 - Contas a Receber - 01'];
+['Contas a Receber - 02']=N:['002.2 - Contas a Receber - 02'];
+['Contas a Receber - 03']=N:['002.3 - Contas a Receber - 03'];
+['Contas a Receber - 04']=N:['002.4 - Contas a Receber - 04'];
+['Contas a Receber - 05']=N:['002.5 - Contas a Receber - 05'];
+['Contas a Receber - 06']=N:['002.6 - Contas a Receber - 06'];
+['Contas a Receber - 07']=N:['002.7 - Contas a Receber - 07'];
+['Contas a Receber - 08']=N:['002.8 - Contas a Receber - 08'];
+['Contas a Receber - 09']=N:['002.9 - Contas a Receber - 09'];
+['Contas a Receber - 10']=N:['002.10 - Contas a Receber - 10'];
+['Conta Ativo - 01']=N:['003 - CONTA ATIVO - 01'];
+['Conta Ativo - 02']=N:['004 - CONTA ATIVO - 02'];
+['Conta Ativo - 03']=N:['005 - CONTA ATIVO - 03'];
+['Conta Ativo - 04']=N:['006 - CONTA ATIVO - 04'];
+['Conta Ativo - 05']=N:['007 - CONTA ATIVO - 05'];
+['Conta Ativo - 06']=N:['008 - CONTA ATIVO - 06'];
+['Conta Ativo - 07']=N:['009 - CONTA ATIVO - 07'];
+['Conta Ativo - 08']=N:['010 - CONTA ATIVO - 08'];
+['Conta Ativo - 09']=N:['011 - CONTA ATIVO - 09'];
+['Conta Ativo - 10']=N:['012 - CONTA ATIVO - 10'];
+['Conta Ativo - 11']=N:['013 - CONTA ATIVO - 11'];
+['Conta Ativo - 12']=N:['014 - CONTA ATIVO - 12'];
+['Conta Ativo - 13']=N:['015 - CONTA ATIVO - 13'];
+['Conta Ativo - 14']=N:['016 - CONTA ATIVO - 14'];
+['Conta Ativo - 15']=N:['017 - CONTA ATIVO - 15'];
+['Conta Ativo - 16']=N:['018 - CONTA ATIVO - 16'];
+['Conta Ativo - 17']=N:['019 - CONTA ATIVO - 17'];
+['Conta Ativo - 18']=N:['020 - CONTA ATIVO - 18'];
+['Conta Ativo - 19']=N:['021 - CONTA ATIVO - 19'];
+['Conta Ativo - 20']=N:['022 - CONTA ATIVO - 20'];
+['Conta Ativo - 21']=N:['023 - CONTA ATIVO - 21'];
+['Conta Ativo - 22']=N:['024 - CONTA ATIVO - 22'];
+['Conta Ativo - 23']=N:['025 - CONTA ATIVO - 23'];
+['Conta Ativo - 24']=N:['026 - CONTA ATIVO - 24'];
+['Conta Ativo - 25']=N:['027 - CONTA ATIVO - 25'];
+['Conta Ativo - 26']=N:['028 - CONTA ATIVO - 26'];
+['Conta Ativo - 27']=N:['029 - CONTA ATIVO - 27'];
+['Conta Ativo - 28']=N:['030 - CONTA ATIVO - 28'];
+['Conta Ativo - 29']=N:['031 - CONTA ATIVO - 29'];
+['Conta Ativo - 30']=N:['032 - CONTA ATIVO - 30'];
+['Conta Ativo - 31']=N:['033 - CONTA ATIVO - 31'];
+['Conta Ativo - 32']=N:['034 - CONTA ATIVO - 32'];
+['Conta Ativo - 33']=N:['035 - CONTA ATIVO - 33'];
+['Conta Ativo - 34']=N:['036 - CONTA ATIVO - 34'];
+['Conta Ativo - 35']=N:['037 - CONTA ATIVO - 35'];
+['Conta Ativo - 36']=N:['038 - CONTA ATIVO - 36'];
+['Conta Ativo - 37']=N:['039 - CONTA ATIVO - 37'];
+['Conta Ativo - 38']=N:['040 - CONTA ATIVO - 38'];
+['Conta Ativo - 39']=N:['041 - CONTA ATIVO - 39'];
+['Conta Ativo - 40']=N:['042 - CONTA ATIVO - 40'];
+['Conta Ativo - 41']=N:['043 - CONTA ATIVO - 41'];
+['Conta Ativo - 42']=N:['044 - CONTA ATIVO - 42'];
+['Conta Ativo - 43']=N:['045 - CONTA ATIVO - 43'];
+['Conta Ativo - 44']=N:['046 - CONTA ATIVO - 44'];
+['Conta Ativo - 45']=N:['047 - CONTA ATIVO - 45'];
+['Conta Ativo - 46']=N:['048 - CONTA ATIVO - 46'];
+['Conta Ativo - 47']=N:['049 - CONTA ATIVO - 47'];
+['Conta Ativo - 48']=N:['050 - CONTA ATIVO - 48'];
+['Conta Ativo - 49']=N:['051 - CONTA ATIVO - 49'];
+['Conta Ativo - 50']=N:['052 - CONTA ATIVO - 50'];
+['Conta Ativo - 51']=N:['053 - CONTA ATIVO - 51'];
+['Conta Ativo - 52']=N:['054 - CONTA ATIVO - 52'];
+['Conta Ativo - 53']=N:['055 - CONTA ATIVO - 53'];
+['Conta Ativo - 54']=N:['056 - CONTA ATIVO - 54'];
+['Conta Ativo - 55']=N:['057 - CONTA ATIVO - 55'];
+['Conta Ativo - 56']=N:['058 - CONTA ATIVO - 56'];
+['Conta Ativo - 57']=N:['059 - CONTA ATIVO - 57'];
+['Conta Ativo - 58']=N:['060 - CONTA ATIVO - 58'];
+['Conta Ativo - 59']=N:['061 - CONTA ATIVO - 59'];
+['Conta Ativo - 60']=N:['062 - CONTA ATIVO - 60'];
+['Conta Ativo - 61']=N:['063 - CONTA ATIVO - 61'];
+['Conta Ativo - 62']=N:['064 - CONTA ATIVO - 62'];
+['Conta Ativo - 63']=N:['065 - CONTA ATIVO - 63'];
+['Conta Ativo - 64']=N:['066 - CONTA ATIVO - 64'];
+['Conta Ativo - 65']=N:['067 - CONTA ATIVO - 65'];
+['Conta Ativo - 66']=N:['068 - CONTA ATIVO - 66'];
+['Conta Ativo - 67']=N:['069 - CONTA ATIVO - 67'];
+['Conta Ativo - 68']=N:['070 - CONTA ATIVO - 68'];
+['Conta Ativo - 69']=N:['071 - CONTA ATIVO - 69'];
+['Conta Ativo - 70']=N:['072 - CONTA ATIVO - 70'];
+['Conta Ativo - 71']=N:['073 - CONTA ATIVO - 71'];
+['Conta Ativo - 72']=N:['074 - CONTA ATIVO - 72'];
+['Conta Ativo - 73']=N:['075 - CONTA ATIVO - 73'];
+['Conta Ativo - 74']=N:['076 - CONTA ATIVO - 74'];
+['Conta Ativo - 75']=N:['077 - CONTA ATIVO - 75'];
+['Conta Ativo - 76']=N:['078 - CONTA ATIVO - 76'];
+['Conta Ativo - 77']=N:['079 - CONTA ATIVO - 77'];
+['Conta Ativo - 78']=N:['080 - CONTA ATIVO - 78'];
+['Conta Ativo - 79']=N:['081 - CONTA ATIVO - 79'];
+['Conta Ativo - 80']=N:['082 - CONTA ATIVO - 80'];
+['Conta Ativo - 81']=N:['083 - CONTA ATIVO - 81'];
+['Conta Ativo - 82']=N:['084 - CONTA ATIVO - 82'];
+['Conta Ativo - 83']=N:['085 - CONTA ATIVO - 83'];
+['Conta Ativo - 84']=N:['086 - CONTA ATIVO - 84'];
+['Conta Ativo - 85']=N:['087 - CONTA ATIVO - 85'];
+['Conta Ativo - 86']=N:['088 - CONTA ATIVO - 86'];
+['Conta Ativo - 87']=N:['089 - CONTA ATIVO - 87'];
+['Conta Ativo - 88']=N:['090 - CONTA ATIVO - 88'];
+['Conta Ativo - 89']=N:['091 - CONTA ATIVO - 89'];
+['Conta Ativo - 90']=N:['092 - CONTA ATIVO - 90'];
+['Conta Ativo - 91']=N:['093 - CONTA ATIVO - 91'];
+['Conta Ativo - 92']=N:['094 - CONTA ATIVO - 92'];
+['Conta Ativo - 93']=N:['095 - CONTA ATIVO - 93'];
+['Conta Ativo - 94']=N:['096 - CONTA ATIVO - 94'];
+['Conta Ativo - 95']=N:['097 - CONTA ATIVO - 95'];
+['Conta Ativo - 96']=N:['098 - CONTA ATIVO - 96'];
+['Conta Ativo - 97']=N:['099 - CONTA ATIVO - 97'];
+['Conta Ativo - 98']=N:['100 - CONTA ATIVO - 98'];
+['Conta Ativo - 99']=N:['101 - CONTA ATIVO - 99'];
+['Conta Ativo - 100']=N:['102 - CONTA ATIVO - 100'];
+['Conta Ativo - 101']=N:['103 - CONTA ATIVO - 101'];
+['Conta Ativo - 102']=N:['104 - CONTA ATIVO - 102'];
+['Conta Ativo - 103']=N:['105 - CONTA ATIVO - 103'];
+['Conta Ativo - 104']=N:['106 - CONTA ATIVO - 104'];
+['Conta Ativo - 105']=N:['107 - CONTA ATIVO - 105'];
+['Conta Ativo - 106']=N:['108 - CONTA ATIVO - 106'];
+['Conta Ativo - 107']=N:['109 - CONTA ATIVO - 107'];
+['Conta Ativo - 108']=N:['110 - CONTA ATIVO - 108'];
+['Conta Ativo - 109']=N:['111 - CONTA ATIVO - 109'];
+['Conta Ativo - 110']=N:['112 - CONTA ATIVO - 110'];
+['Conta Ativo - 111']=N:['113 - CONTA ATIVO - 111'];
+['Conta Ativo - 112']=N:['114 - CONTA ATIVO - 112'];
+['Conta Ativo - 113']=N:['115 - CONTA ATIVO - 113'];
+['Conta Ativo - 114']=N:['116 - CONTA ATIVO - 114'];
+['Conta Ativo - 115']=N:['117 - CONTA ATIVO - 115'];
+['Conta Ativo - 116']=N:['118 - CONTA ATIVO - 116'];
+['Conta Ativo - 117']=N:['119 - CONTA ATIVO - 117'];
+['Conta Ativo - 118']=N:['120 - CONTA ATIVO - 118'];
+['Conta Ativo - 119']=N:['121 - CONTA ATIVO - 119'];
+['Conta Ativo - 120']=N:['122 - CONTA ATIVO - 120'];
+['Conta Ativo - 121']=N:['123 - CONTA ATIVO - 121'];
+['Conta Ativo - 122']=N:['124 - CONTA ATIVO - 122'];
+['Conta Ativo - 123']=N:['125 - CONTA ATIVO - 123'];
+['Conta Ativo - 124']=N:['126 - CONTA ATIVO - 124'];
+['Conta Ativo - 125']=N:['127 - CONTA ATIVO - 125'];
+['Conta Ativo - 126']=N:['128 - CONTA ATIVO - 126'];
+['Conta Ativo - 127']=N:['129 - CONTA ATIVO - 127'];
+['Conta Ativo - 128']=N:['130 - CONTA ATIVO - 128'];
+['Conta Ativo - 129']=N:['131 - CONTA ATIVO - 129'];
+['Conta Ativo - 130']=N:['132 - CONTA ATIVO - 130'];
+['Conta Ativo - 131']=N:['133 - CONTA ATIVO - 131'];
+['Conta Ativo - 132']=N:['134 - CONTA ATIVO - 132'];
+['Conta Ativo - 133']=N:['135 - CONTA ATIVO - 133'];
+['Conta Ativo - 134']=N:['136 - CONTA ATIVO - 134'];
+['Conta Ativo - 135']=N:['137 - CONTA ATIVO - 135'];
+['Conta Ativo - 136']=N:['138 - CONTA ATIVO - 136'];
+['Conta Ativo - 137']=N:['139 - CONTA ATIVO - 137'];
+['Conta Ativo - 138']=N:['140 - CONTA ATIVO - 138'];
+['Conta Ativo - 139']=N:['141 - CONTA ATIVO - 139'];
+['Conta Ativo - 140']=N:['142 - CONTA ATIVO - 140'];
+['Conta Ativo - 141']=N:['143 - CONTA ATIVO - 141'];
+['Conta Ativo - 142']=N:['144 - CONTA ATIVO - 142'];
+['Conta Ativo - 143']=N:['145 - CONTA ATIVO - 143'];
+['Conta Ativo - 144']=N:['146 - CONTA ATIVO - 144'];
+['Conta Ativo - 145']=N:['147 - CONTA ATIVO - 145'];
+['Conta Ativo - 146']=N:['148 - CONTA ATIVO - 146'];
+['Conta Ativo - 147']=N:['149 - CONTA ATIVO - 147'];
+['Conta Ativo - 148']=N:['150 - CONTA ATIVO - 148'];
+['Conta Ativo - 149']=N:['151 - CONTA ATIVO - 149'];
+['Conta Ativo - 150']=N:['152 - CONTA ATIVO - 150'];
+['Conta Ativo - 151']=N:['153 - CONTA ATIVO - 151'];
+['Conta Ativo - 152']=N:['154 - CONTA ATIVO - 152'];
+['Conta Ativo - 153']=N:['155 - CONTA ATIVO - 153'];
+['Conta Ativo - 154']=N:['156 - CONTA ATIVO - 154'];
+['Conta Ativo - 155']=N:['157 - CONTA ATIVO - 155'];
+['Conta Ativo - 156']=N:['158 - CONTA ATIVO - 156'];
+['Conta Ativo - 157']=N:['159 - CONTA ATIVO - 157'];
+['Conta Ativo - 158']=N:['160 - CONTA ATIVO - 158'];
+['Conta Ativo - 159']=N:['161 - CONTA ATIVO - 159'];
+['Conta Ativo - 160']=N:['162 - CONTA ATIVO - 160'];
+['Conta Ativo - 161']=N:['163 - CONTA ATIVO - 161'];
+['Conta Ativo - 162']=N:['164 - CONTA ATIVO - 162'];
+['Conta Ativo - 163']=N:['165 - CONTA ATIVO - 163'];
+['Conta Ativo - 164']=N:['166 - CONTA ATIVO - 164'];
+['Conta Ativo - 165']=N:['167 - CONTA ATIVO - 165'];
+['Conta Ativo - 166']=N:['168 - CONTA ATIVO - 166'];
+['Conta Ativo - 167']=N:['169 - CONTA ATIVO - 167'];
+['Conta Ativo - 168']=N:['170 - CONTA ATIVO - 168'];
+['Conta Ativo - 169']=N:['171 - CONTA ATIVO - 169'];
+['Conta Ativo - 170']=N:['172 - CONTA ATIVO - 170'];
+['Conta Ativo - 171']=N:['173 - CONTA ATIVO - 171'];
+['Conta Ativo - 172']=N:['174 - CONTA ATIVO - 172'];
+['Conta Ativo - 173']=N:['175 - CONTA ATIVO - 173'];
+['Conta Ativo - 174']=N:['176 - CONTA ATIVO - 174'];
+['Conta Ativo - 175']=N:['177 - CONTA ATIVO - 175'];
+['Conta Ativo - 176']=N:['178 - CONTA ATIVO - 176'];
+['Conta Ativo - 177']=N:['179 - CONTA ATIVO - 177'];
+['Conta Ativo - 178']=N:['180 - CONTA ATIVO - 178'];
+['Conta Ativo - 179']=N:['181 - CONTA ATIVO - 179'];
+['Conta Ativo - 180']=N:['182 - CONTA ATIVO - 180'];
+['Conta Ativo - 181']=N:['183 - CONTA ATIVO - 181'];
+['Conta Ativo - 182']=N:['184 - CONTA ATIVO - 182'];
+['Conta Ativo - 183']=N:['185 - CONTA ATIVO - 183'];
+['Conta Ativo - 184']=N:['186 - CONTA ATIVO - 184'];
+['Conta Ativo - 185']=N:['187 - CONTA ATIVO - 185'];
+['Conta Ativo - 186']=N:['188 - CONTA ATIVO - 186'];
+['Conta Ativo - 187']=N:['189 - CONTA ATIVO - 187'];
+['Conta Ativo - 188']=N:['190 - CONTA ATIVO - 188'];
+['Conta Ativo - 189']=N:['191 - CONTA ATIVO - 189'];
+['Conta Ativo - 190']=N:['192 - CONTA ATIVO - 190'];
+['Conta Ativo - 191']=N:['193 - CONTA ATIVO - 191'];
+['Conta Ativo - 192']=N:['194 - CONTA ATIVO - 192'];
+['Conta Ativo - 193']=N:['195 - CONTA ATIVO - 193'];
+['Conta Ativo - 194']=N:['196 - CONTA ATIVO - 194'];
+['Conta Ativo - 195']=N:['197 - CONTA ATIVO - 195'];
+['Conta Ativo - 196']=N:['198 - CONTA ATIVO - 196'];
+['Conta Ativo - 197']=N:['199 - CONTA ATIVO - 197'];
+['Conta Ativo - 198']=N:['200 - CONTA ATIVO - 198'];
+['Conta Ativo - 199']=N:['201 - CONTA ATIVO - 199'];
+['Conta Ativo - 200']=N:['202 - CONTA ATIVO - 200'];
+
+## PASSIVO
+
+['Conta de Fornecedores - 01']=N:['500.1 - Conta de Fornecedores - 01'];
+['Conta de Fornecedores - 02']=N:['500.2 - Conta de Fornecedores - 02'];
+['Conta de Fornecedores - 03']=N:['500.3 - Conta de Fornecedores - 03'];
+['Conta de Fornecedores - 04']=N:['500.4 - Conta de Fornecedores - 04'];
+['Conta de Fornecedores - 05']=N:['500.5 - Conta de Fornecedores - 05'];
+['Contas a Pagar - 01']=N:['501.1 - Contas a Pagar - 01'];
+['Contas a Pagar - 02']=N:['501.2 - Contas a Pagar - 02'];
+['Contas a Pagar - 03']=N:['501.3 - Contas a Pagar - 03'];
+['Contas a Pagar - 04']=N:['501.4 - Contas a Pagar - 04'];
+['Contas a Pagar - 05']=N:['501.5 - Contas a Pagar - 05'];
+['Contas a Pagar - 06']=N:['501.6 - Contas a Pagar - 06'];
+['Contas a Pagar - 07']=N:['501.7 - Contas a Pagar - 07'];
+['Contas a Pagar - 08']=N:['501.8 - Contas a Pagar - 08'];
+['Contas a Pagar - 09']=N:['501.9 - Contas a Pagar - 09'];
+['Contas a Pagar - 10']=N:['501.10 - Contas a Pagar - 10'];
+['Contas a Pagar - 11']=N:['501.11 - Contas a Pagar - 11'];
+['Contas a Pagar - 12']=N:['501.12 - Contas a Pagar - 12'];
+['Contas a Pagar - 13']=N:['501.13 - Contas a Pagar - 13'];
+['Contas a Pagar - 14']=N:['501.14 - Contas a Pagar - 14'];
+['Contas a Pagar - 15']=N:['501.15 - Contas a Pagar - 15'];
+['Contas a Pagar - 16']=N:['501.16 - Contas a Pagar - 16'];
+['Contas a Pagar - 17']=N:['501.17 - Contas a Pagar - 17'];
+['Contas a Pagar - 18']=N:['501.18 - Contas a Pagar - 18'];
+['Contas a Pagar - 19']=N:['501.19 - Contas a Pagar - 19'];
+['Contas a Pagar - 20']=N:['501.20 - Contas a Pagar - 20'];
+['Contas a Pagar - 21']=N:['501.21 - Contas a Pagar - 21'];
+['Contas a Pagar - 22']=N:['501.22 - Contas a Pagar - 22'];
+['Contas a Pagar - 23']=N:['501.23 - Contas a Pagar - 23'];
+['Contas a Pagar - 24']=N:['501.24 - Contas a Pagar - 24'];
+['Contas a Pagar - 25']=N:['501.25 - Contas a Pagar - 25'];
+['Contas a Pagar - 26']=N:['501.26 - Contas a Pagar - 26'];
+['Contas a Pagar - 27']=N:['501.27 - Contas a Pagar - 27'];
+['Contas a Pagar - 28']=N:['501.28 - Contas a Pagar - 28'];
+['Contas a Pagar - 29']=N:['501.29 - Contas a Pagar - 29'];
+['Contas a Pagar - 30']=N:['501.30 - Contas a Pagar - 30'];
+['Contas a Pagar - 31']=N:['501.31 - Contas a Pagar - 31'];
+['Contas a Pagar - 32']=N:['501.32 - Contas a Pagar - 32'];
+['Contas a Pagar - 33']=N:['501.33 - Contas a Pagar - 33'];
+['Contas a Pagar - 34']=N:['501.34 - Contas a Pagar - 34'];
+['Contas a Pagar - 35']=N:['501.35 - Contas a Pagar - 35'];
+['Contas a Pagar - 36']=N:['501.36 - Contas a Pagar - 36'];
+['Contas a Pagar - 37']=N:['501.37 - Contas a Pagar - 37'];
+['Contas a Pagar - 38']=N:['501.38 - Contas a Pagar - 38'];
+['Contas a Pagar - 39']=N:['501.39 - Contas a Pagar - 39'];
+['Contas a Pagar - 40']=N:['501.40 - Contas a Pagar - 40'];
+['Contas a Pagar - 41']=N:['501.41 - Contas a Pagar - 41'];
+['Contas a Pagar - 42']=N:['501.42 - Contas a Pagar - 42'];
+['Contas a Pagar - 43']=N:['501.43 - Contas a Pagar - 43'];
+['Contas a Pagar - 44']=N:['501.44 - Contas a Pagar - 44'];
+['Contas a Pagar - 45']=N:['501.45 - Contas a Pagar - 45'];
+['Contas a Pagar - 46']=N:['501.46 - Contas a Pagar - 46'];
+['Contas a Pagar - 47']=N:['501.47 - Contas a Pagar - 47'];
+['Contas a Pagar - 48']=N:['501.48 - Contas a Pagar - 48'];
+['Contas a Pagar - 49']=N:['501.49 - Contas a Pagar - 49'];
+['Contas a Pagar - 50']=N:['501.50 - Contas a Pagar - 50'];
+['Conta Passivo - 01']=N:['502 - CONTA PASSIVO - 01'];
+['Conta Passivo - 02']=N:['503 - CONTA PASSIVO - 02'];
+['Conta Passivo - 03']=N:['504 - CONTA PASSIVO - 03'];
+['Conta Passivo - 04']=N:['505 - CONTA PASSIVO - 04'];
+['Conta Passivo - 05']=N:['506 - CONTA PASSIVO - 05'];
+['Conta Passivo - 06']=N:['507 - CONTA PASSIVO - 06'];
+['Conta Passivo - 07']=N:['508 - CONTA PASSIVO - 07'];
+['Conta Passivo - 08']=N:['509 - CONTA PASSIVO - 08'];
+['Conta Passivo - 09']=N:['510 - CONTA PASSIVO - 09'];
+['Conta Passivo - 10']=N:['511 - CONTA PASSIVO - 10'];
+['Conta Passivo - 11']=N:['512 - CONTA PASSIVO - 11'];
+['Conta Passivo - 12']=N:['513 - CONTA PASSIVO - 12'];
+['Conta Passivo - 13']=N:['514 - CONTA PASSIVO - 13'];
+['Conta Passivo - 14']=N:['515 - CONTA PASSIVO - 14'];
+['Conta Passivo - 15']=N:['516 - CONTA PASSIVO - 15'];
+['Conta Passivo - 16']=N:['517 - CONTA PASSIVO - 16'];
+['Conta Passivo - 17']=N:['518 - CONTA PASSIVO - 17'];
+['Conta Passivo - 18']=N:['519 - CONTA PASSIVO - 18'];
+['Conta Passivo - 19']=N:['520 - CONTA PASSIVO - 19'];
+['Conta Passivo - 20']=N:['521 - CONTA PASSIVO - 20'];
+['Conta Passivo - 21']=N:['522 - CONTA PASSIVO - 21'];
+['Conta Passivo - 22']=N:['523 - CONTA PASSIVO - 22'];
+['Conta Passivo - 23']=N:['524 - CONTA PASSIVO - 23'];
+['Conta Passivo - 24']=N:['525 - CONTA PASSIVO - 24'];
+['Conta Passivo - 25']=N:['526 - CONTA PASSIVO - 25'];
+['Conta Passivo - 26']=N:['527 - CONTA PASSIVO - 26'];
+['Conta Passivo - 27']=N:['528 - CONTA PASSIVO - 27'];
+['Conta Passivo - 28']=N:['529 - CONTA PASSIVO - 28'];
+['Conta Passivo - 29']=N:['530 - CONTA PASSIVO - 29'];
+['Conta Passivo - 30']=N:['531 - CONTA PASSIVO - 30'];
+['Conta Passivo - 31']=N:['532 - CONTA PASSIVO - 31'];
+['Conta Passivo - 32']=N:['533 - CONTA PASSIVO - 32'];
+['Conta Passivo - 33']=N:['534 - CONTA PASSIVO - 33'];
+['Conta Passivo - 34']=N:['535 - CONTA PASSIVO - 34'];
+['Conta Passivo - 35']=N:['536 - CONTA PASSIVO - 35'];
+['Conta Passivo - 36']=N:['537 - CONTA PASSIVO - 36'];
+['Conta Passivo - 37']=N:['538 - CONTA PASSIVO - 37'];
+['Conta Passivo - 38']=N:['539 - CONTA PASSIVO - 38'];
+['Conta Passivo - 39']=N:['540 - CONTA PASSIVO - 39'];
+['Conta Passivo - 40']=N:['541 - CONTA PASSIVO - 40'];
+['Conta Passivo - 41']=N:['542 - CONTA PASSIVO - 41'];
+['Conta Passivo - 42']=N:['543 - CONTA PASSIVO - 42'];
+['Conta Passivo - 43']=N:['544 - CONTA PASSIVO - 43'];
+['Conta Passivo - 44']=N:['545 - CONTA PASSIVO - 44'];
+['Conta Passivo - 45']=N:['546 - CONTA PASSIVO - 45'];
+['Conta Passivo - 46']=N:['547 - CONTA PASSIVO - 46'];
+['Conta Passivo - 47']=N:['548 - CONTA PASSIVO - 47'];
+['Conta Passivo - 48']=N:['549 - CONTA PASSIVO - 48'];
+['Conta Passivo - 49']=N:['550 - CONTA PASSIVO - 49'];
+['Conta Passivo - 50']=N:['551 - CONTA PASSIVO - 50'];
+['Conta Passivo - 51']=N:['552 - CONTA PASSIVO - 51'];
+['Conta Passivo - 52']=N:['553 - CONTA PASSIVO - 52'];
+['Conta Passivo - 53']=N:['554 - CONTA PASSIVO - 53'];
+['Conta Passivo - 54']=N:['555 - CONTA PASSIVO - 54'];
+['Conta Passivo - 55']=N:['556 - CONTA PASSIVO - 55'];
+['Conta Passivo - 56']=N:['557 - CONTA PASSIVO - 56'];
+['Conta Passivo - 57']=N:['558 - CONTA PASSIVO - 57'];
+['Conta Passivo - 58']=N:['559 - CONTA PASSIVO - 58'];
+['Conta Passivo - 59']=N:['560 - CONTA PASSIVO - 59'];
+['Conta Passivo - 60']=N:['561 - CONTA PASSIVO - 60'];
+['Conta Passivo - 61']=N:['562 - CONTA PASSIVO - 61'];
+['Conta Passivo - 62']=N:['563 - CONTA PASSIVO - 62'];
+['Conta Passivo - 63']=N:['564 - CONTA PASSIVO - 63'];
+['Conta Passivo - 64']=N:['565 - CONTA PASSIVO - 64'];
+['Conta Passivo - 65']=N:['566 - CONTA PASSIVO - 65'];
+['Conta Passivo - 66']=N:['567 - CONTA PASSIVO - 66'];
+['Conta Passivo - 67']=N:['568 - CONTA PASSIVO - 67'];
+['Conta Passivo - 68']=N:['569 - CONTA PASSIVO - 68'];
+['Conta Passivo - 69']=N:['570 - CONTA PASSIVO - 69'];
+['Conta Passivo - 70']=N:['571 - CONTA PASSIVO - 70'];
+['Conta Passivo - 71']=N:['572 - CONTA PASSIVO - 71'];
+['Conta Passivo - 72']=N:['573 - CONTA PASSIVO - 72'];
+['Conta Passivo - 73']=N:['574 - CONTA PASSIVO - 73'];
+['Conta Passivo - 74']=N:['575 - CONTA PASSIVO - 74'];
+['Conta Passivo - 75']=N:['576 - CONTA PASSIVO - 75'];
+['Conta Passivo - 76']=N:['577 - CONTA PASSIVO - 76'];
+['Conta Passivo - 77']=N:['578 - CONTA PASSIVO - 77'];
+['Conta Passivo - 78']=N:['579 - CONTA PASSIVO - 78'];
+['Conta Passivo - 79']=N:['580 - CONTA PASSIVO - 79'];
+['Conta Passivo - 80']=N:['581 - CONTA PASSIVO - 80'];
+['Conta Passivo - 81']=N:['582 - CONTA PASSIVO - 81'];
+['Conta Passivo - 82']=N:['583 - CONTA PASSIVO - 82'];
+['Conta Passivo - 83']=N:['584 - CONTA PASSIVO - 83'];
+['Conta Passivo - 84']=N:['585 - CONTA PASSIVO - 84'];
+['Conta Passivo - 85']=N:['586 - CONTA PASSIVO - 85'];
+['Conta Passivo - 86']=N:['587 - CONTA PASSIVO - 86'];
+['Conta Passivo - 87']=N:['588 - CONTA PASSIVO - 87'];
+['Conta Passivo - 88']=N:['589 - CONTA PASSIVO - 88'];
+['Conta Passivo - 89']=N:['590 - CONTA PASSIVO - 89'];
+['Conta Passivo - 90']=N:['591 - CONTA PASSIVO - 90'];
+['Conta Passivo - 91']=N:['592 - CONTA PASSIVO - 91'];
+['Conta Passivo - 92']=N:['593 - CONTA PASSIVO - 92'];
+['Conta Passivo - 93']=N:['594 - CONTA PASSIVO - 93'];
+['Conta Passivo - 94']=N:['595 - CONTA PASSIVO - 94'];
+['Conta Passivo - 95']=N:['596 - CONTA PASSIVO - 95'];
+['Conta Passivo - 96']=N:['597 - CONTA PASSIVO - 96'];
+['Conta Passivo - 97']=N:['598 - CONTA PASSIVO - 97'];
+['Conta Passivo - 98']=N:['599 - CONTA PASSIVO - 98'];
+['Conta Passivo - 99']=N:['600 - CONTA PASSIVO - 99'];
+['Conta Passivo - 100']=N:['601 - CONTA PASSIVO - 100'];
+['Conta Passivo - 101']=N:['602 - CONTA PASSIVO - 101'];
+['Conta Passivo - 102']=N:['603 - CONTA PASSIVO - 102'];
+['Conta Passivo - 103']=N:['604 - CONTA PASSIVO - 103'];
+['Conta Passivo - 104']=N:['605 - CONTA PASSIVO - 104'];
+['Conta Passivo - 105']=N:['606 - CONTA PASSIVO - 105'];
+['Conta Passivo - 106']=N:['607 - CONTA PASSIVO - 106'];
+['Conta Passivo - 107']=N:['608 - CONTA PASSIVO - 107'];
+['Conta Passivo - 108']=N:['609 - CONTA PASSIVO - 108'];
+['Conta Passivo - 109']=N:['610 - CONTA PASSIVO - 109'];
+['Conta Passivo - 110']=N:['611 - CONTA PASSIVO - 110'];
+['Conta Passivo - 111']=N:['612 - CONTA PASSIVO - 111'];
+['Conta Passivo - 112']=N:['613 - CONTA PASSIVO - 112'];
+['Conta Passivo - 113']=N:['614 - CONTA PASSIVO - 113'];
+['Conta Passivo - 114']=N:['615 - CONTA PASSIVO - 114'];
+['Conta Passivo - 115']=N:['616 - CONTA PASSIVO - 115'];
+['Conta Passivo - 116']=N:['617 - CONTA PASSIVO - 116'];
+['Conta Passivo - 117']=N:['618 - CONTA PASSIVO - 117'];
+['Conta Passivo - 118']=N:['619 - CONTA PASSIVO - 118'];
+['Conta Passivo - 119']=N:['620 - CONTA PASSIVO - 119'];
+['Conta Passivo - 120']=N:['621 - CONTA PASSIVO - 120'];
+['Conta Passivo - 121']=N:['622 - CONTA PASSIVO - 121'];
+['Conta Passivo - 122']=N:['623 - CONTA PASSIVO - 122'];
+['Conta Passivo - 123']=N:['624 - CONTA PASSIVO - 123'];
+['Conta Passivo - 124']=N:['625 - CONTA PASSIVO - 124'];
+['Conta Passivo - 125']=N:['626 - CONTA PASSIVO - 125'];
+['Conta Passivo - 126']=N:['627 - CONTA PASSIVO - 126'];
+['Conta Passivo - 127']=N:['628 - CONTA PASSIVO - 127'];
+['Conta Passivo - 128']=N:['629 - CONTA PASSIVO - 128'];
+['Conta Passivo - 129']=N:['630 - CONTA PASSIVO - 129'];
+['Conta Passivo - 130']=N:['631 - CONTA PASSIVO - 130'];
+['Conta Passivo - 131']=N:['632 - CONTA PASSIVO - 131'];
+['Conta Passivo - 132']=N:['633 - CONTA PASSIVO - 132'];
+['Conta Passivo - 133']=N:['634 - CONTA PASSIVO - 133'];
+['Conta Passivo - 134']=N:['635 - CONTA PASSIVO - 134'];
+['Conta Passivo - 135']=N:['636 - CONTA PASSIVO - 135'];
+['Conta Passivo - 136']=N:['637 - CONTA PASSIVO - 136'];
+['Conta Passivo - 137']=N:['638 - CONTA PASSIVO - 137'];
+['Conta Passivo - 138']=N:['639 - CONTA PASSIVO - 138'];
+['Conta Passivo - 139']=N:['640 - CONTA PASSIVO - 139'];
+['Conta Passivo - 140']=N:['641 - CONTA PASSIVO - 140'];
+['Conta Passivo - 141']=N:['642 - CONTA PASSIVO - 141'];
+['Conta Passivo - 142']=N:['643 - CONTA PASSIVO - 142'];
+['Conta Passivo - 143']=N:['644 - CONTA PASSIVO - 143'];
+['Conta Passivo - 144']=N:['645 - CONTA PASSIVO - 144'];
+['Conta Passivo - 145']=N:['646 - CONTA PASSIVO - 145'];
+['Conta Passivo - 146']=N:['647 - CONTA PASSIVO - 146'];
+['Conta Passivo - 147']=N:['648 - CONTA PASSIVO - 147'];
+['Conta Passivo - 148']=N:['649 - CONTA PASSIVO - 148'];
+['Conta Passivo - 149']=N:['650 - CONTA PASSIVO - 149'];
+['Conta Passivo - 150']=N:['651 - CONTA PASSIVO - 150'];
+['Conta Passivo - 151']=N:['652 - CONTA PASSIVO - 151'];
+['Conta Passivo - 152']=N:['653 - CONTA PASSIVO - 152'];
+['Conta Passivo - 153']=N:['654 - CONTA PASSIVO - 153'];
+['Conta Passivo - 154']=N:['655 - CONTA PASSIVO - 154'];
+['Conta Passivo - 155']=N:['656 - CONTA PASSIVO - 155'];
+['Conta Passivo - 156']=N:['657 - CONTA PASSIVO - 156'];
+['Conta Passivo - 157']=N:['658 - CONTA PASSIVO - 157'];
+['Conta Passivo - 158']=N:['659 - CONTA PASSIVO - 158'];
+['Conta Passivo - 159']=N:['660 - CONTA PASSIVO - 159'];
+['Conta Passivo - 160']=N:['661 - CONTA PASSIVO - 160'];
+['Conta Passivo - 161']=N:['662 - CONTA PASSIVO - 161'];
+['Conta Passivo - 162']=N:['663 - CONTA PASSIVO - 162'];
+['Conta Passivo - 163']=N:['664 - CONTA PASSIVO - 163'];
+['Conta Passivo - 164']=N:['665 - CONTA PASSIVO - 164'];
+['Conta Passivo - 165']=N:['666 - CONTA PASSIVO - 165'];
+['Conta Passivo - 166']=N:['667 - CONTA PASSIVO - 166'];
+['Conta Passivo - 167']=N:['668 - CONTA PASSIVO - 167'];
+['Conta Passivo - 168']=N:['669 - CONTA PASSIVO - 168'];
+['Conta Passivo - 169']=N:['670 - CONTA PASSIVO - 169'];
+['Conta Passivo - 170']=N:['671 - CONTA PASSIVO - 170'];
+['Conta Passivo - 171']=N:['672 - CONTA PASSIVO - 171'];
+['Conta Passivo - 172']=N:['673 - CONTA PASSIVO - 172'];
+['Conta Passivo - 173']=N:['674 - CONTA PASSIVO - 173'];
+['Conta Passivo - 174']=N:['675 - CONTA PASSIVO - 174'];
+['Conta Passivo - 175']=N:['676 - CONTA PASSIVO - 175'];
+['Conta Passivo - 176']=N:['677 - CONTA PASSIVO - 176'];
+['Conta Passivo - 177']=N:['678 - CONTA PASSIVO - 177'];
+['Conta Passivo - 178']=N:['679 - CONTA PASSIVO - 178'];
+['Conta Passivo - 179']=N:['680 - CONTA PASSIVO - 179'];
+['Conta Passivo - 180']=N:['681 - CONTA PASSIVO - 180'];
+['Conta Passivo - 181']=N:['682 - CONTA PASSIVO - 181'];
+['Conta Passivo - 182']=N:['683 - CONTA PASSIVO - 182'];
+['Conta Passivo - 183']=N:['684 - CONTA PASSIVO - 183'];
+['Conta Passivo - 184']=N:['685 - CONTA PASSIVO - 184'];
+['Conta Passivo - 185']=N:['686 - CONTA PASSIVO - 185'];
+['Conta Passivo - 186']=N:['687 - CONTA PASSIVO - 186'];
+['Conta Passivo - 187']=N:['688 - CONTA PASSIVO - 187'];
+['Conta Passivo - 188']=N:['689 - CONTA PASSIVO - 188'];
+['Conta Passivo - 189']=N:['690 - CONTA PASSIVO - 189'];
+['Conta Passivo - 190']=N:['691 - CONTA PASSIVO - 190'];
+['Conta Passivo - 191']=N:['692 - CONTA PASSIVO - 191'];
+['Conta Passivo - 192']=N:['693 - CONTA PASSIVO - 192'];
+['Conta Passivo - 193']=N:['694 - CONTA PASSIVO - 193'];
+['Conta Passivo - 194']=N:['695 - CONTA PASSIVO - 194'];
+['Conta Passivo - 195']=N:['696 - CONTA PASSIVO - 195'];
+['Conta Passivo - 196']=N:['697 - CONTA PASSIVO - 196'];
+['Conta Passivo - 197']=N:['698 - CONTA PASSIVO - 197'];
+['Conta Passivo - 198']=N:['699 - CONTA PASSIVO - 198'];
+['Conta Passivo - 199']=N:['700 - CONTA PASSIVO - 199'];
+['Conta Passivo - 200']=N:['701 - CONTA PASSIVO - 200'];
+
+
+### ----------------------------------------------------------------------------- ÁREA DE CHECKS -------------------------------------------------------------------------------
+
+# Check do Balanço
+
+['Ativo - Passivo']=N:['ATIVO']-['PASSIVO'];
+['Ativo - Passivo (Variação Mensal)']=N:['Ativo - Passivo']-DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Ativo - Passivo');
+
+# Check de Despesas
+
+
+
+### ------------------------------------------------------------------------ TOTALIZADORES DA DRE--------------------------------------------------------------------------------
+
+
+
+
+### ------------------------------------------------------------------------------ FLUXO DE CAIXA--------------------------------------------------------------------------------------
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# INICIO ######
+
+# Movimentar da ÁREA DE MOVIMENTAÇÕES DE CONTAS para a AREA de FLUXO DE CAIXA
+
+## RECEIVABLES ##
+
+# Custumers Receivable
+['Fluxo de Caixa - 05']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Recebimento de Contas a Receber - 01') +
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Recebimento de Contas a Receber - 02') +
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Recebimento de Contas a Receber - 03') +
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Recebimento de Contas a Receber - 04') +
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Recebimento de Contas a Receber - 05') +
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Recebimento de Contas a Receber - 06') ;
+
+# Other Receivable
+['Fluxo de Caixa - 06']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Recebimento de Contas a Receber - 07') ;
+
+
+## Operational Disbursements ##
+
+# Direct Materials and other direct cost
+
+# Raw Material
+['Fluxo de Caixa - 31']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001.1 - Pagamento de Fornecedores - 01') ;
+# Packaging Material
+['Fluxo de Caixa - 32']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001.2 - Pagamento de Fornecedores - 02') ;
+# Transportation rate
+['Fluxo de Caixa - 33']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001.3 - Pagamento de Fornecedores - 03') ;
+
+
+# Total  Labour
+['Fluxo de Caixa - 12']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 01') ;
+
+# Operational Expenses - S,G&A
+['Fluxo de Caixa - 13']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 02') ;
+
+# Travel
+['Fluxo de Caixa - 10']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 03') ;
+
+# Marketing
+['Fluxo de Caixa - 14']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 04') ;
+
+
+# Apenas para ilustrar a DEMO, pegamos a conta de Occupancy e a utilizamos para popular as Contas a Pagar - Financial
+
+# New Loans
+['Fluxo de Caixa - 16']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 05') ) * 0.03 ;
+
+# Invoice descounted
+['Fluxo de Caixa - 17']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 05') ) * 0.05 ;
+
+# Loans Amortization
+['Fluxo de Caixa - 18']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 05') ) * 0.25 ;
+
+# Shareholders - Mutual
+['Fluxo de Caixa - 19']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 05') ) * 0.35 ;
+
+# Intercompany
+['Fluxo de Caixa - 20']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 05') ) * 0.20 ;
+
+# Acquisitions
+['Fluxo de Caixa - 21']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 05') ) * 0.075 ;
+
+# Net financial
+['Fluxo de Caixa - 22']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 05') ) * 0.02 ;
+
+# Rescue / Aplicatio
+['Fluxo de Caixa - 23']=N:
+   ( (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 05') ) * 0.025 ) * 110 ;
+
+
+
+##########
+
+# 501.6 - Contas a Pagar - Taxes, Capex and Dividends
+
+# Apenas para ilustrar a DEMO, pegamos a conta de Depreciation e a utilizamos para popular o Contas a Pagar - Taxes  Capex
+
+# Taxes
+['Fluxo de Caixa - 25']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 06') ) * 0.15 ;
+
+# Capex CF
+['Fluxo de Caixa - 26']=N:
+    (DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 06') ) * 0.85 ;
+
+
+
+# Apenas para ilustrar a DEMO, pegamos a conta de Allocation e a utilizamos para popular o Contas a Pagar - Dividends
+
+# Dividends
+['Fluxo de Caixa - 29']=N:
+    DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'001 - Pagamento de Contas a Pagar - 07') ;
+
+
+
+
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# FINAL ######
+
+
+### -------------------------------------------------------------- SALDO DOS INICIAIS DE CONTA DE BALANÇO----------------------------------------------------------------------
+
+['001 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Caixa e Bancos');
+['002.1 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 01');
+['002.2 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 02');
+['002.3 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 03');
+['002.4 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 04');
+['002.5 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 05');
+['002.6 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 06');
+['002.7 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 07');
+['002.8 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 08');
+['002.9 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 09');
+['002.10 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Receber - 10');
+['003 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 01');
+['004 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 02');
+['005 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 03');
+['006 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 04');
+['007 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 05');
+['008 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 06');
+['009 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 07');
+['010 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 08');
+['011 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 09');
+['012 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 10');
+['013 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 11');
+['014 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 12');
+['015 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 13');
+['016 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 14');
+['017 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 15');
+['018 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 16');
+['019 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 17');
+['020 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 18');
+['021 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 19');
+['022 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 20');
+['023 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 21');
+['024 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 22');
+['025 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 23');
+['026 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 24');
+['027 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 25');
+['028 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 26');
+['029 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 27');
+['030 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 28');
+['031 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 29');
+['032 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 30');
+['033 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 31');
+['034 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 32');
+['035 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 33');
+['036 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 34');
+['037 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 35');
+['038 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 36');
+['039 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 37');
+['040 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 38');
+['041 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 39');
+['042 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 40');
+['043 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 41');
+['044 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 42');
+['045 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 43');
+['046 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 44');
+['047 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 45');
+['048 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 46');
+['049 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 47');
+['050 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 48');
+['051 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 49');
+['052 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 50');
+['053 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 51');
+['054 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 52');
+['055 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 53');
+['056 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 54');
+['057 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 55');
+['058 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 56');
+['059 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 57');
+['060 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 58');
+['061 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 59');
+['062 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 60');
+['063 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 61');
+['064 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 62');
+['065 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 63');
+['066 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 64');
+['067 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 65');
+['068 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 66');
+['069 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 67');
+['070 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 68');
+['071 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 69');
+['072 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 70');
+['073 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 71');
+['074 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 72');
+['075 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 73');
+['076 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 74');
+['077 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 75');
+['078 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 76');
+['079 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 77');
+['080 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 78');
+['081 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 79');
+['082 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 80');
+['083 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 81');
+['084 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 82');
+['085 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 83');
+['086 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 84');
+['087 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 85');
+['088 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 86');
+['089 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 87');
+['090 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 88');
+['091 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 89');
+['092 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 90');
+['093 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 91');
+['094 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 92');
+['095 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 93');
+['096 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 94');
+['097 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 95');
+['098 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 96');
+['099 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 97');
+['100 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 98');
+['101 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 99');
+['102 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 100');
+['103 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 101');
+['104 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 102');
+['105 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 103');
+['106 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 104');
+['107 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 105');
+['108 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 106');
+['109 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 107');
+['110 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 108');
+['111 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 109');
+['112 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 110');
+['113 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 111');
+['114 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 112');
+['115 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 113');
+['116 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 114');
+['117 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 115');
+['118 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 116');
+['119 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 117');
+['120 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 118');
+['121 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 119');
+['122 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 120');
+['123 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 121');
+['124 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 122');
+['125 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 123');
+['126 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 124');
+['127 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 125');
+['128 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 126');
+['129 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 127');
+['130 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 128');
+['131 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 129');
+['132 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 130');
+['133 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 131');
+['134 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 132');
+['135 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 133');
+['136 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 134');
+['137 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 135');
+['138 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 136');
+['139 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 137');
+['140 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 138');
+['141 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 139');
+['142 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 140');
+['143 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 141');
+['144 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 142');
+['145 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 143');
+['146 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 144');
+['147 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 145');
+['148 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 146');
+['149 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 147');
+['150 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 148');
+['151 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 149');
+['152 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 150');
+['153 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 151');
+['154 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 152');
+['155 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 153');
+['156 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 154');
+['157 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 155');
+['158 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 156');
+['159 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 157');
+['160 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 158');
+['161 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 159');
+['162 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 160');
+['163 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 161');
+['164 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 162');
+['165 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 163');
+['166 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 164');
+['167 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 165');
+['168 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 166');
+['169 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 167');
+['170 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 168');
+['171 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 169');
+['172 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 170');
+['173 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 171');
+['174 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 172');
+['175 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 173');
+['176 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 174');
+['177 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 175');
+['178 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 176');
+['179 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 177');
+['180 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 178');
+['181 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 179');
+['182 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 180');
+['183 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 181');
+['184 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 182');
+['185 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 183');
+['186 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 184');
+['187 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 185');
+['188 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 186');
+['189 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 187');
+['190 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 188');
+['191 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 189');
+['192 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 190');
+['193 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 191');
+['194 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 192');
+['195 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 193');
+['196 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 194');
+['197 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 195');
+['198 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 196');
+['199 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 197');
+['200 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 198');
+['201 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 199');
+['202 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Ativo - 200');
+
+['500.1 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta de Fornecedores - 01');
+['500.2 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta de Fornecedores - 02');
+['500.3 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta de Fornecedores - 03');
+['500.4 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta de Fornecedores - 04');
+['500.5 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta de Fornecedores - 05');
+['501.1 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 01');
+['501.2 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 02');
+['501.3 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 03');
+['501.4 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 04');
+['501.5 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 05');
+['501.6 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 06');
+['501.7 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 07');
+['501.8 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 08');
+['501.9 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 09');
+['501.10 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 10');
+['501.11 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 11');
+['501.12 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 12');
+['501.13 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 13');
+['501.14 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 14');
+['501.15 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 15');
+['501.16 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 16');
+['501.17 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 17');
+['501.18 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 18');
+['501.19 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 19');
+['501.20 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 20');
+['501.21 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 21');
+['501.22 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 22');
+['501.23 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 23');
+['501.24 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 24');
+['501.25 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 25');
+['501.26 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 26');
+['501.27 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 27');
+['501.28 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 28');
+['501.29 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 29');
+['501.30 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 30');
+['501.31 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 31');
+['501.32 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 32');
+['501.33 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 33');
+['501.34 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 34');
+['501.35 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 35');
+['501.36 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 36');
+['501.37 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 37');
+['501.38 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 38');
+['501.39 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 39');
+['501.40 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 40');
+['501.41 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 41');
+['501.42 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 42');
+['501.43 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 43');
+['501.44 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 44');
+['501.45 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 45');
+['501.46 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 46');
+['501.47 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 47');
+['501.48 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 48');
+['501.49 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 49');
+['501.50 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Contas a Pagar - 50');
+['502 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 01');
+['503 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 02');
+['504 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 03');
+['505 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 04');
+['506 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 05');
+['507 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 06');
+['508 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 07');
+['509 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 08');
+['510 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 09');
+['511 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 10');
+['512 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 11');
+['513 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 12');
+['514 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 13');
+['515 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 14');
+['516 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 15');
+['517 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 16');
+['518 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 17');
+['519 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 18');
+['520 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 19');
+['521 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 20');
+['522 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 21');
+['523 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 22');
+['524 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 23');
+['525 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 24');
+['526 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 25');
+['527 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 26');
+['528 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 27');
+['529 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 28');
+['530 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 29');
+['531 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 30');
+['532 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 31');
+['533 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 32');
+['534 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 33');
+['535 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 34');
+['536 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 35');
+['537 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 36');
+['538 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 37');
+['539 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 38');
+['540 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 39');
+['541 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 40');
+['542 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 41');
+['543 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 42');
+['544 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 43');
+['545 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 44');
+['546 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 45');
+['547 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 46');
+['548 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 47');
+['549 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 48');
+['550 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 49');
+['551 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 50');
+['552 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 51');
+['553 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 52');
+['554 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 53');
+['555 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 54');
+['556 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 55');
+['557 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 56');
+['558 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 57');
+['559 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 58');
+['560 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 59');
+['561 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 60');
+['562 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 61');
+['563 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 62');
+['564 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 63');
+['565 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 64');
+['566 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 65');
+['567 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 66');
+['568 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 67');
+['569 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 68');
+['570 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 69');
+['571 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 70');
+['572 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 71');
+['573 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 72');
+['574 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 73');
+['575 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 74');
+['576 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 75');
+['577 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 76');
+['578 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 77');
+['579 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 78');
+['580 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 79');
+['581 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 80');
+['582 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 81');
+['583 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 82');
+['584 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 83');
+['585 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 84');
+['586 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 85');
+['587 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 86');
+['588 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 87');
+['589 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 88');
+['590 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 89');
+['591 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 90');
+['592 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 91');
+['593 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 92');
+['594 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 93');
+['595 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 94');
+['596 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 95');
+['597 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 96');
+['598 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 97');
+['599 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 98');
+['600 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 99');
+['601 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 100');
+['602 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 101');
+['603 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 102');
+['604 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 103');
+['605 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 104');
+['606 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 105');
+['607 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 106');
+['608 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 107');
+['609 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 108');
+['610 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 109');
+['611 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 110');
+['612 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 111');
+['613 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 112');
+['614 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 113');
+['615 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 114');
+['616 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 115');
+['617 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 116');
+['618 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 117');
+['619 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 118');
+['620 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 119');
+['621 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 120');
+['622 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 121');
+['623 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 122');
+['624 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 123');
+['625 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 124');
+['626 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 125');
+['627 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 126');
+['628 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 127');
+['629 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 128');
+['630 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 129');
+['631 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 130');
+['632 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 131');
+['633 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 132');
+['634 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 133');
+['635 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 134');
+['636 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 135');
+['637 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 136');
+['638 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 137');
+['639 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 138');
+['640 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 139');
+['641 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 140');
+['642 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 141');
+['643 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 142');
+['644 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 143');
+['645 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 144');
+['646 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 145');
+['647 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 146');
+['648 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 147');
+['649 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 148');
+['650 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 149');
+['651 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 150');
+['652 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 151');
+['653 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 152');
+['654 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 153');
+['655 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 154');
+['656 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 155');
+['657 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 156');
+['658 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 157');
+['659 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 158');
+['660 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 159');
+['661 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 160');
+['662 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 161');
+['663 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 162');
+['664 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 163');
+['665 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 164');
+['666 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 165');
+['667 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 166');
+['668 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 167');
+['669 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 168');
+['670 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 169');
+['671 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 170');
+['672 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 171');
+['673 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 172');
+['674 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 173');
+['675 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 174');
+['676 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 175');
+['677 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 176');
+['678 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 177');
+['679 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 178');
+['680 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 179');
+['681 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 180');
+['682 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 181');
+['683 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 182');
+['684 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 183');
+['685 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 184');
+['686 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 185');
+['687 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 186');
+['688 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 187');
+['689 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 188');
+['690 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 189');
+['691 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 190');
+['692 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 191');
+['693 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 192');
+['694 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 193');
+['695 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 194');
+['696 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 195');
+['697 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 196');
+['698 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 197');
+['699 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 198');
+['700 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 199');
+['701 - Saldo Inicial']=N:DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,ATTRS('Month',!Month,'Mes_Anterior'),!Version,'Conta Passivo - 200');
+
+### ------------------------------------------------------------------------ CONTABILIZAÇÕES--------------------------------------------------------------------------------
+
+## Receita
+
+
+## Despesas
+
+
+## Capex
+
+
+## Emprestimos & Financiamentos
+
+
+## Custos
+
+
+### ------------------------------------------------------------ CONTABILIZAÇÕES DE RECEBIMENTOS--------------------------------------------------------------------------------
+
+# Abaixo PRM é o Prazo Médio de Recebimento
+
+## CONTAS A RECEBER DE CLIENTES
+
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# INICIO ######
+# 1o - Movimentar do DB para a ÁREA DE MOVIMENTAÇÕES DE CONTAS nas metricas de Lancamentos de Contas a Receber
+# Vamos colocar para ter movimentacao em varios lancamentos um % para cada Tipo de Receita
+
+# Recebimentos - A Vista (3%)
+['002.1 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Gross Revenue (DB)') ) * 0.03 ;
+
+# Recebimentos - Convênio (5%)
+['002.2 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Gross Revenue (DB)') ) * 0.05 ;
+
+# Recebimentos - Cartões Credito (60%)
+['002.3 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Gross Revenue (DB)') ) * 0.60 ;
+
+# Recebimentos - Cartões Debito (20%)
+['002.4 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Gross Revenue (DB)') ) * 0.20 ;
+
+# Recebimentos - Contas a Receber Fornecedores (6.5%)
+['002.5 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Gross Revenue (DB)') ) * 0.065 ;
+
+# Recebimentos - Devoluções - Fornecedores (2%)
+['002.6 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Gross Revenue (DB)') ) * 0.02 ;
+
+# Recebimentos - Outras Contas a Receber (3.5%)
+['002.7 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Gross Revenue (DB)') ) * 0.035 ;
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# FINAL ######
+
+
+
+
+['002.1 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 01']/30*['002.1 - Entradas']-['002.1 - Saldo Inicial']-['002.1 - Entradas']);
+['001 - Recebimento de Contas a Receber - 01']=N:-['002.1 - Recebimentos'];
+
+['002.2 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 02']/30*['002.2 - Entradas']-['002.2 - Saldo Inicial']-['002.2 - Entradas']);
+['001 - Recebimento de Contas a Receber - 02']=N:-['002.2 - Recebimentos'];
+
+['002.3 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 03']/30*['002.3 - Entradas']-['002.3 - Saldo Inicial']-['002.3 - Entradas']);
+['001 - Recebimento de Contas a Receber - 03']=N:-['002.3 - Recebimentos'];
+
+['002.4 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 04']/30*['002.4 - Entradas']-['002.4 - Saldo Inicial']-['002.4 - Entradas']);
+['001 - Recebimento de Contas a Receber - 04']=N:-['002.4 - Recebimentos'];
+
+['002.5 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 05']/30*['002.5 - Entradas']-['002.5 - Saldo Inicial']-['002.5 - Entradas']);
+['001 - Recebimento de Contas a Receber - 05']=N:-['002.5 - Recebimentos'];
+
+['002.6 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 06']/30*['002.6 - Entradas']-['002.6 - Saldo Inicial']-['002.6 - Entradas']);
+['001 - Recebimento de Contas a Receber - 06']=N:-['002.6 - Recebimentos'];
+
+['002.7 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 07']/30*['002.7 - Entradas']-['002.7 - Saldo Inicial']-['002.7 - Entradas']);
+['001 - Recebimento de Contas a Receber - 07']=N:-['002.7 - Recebimentos'];
+
+['002.8 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 08']/30*['002.8 - Entradas']-['002.8 - Saldo Inicial']-['002.8 - Entradas']);
+['001 - Recebimento de Contas a Receber - 08']=N:-['002.8 - Recebimentos'];
+
+['002.9 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 09']/30*['002.9 - Entradas']-['002.9 - Saldo Inicial']-['002.9 - Entradas']);
+['001 - Recebimento de Contas a Receber - 09']=N:-['002.9 - Recebimentos'];
+
+['002.10 - Recebimentos']=N:MIN(0,['PMR - Contas a Receber de Clientes - 10']/30*['002.10 - Entradas']-['002.10 - Saldo Inicial']-['002.10 - Entradas']);
+['001 - Recebimento de Contas a Receber - 10']=N:-['002.10 - Recebimentos'];
+
+
+### ------------------------------------------------------------ CONTABILIZAÇÕES DE PAGAMENTOS FORNECEDORES--------------------------------------------------------------------------------
+
+## FORNECEDORES
+
+# ['MP - Fornecedores - 01'] = N: DIMix('Month',DIMNM('Month', (DIMix('Month', !Month) + (['PMP - Fornecedores - 01']/30) ) )  );
+
+#['MP - Fornecedores - 01'] = N:
+#	DB('CTI.100.DFs.Demonstracoes_Financeiras',
+#!Year,
+#DIMNM( 'Month', DIMix('Month',DIMNM('Month', (DIMix('Month', !Month) + (['PMP - Fornecedores - 01']/30) ) )  ) ) ,
+#!Version,
+#'PMP - Fornecedores - 01') ;
+
+
+#['500.1 - Pagamento - 01']=N:
+#- DB('CTI.100.DFs.Demonstracoes_Financeiras', !Year, DIMNM('Month', (DIMix('Month',!Month) + (['PMP - Fornecedores - 01']/30))),
+#         !Version, '500.1 - Lançamento - 01') ;
+
+
+## FORNECEDORES
+
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# INICIO ######
+# 1o - Movimentar do DB para a ÁREA DE MOVIMENTAÇÕES DE CONTAS nas metricas de Lancamentos de FORNECEDORES
+# Vamos colocar para ter movimentacao em varios lancamentos um % para cada Tipo de Fornecedor
+
+# 500.1 - Conta de Fornecedores - Raw Material
+# Fornecedor - Circuit board (5.5%)
+['500.1 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.055 ;
+
+# Fornecedor - Wire (3.5%)
+['500.1 - Lançamento - 02']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.035 ;
+
+# Fornecedor - Diodes (1.5%)
+['500.1 - Lançamento - 03']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.015 ;
+
+# Fornecedor - A5 Silicon Chip (6.5%)
+['500.1 - Lançamento - 04']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.065 ;
+
+# Fornecedor - A6  Silicon Chip (8.5%)
+['500.1 - Lançamento - 05']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.085 ;
+
+# Fornecedor - A4  Silicon Chip (7.5%)
+['500.1 - Lançamento - 06']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.075 ;
+
+# Fornecedor - A7  Silicon Chip (2.8%)
+['500.1 - Lançamento - 07']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.028 ;
+
+# Fornecedor - Purchased Finished Goods (5.2%)
+['500.1 - Lançamento - 08']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.052 ;
+
+
+# 500.2 - Conta de Fornecedores - Packaging Material
+# Fornecedor - Phone Body Protector (6%)
+['500.2 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.06 ;
+
+# Fornecedor - Keyboard (4%)
+['500.2 - Lançamento - 02']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.04 ;
+
+# Fornecedor - Phone Body (2%)
+['500.2 - Lançamento - 03']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.02 ;
+
+# Fornecedor - Phone Screen (5%)
+['500.2 - Lançamento - 04']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.05 ;
+
+# Fornecedor - Label (8%)
+['500.2 - Lançamento - 05']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.08 ;
+
+# Fornecedor - Cardboard (7%)
+['500.2 - Lançamento - 06']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.07 ;
+
+# Fornecedor - Tray (3.5%)
+['500.2 - Lançamento - 07']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.035 ;
+
+# Fornecedor - Shrink wrap (5.5%)
+['500.2 - Lançamento - 08']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.055 ;
+
+
+# 500.3 - Conta de Fornecedores - Transportation rate
+# Fornecedor - Transportation rate (18%)
+['500.3 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Cost of Sales (DB)') ) * 0.18 ;
+
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# FINAL ######
+
+
+
+['500.1 - Pagamento - 01']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 01']\['500.1 - Entradas']);
+
+['500.1 - Pagamento - 02']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 02']\['500.1 - Entradas']);
+['500.1 - Pagamento - 03']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 03']\['500.1 - Entradas']);
+['500.1 - Pagamento - 04']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 04']\['500.1 - Entradas']);
+['500.1 - Pagamento - 05']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 05']\['500.1 - Entradas']);
+['500.1 - Pagamento - 06']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 06']\['500.1 - Entradas']);
+['500.1 - Pagamento - 07']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 07']\['500.1 - Entradas']);
+['500.1 - Pagamento - 08']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 08']\['500.1 - Entradas']);
+['500.1 - Pagamento - 09']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 09']\['500.1 - Entradas']);
+['500.1 - Pagamento - 10']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 10']\['500.1 - Entradas']);
+['500.1 - Pagamento - 11']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 11']\['500.1 - Entradas']);
+['500.1 - Pagamento - 12']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 12']\['500.1 - Entradas']);
+['500.1 - Pagamento - 13']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 13']\['500.1 - Entradas']);
+['500.1 - Pagamento - 14']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 14']\['500.1 - Entradas']);
+['500.1 - Pagamento - 15']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 15']\['500.1 - Entradas']);
+['500.1 - Pagamento - 16']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 16']\['500.1 - Entradas']);
+['500.1 - Pagamento - 17']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 17']\['500.1 - Entradas']);
+['500.1 - Pagamento - 18']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 18']\['500.1 - Entradas']);
+['500.1 - Pagamento - 19']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 19']\['500.1 - Entradas']);
+['500.1 - Pagamento - 20']=N:MIN(0,['PMP - Fornecedores - 01']/30*['500.1 - Entradas']-['500.1 - Saldo Inicial']-['500.1 - Entradas'])*(['500.1 - Lançamento - 20']\['500.1 - Entradas']);
+
+['001.1 - Pagamento - 01']=N:['500.1 - Pagamento - 01'];
+['001.1 - Pagamento - 02']=N:['500.1 - Pagamento - 02'];
+['001.1 - Pagamento - 03']=N:['500.1 - Pagamento - 03'];
+['001.1 - Pagamento - 04']=N:['500.1 - Pagamento - 04'];
+['001.1 - Pagamento - 05']=N:['500.1 - Pagamento - 05'];
+['001.1 - Pagamento - 06']=N:['500.1 - Pagamento - 06'];
+['001.1 - Pagamento - 07']=N:['500.1 - Pagamento - 07'];
+['001.1 - Pagamento - 08']=N:['500.1 - Pagamento - 08'];
+['001.1 - Pagamento - 09']=N:['500.1 - Pagamento - 09'];
+['001.1 - Pagamento - 10']=N:['500.1 - Pagamento - 10'];
+['001.1 - Pagamento - 11']=N:['500.1 - Pagamento - 11'];
+['001.1 - Pagamento - 12']=N:['500.1 - Pagamento - 12'];
+['001.1 - Pagamento - 13']=N:['500.1 - Pagamento - 13'];
+['001.1 - Pagamento - 14']=N:['500.1 - Pagamento - 14'];
+['001.1 - Pagamento - 15']=N:['500.1 - Pagamento - 15'];
+['001.1 - Pagamento - 16']=N:['500.1 - Pagamento - 16'];
+['001.1 - Pagamento - 17']=N:['500.1 - Pagamento - 17'];
+['001.1 - Pagamento - 18']=N:['500.1 - Pagamento - 18'];
+['001.1 - Pagamento - 19']=N:['500.1 - Pagamento - 19'];
+['001.1 - Pagamento - 20']=N:['500.1 - Pagamento - 20'];
+
+['500.2 - Pagamento - 01']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 01']\['500.2 - Entradas']);
+['500.2 - Pagamento - 02']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 02']\['500.2 - Entradas']);
+['500.2 - Pagamento - 03']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 03']\['500.2 - Entradas']);
+['500.2 - Pagamento - 04']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 04']\['500.2 - Entradas']);
+['500.2 - Pagamento - 05']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 05']\['500.2 - Entradas']);
+['500.2 - Pagamento - 06']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 06']\['500.2 - Entradas']);
+['500.2 - Pagamento - 07']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 07']\['500.2 - Entradas']);
+['500.2 - Pagamento - 08']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 08']\['500.2 - Entradas']);
+['500.2 - Pagamento - 09']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 09']\['500.2 - Entradas']);
+['500.2 - Pagamento - 10']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 10']\['500.2 - Entradas']);
+['500.2 - Pagamento - 11']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 11']\['500.2 - Entradas']);
+['500.2 - Pagamento - 12']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 12']\['500.2 - Entradas']);
+['500.2 - Pagamento - 13']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 13']\['500.2 - Entradas']);
+['500.2 - Pagamento - 14']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 14']\['500.2 - Entradas']);
+['500.2 - Pagamento - 15']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 15']\['500.2 - Entradas']);
+['500.2 - Pagamento - 16']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 16']\['500.2 - Entradas']);
+['500.2 - Pagamento - 17']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 17']\['500.2 - Entradas']);
+['500.2 - Pagamento - 18']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 18']\['500.2 - Entradas']);
+['500.2 - Pagamento - 19']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 19']\['500.2 - Entradas']);
+['500.2 - Pagamento - 20']=N:MIN(0,['PMP - Fornecedores - 02']/30*['500.2 - Entradas']-['500.2 - Saldo Inicial']-['500.2 - Entradas'])*(['500.2 - Lançamento - 20']\['500.2 - Entradas']);
+
+['001.2 - Pagamento - 01']=N:['500.2 - Pagamento - 01'];
+['001.2 - Pagamento - 02']=N:['500.2 - Pagamento - 02'];
+['001.2 - Pagamento - 03']=N:['500.2 - Pagamento - 03'];
+['001.2 - Pagamento - 04']=N:['500.2 - Pagamento - 04'];
+['001.2 - Pagamento - 05']=N:['500.2 - Pagamento - 05'];
+['001.2 - Pagamento - 06']=N:['500.2 - Pagamento - 06'];
+['001.2 - Pagamento - 07']=N:['500.2 - Pagamento - 07'];
+['001.2 - Pagamento - 08']=N:['500.2 - Pagamento - 08'];
+['001.2 - Pagamento - 09']=N:['500.2 - Pagamento - 09'];
+['001.2 - Pagamento - 10']=N:['500.2 - Pagamento - 10'];
+['001.2 - Pagamento - 11']=N:['500.2 - Pagamento - 11'];
+['001.2 - Pagamento - 12']=N:['500.2 - Pagamento - 12'];
+['001.2 - Pagamento - 13']=N:['500.2 - Pagamento - 13'];
+['001.2 - Pagamento - 14']=N:['500.2 - Pagamento - 14'];
+['001.2 - Pagamento - 15']=N:['500.2 - Pagamento - 15'];
+['001.2 - Pagamento - 16']=N:['500.2 - Pagamento - 16'];
+['001.2 - Pagamento - 17']=N:['500.2 - Pagamento - 17'];
+['001.2 - Pagamento - 18']=N:['500.2 - Pagamento - 18'];
+['001.2 - Pagamento - 19']=N:['500.2 - Pagamento - 19'];
+['001.2 - Pagamento - 20']=N:['500.2 - Pagamento - 20'];
+
+
+['500.3 - Pagamento - 01']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 01']\['500.3 - Entradas']);
+['500.3 - Pagamento - 02']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 02']\['500.3 - Entradas']);
+['500.3 - Pagamento - 03']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 03']\['500.3 - Entradas']);
+['500.3 - Pagamento - 04']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 04']\['500.3 - Entradas']);
+['500.3 - Pagamento - 05']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 05']\['500.3 - Entradas']);
+['500.3 - Pagamento - 06']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 06']\['500.3 - Entradas']);
+['500.3 - Pagamento - 07']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 07']\['500.3 - Entradas']);
+['500.3 - Pagamento - 08']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 08']\['500.3 - Entradas']);
+['500.3 - Pagamento - 09']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 09']\['500.3 - Entradas']);
+['500.3 - Pagamento - 10']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 10']\['500.3 - Entradas']);
+['500.3 - Pagamento - 11']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 11']\['500.3 - Entradas']);
+['500.3 - Pagamento - 12']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 12']\['500.3 - Entradas']);
+['500.3 - Pagamento - 13']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 13']\['500.3 - Entradas']);
+['500.3 - Pagamento - 14']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 14']\['500.3 - Entradas']);
+['500.3 - Pagamento - 15']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 15']\['500.3 - Entradas']);
+['500.3 - Pagamento - 16']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 16']\['500.3 - Entradas']);
+['500.3 - Pagamento - 17']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 17']\['500.3 - Entradas']);
+['500.3 - Pagamento - 18']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 18']\['500.3 - Entradas']);
+['500.3 - Pagamento - 19']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 19']\['500.3 - Entradas']);
+['500.3 - Pagamento - 20']=N:MIN(0,['PMP - Fornecedores - 03']/30*['500.3 - Entradas']-['500.3 - Saldo Inicial']-['500.3 - Entradas'])*(['500.3 - Lançamento - 20']\['500.3 - Entradas']);
+
+['001.3 - Pagamento - 01']=N:['500.3 - Pagamento - 01'];
+['001.3 - Pagamento - 02']=N:['500.3 - Pagamento - 02'];
+['001.3 - Pagamento - 03']=N:['500.3 - Pagamento - 03'];
+['001.3 - Pagamento - 04']=N:['500.3 - Pagamento - 04'];
+['001.3 - Pagamento - 05']=N:['500.3 - Pagamento - 05'];
+['001.3 - Pagamento - 06']=N:['500.3 - Pagamento - 06'];
+['001.3 - Pagamento - 07']=N:['500.3 - Pagamento - 07'];
+['001.3 - Pagamento - 08']=N:['500.3 - Pagamento - 08'];
+['001.3 - Pagamento - 09']=N:['500.3 - Pagamento - 09'];
+['001.3 - Pagamento - 10']=N:['500.3 - Pagamento - 10'];
+['001.3 - Pagamento - 11']=N:['500.3 - Pagamento - 11'];
+['001.3 - Pagamento - 12']=N:['500.3 - Pagamento - 12'];
+['001.3 - Pagamento - 13']=N:['500.3 - Pagamento - 13'];
+['001.3 - Pagamento - 14']=N:['500.3 - Pagamento - 14'];
+['001.3 - Pagamento - 15']=N:['500.3 - Pagamento - 15'];
+['001.3 - Pagamento - 16']=N:['500.3 - Pagamento - 16'];
+['001.3 - Pagamento - 17']=N:['500.3 - Pagamento - 17'];
+['001.3 - Pagamento - 18']=N:['500.3 - Pagamento - 18'];
+['001.3 - Pagamento - 19']=N:['500.3 - Pagamento - 19'];
+['001.3 - Pagamento - 20']=N:['500.3 - Pagamento - 20'];
+
+['500.4 - Pagamento - 01']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 01']\['500.4 - Entradas']);
+['500.4 - Pagamento - 02']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 02']\['500.4 - Entradas']);
+['500.4 - Pagamento - 03']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 03']\['500.4 - Entradas']);
+['500.4 - Pagamento - 04']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 04']\['500.4 - Entradas']);
+['500.4 - Pagamento - 05']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 05']\['500.4 - Entradas']);
+['500.4 - Pagamento - 06']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 06']\['500.4 - Entradas']);
+['500.4 - Pagamento - 07']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 07']\['500.4 - Entradas']);
+['500.4 - Pagamento - 08']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 08']\['500.4 - Entradas']);
+['500.4 - Pagamento - 09']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 09']\['500.4 - Entradas']);
+['500.4 - Pagamento - 10']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 10']\['500.4 - Entradas']);
+['500.4 - Pagamento - 11']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 11']\['500.4 - Entradas']);
+['500.4 - Pagamento - 12']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 12']\['500.4 - Entradas']);
+['500.4 - Pagamento - 13']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 13']\['500.4 - Entradas']);
+['500.4 - Pagamento - 14']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 14']\['500.4 - Entradas']);
+['500.4 - Pagamento - 15']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 15']\['500.4 - Entradas']);
+['500.4 - Pagamento - 16']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 16']\['500.4 - Entradas']);
+['500.4 - Pagamento - 17']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 17']\['500.4 - Entradas']);
+['500.4 - Pagamento - 18']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 18']\['500.4 - Entradas']);
+['500.4 - Pagamento - 19']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 19']\['500.4 - Entradas']);
+['500.4 - Pagamento - 20']=N:MIN(0,['PMP - Fornecedores - 04']/30*['500.4 - Entradas']-['500.4 - Saldo Inicial']-['500.4 - Entradas'])*(['500.4 - Lançamento - 20']\['500.4 - Entradas']);
+
+['001.4 - Pagamento - 01']=N:-['500.4 - Pagamento - 01'];
+['001.4 - Pagamento - 02']=N:-['500.4 - Pagamento - 02'];
+['001.4 - Pagamento - 03']=N:-['500.4 - Pagamento - 03'];
+['001.4 - Pagamento - 04']=N:-['500.4 - Pagamento - 04'];
+['001.4 - Pagamento - 05']=N:-['500.4 - Pagamento - 05'];
+['001.4 - Pagamento - 06']=N:-['500.4 - Pagamento - 06'];
+['001.4 - Pagamento - 07']=N:-['500.4 - Pagamento - 07'];
+['001.4 - Pagamento - 08']=N:-['500.4 - Pagamento - 08'];
+['001.4 - Pagamento - 09']=N:-['500.4 - Pagamento - 09'];
+['001.4 - Pagamento - 10']=N:-['500.4 - Pagamento - 10'];
+['001.4 - Pagamento - 11']=N:-['500.4 - Pagamento - 11'];
+['001.4 - Pagamento - 12']=N:-['500.4 - Pagamento - 12'];
+['001.4 - Pagamento - 13']=N:-['500.4 - Pagamento - 13'];
+['001.4 - Pagamento - 14']=N:-['500.4 - Pagamento - 14'];
+['001.4 - Pagamento - 15']=N:-['500.4 - Pagamento - 15'];
+['001.4 - Pagamento - 16']=N:-['500.4 - Pagamento - 16'];
+['001.4 - Pagamento - 17']=N:-['500.4 - Pagamento - 17'];
+['001.4 - Pagamento - 18']=N:-['500.4 - Pagamento - 18'];
+['001.4 - Pagamento - 19']=N:-['500.4 - Pagamento - 19'];
+['001.4 - Pagamento - 20']=N:-['500.4 - Pagamento - 20'];
+
+
+['500.5 - Pagamento - 01']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 01']\['500.5 - Entradas']);
+['500.5 - Pagamento - 02']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 02']\['500.5 - Entradas']);
+['500.5 - Pagamento - 03']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 03']\['500.5 - Entradas']);
+['500.5 - Pagamento - 04']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 04']\['500.5 - Entradas']);
+['500.5 - Pagamento - 05']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 05']\['500.5 - Entradas']);
+['500.5 - Pagamento - 06']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 06']\['500.5 - Entradas']);
+['500.5 - Pagamento - 07']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 07']\['500.5 - Entradas']);
+['500.5 - Pagamento - 08']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 08']\['500.5 - Entradas']);
+['500.5 - Pagamento - 09']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 09']\['500.5 - Entradas']);
+['500.5 - Pagamento - 10']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 10']\['500.5 - Entradas']);
+['500.5 - Pagamento - 11']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 11']\['500.5 - Entradas']);
+['500.5 - Pagamento - 12']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 12']\['500.5 - Entradas']);
+['500.5 - Pagamento - 13']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 13']\['500.5 - Entradas']);
+['500.5 - Pagamento - 14']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 14']\['500.5 - Entradas']);
+['500.5 - Pagamento - 15']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 15']\['500.5 - Entradas']);
+['500.5 - Pagamento - 16']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 16']\['500.5 - Entradas']);
+['500.5 - Pagamento - 17']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 17']\['500.5 - Entradas']);
+['500.5 - Pagamento - 18']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 18']\['500.5 - Entradas']);
+['500.5 - Pagamento - 19']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 19']\['500.5 - Entradas']);
+['500.5 - Pagamento - 20']=N:MIN(0,['PMP - Fornecedores - 05']/30*['500.5 - Entradas']-['500.5 - Saldo Inicial']-['500.5 - Entradas'])*(['500.5 - Lançamento - 20']\['500.5 - Entradas']);
+
+['001.5 - Pagamento - 01']=N:-['500.5 - Pagamento - 01'];
+['001.5 - Pagamento - 02']=N:-['500.5 - Pagamento - 02'];
+['001.5 - Pagamento - 03']=N:-['500.5 - Pagamento - 03'];
+['001.5 - Pagamento - 04']=N:-['500.5 - Pagamento - 04'];
+['001.5 - Pagamento - 05']=N:-['500.5 - Pagamento - 05'];
+['001.5 - Pagamento - 06']=N:-['500.5 - Pagamento - 06'];
+['001.5 - Pagamento - 07']=N:-['500.5 - Pagamento - 07'];
+['001.5 - Pagamento - 08']=N:-['500.5 - Pagamento - 08'];
+['001.5 - Pagamento - 09']=N:-['500.5 - Pagamento - 09'];
+['001.5 - Pagamento - 10']=N:-['500.5 - Pagamento - 10'];
+['001.5 - Pagamento - 11']=N:-['500.5 - Pagamento - 11'];
+['001.5 - Pagamento - 12']=N:-['500.5 - Pagamento - 12'];
+['001.5 - Pagamento - 13']=N:-['500.5 - Pagamento - 13'];
+['001.5 - Pagamento - 14']=N:-['500.5 - Pagamento - 14'];
+['001.5 - Pagamento - 15']=N:-['500.5 - Pagamento - 15'];
+['001.5 - Pagamento - 16']=N:-['500.5 - Pagamento - 16'];
+['001.5 - Pagamento - 17']=N:-['500.5 - Pagamento - 17'];
+['001.5 - Pagamento - 18']=N:-['500.5 - Pagamento - 18'];
+['001.5 - Pagamento - 19']=N:-['500.5 - Pagamento - 19'];
+['001.5 - Pagamento - 20']=N:-['500.5 - Pagamento - 20'];
+
+
+
+### ------------------------------------------------------------ CONTABILIZAÇÕES DE PAGAMENTOS CONTAS A PAGAR--------------------------------------------------------------------------------
+
+## CONTAS A PAGAR
+
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# INICIO ######
+# 1o - Movimentar do DB para a ÁREA DE MOVIMENTAÇÕES DE CONTAS nas metricas de Lancamentos de CONTAS A PAGAR
+
+# 501.1 - Payroll
+# Contas a Pagar - Payroll
+['501.1 - Lançamento - 01']=N:  DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Payroll (DB)')  ;
+
+# 501.2 - Office Expense
+# Contas a Pagar - Office Expensel
+['501.2 - Lançamento - 01']=N:  DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Office Expense (DB)')  ;
+
+# 501.3 - Travel
+# Contas a Pagar - Travel
+['501.3 - Lançamento - 01']=N:  DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Travel (DB)')  ;
+
+# 501.4 - Marketing
+# Contas a Pagar - Marketing
+['501.4 - Lançamento - 01']=N:  DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Marketing (DB)')  ;
+
+# 501.5 - Contas a Pagar - Financial
+
+# Apenas para ilustrar a DEMO, pegamos a conta de Occupancy e a utilizamos para popular o Contas a Pagar - Financial
+
+# Contas a Pagar - New Loans (3%)
+['501.5 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Occupancy (DB)') ) * 0.03 ;
+
+# Contas a Pagar - Invoice descounted (5%)
+['501.5 - Lançamento - 02']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Occupancy (DB)') ) * 0.05 ;
+
+# Contas a Pagar - Loans Amortization (25%)
+['501.5 - Lançamento - 03']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Occupancy (DB)') ) * 0.25 ;
+
+# Contas a Pagar - Shareholders - Mutual (35%)
+['501.5 - Lançamento - 04']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Occupancy (DB)') ) * 0.35 ;
+
+# Contas a Pagar - Intercompany (20%)
+['501.5 - Lançamento - 05']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Occupancy (DB)') ) * 0.20 ;
+
+# Contas a Pagar - Acquisitions (6.5%)
+['501.5 - Lançamento - 06']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Occupancy (DB)') ) * 0.075 ;
+
+# Contas a Pagar - Net financial (2%)
+['501.5 - Lançamento - 07']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Occupancy (DB)') ) * 0.02 ;
+
+# Contas a Pagar - Rescue / Aplication (3.5%)
+['501.5 - Lançamento - 08']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Occupancy (DB)') ) * 0.025 ;
+
+
+
+# 501.6 - Contas a Pagar - Taxes and Capex
+
+# Apenas para ilustrar a DEMO, pegamos a conta de Depreciation e a utilizamos para popular o Contas a Pagar - Taxes  Capex
+
+# Contas a Pagar - Taxes (15%)
+['501.6 - Lançamento - 01']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Depreciation (DB)') ) * 0.15 ;
+
+# Contas a Pagar - Capex CF (85%)
+['501.6 - Lançamento - 02']=N: ( DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Depreciation (DB)') ) * 0.85 ;
+
+
+
+# 501.7 - Contas a Pagar - Dividends
+
+# Apenas para ilustrar a DEMO, pegamos a conta de Allocation e a utilizamos para popular o Contas a Pagar - Dividends
+
+# Contas a Pagar - Dividends
+['501.7 - Lançamento - 01']=N:  DB('CTI.100.DFs.Demonstracoes_Financeiras',!Year,!Month,!Version,'Allocation (DB)')  ;
+
+
+########## INCLUIDO PARA O MODELO SMARTCO ################# FINAL ######
+
+
+
+
+['501.1 - Pagamentos de Contas a Pagar - 01']=N:MIN(0,['PMP - Contas a Pagar - 01']/30*['501.1 - Entradas']-['501.1 - Saldo Inicial']-['501.1 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 01']=N:['501.1 - Pagamentos de Contas a Pagar - 01'];
+
+['501.2 - Pagamentos de Contas a Pagar - 02']=N:MIN(0,['PMP - Contas a Pagar - 02']/30*['501.2 - Entradas']-['501.2 - Saldo Inicial']-['501.2 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 02']=N:['501.2 - Pagamentos de Contas a Pagar - 02'];
+
+['501.3 - Pagamentos de Contas a Pagar - 03']=N:MIN(0,['PMP - Contas a Pagar - 03']/30*['501.3 - Entradas']-['501.3 - Saldo Inicial']-['501.3 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 03']=N:['501.3 - Pagamentos de Contas a Pagar - 03'];
+
+['501.4 - Pagamentos de Contas a Pagar - 04']=N:MIN(0,['PMP - Contas a Pagar - 04']/30*['501.4 - Entradas']-['501.4 - Saldo Inicial']-['501.4 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 04']=N:['501.4 - Pagamentos de Contas a Pagar - 04'];
+
+['501.5 - Pagamentos de Contas a Pagar - 05']=N:MIN(0,['PMP - Contas a Pagar - 05']/30*['501.5 - Entradas']-['501.5 - Saldo Inicial']-['501.5 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 05']=N:['501.5 - Pagamentos de Contas a Pagar - 05'];
+
+['501.6 - Pagamentos de Contas a Pagar - 06']=N:MIN(0,['PMP - Contas a Pagar - 06']/30*['501.6 - Entradas']-['501.6 - Saldo Inicial']-['501.6 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 06']=N:['501.6 - Pagamentos de Contas a Pagar - 06'];
+
+['501.7 - Pagamentos de Contas a Pagar - 07']=N:MIN(0,['PMP - Contas a Pagar - 07']/30*['501.7 - Entradas']-['501.7 - Saldo Inicial']-['501.7 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 07']=N:['501.7 - Pagamentos de Contas a Pagar - 07'];
+
+['501.8 - Pagamentos de Contas a Pagar - 08']=N:MIN(0,['PMP - Contas a Pagar - 08']/30*['501.8 - Entradas']-['501.8 - Saldo Inicial']-['501.8 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 08']=N:['501.8 - Pagamentos de Contas a Pagar - 08'];
+
+['501.9 - Pagamentos de Contas a Pagar - 09']=N:MIN(0,['PMP - Contas a Pagar - 09']/30*['501.9 - Entradas']-['501.9 - Saldo Inicial']-['501.9 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 09']=N:['501.9 - Pagamentos de Contas a Pagar - 09'];
+
+['501.10 - Pagamentos de Contas a Pagar - 10']=N:MIN(0,['PMP - Contas a Pagar - 10']/30*['501.10 - Entradas']-['501.10 - Saldo Inicial']-['501.10 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 10']=N:['501.10 - Pagamentos de Contas a Pagar - 10'];
+
+['501.11 - Pagamentos de Contas a Pagar - 11']=N:MIN(0,['PMP - Contas a Pagar - 11']/30*['501.11 - Entradas']-['501.11 - Saldo Inicial']-['501.11 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 11']=N:['501.11 - Pagamentos de Contas a Pagar - 11'];
+
+['501.12 - Pagamentos de Contas a Pagar - 12']=N:MIN(0,['PMP - Contas a Pagar - 12']/30*['501.12 - Entradas']-['501.12 - Saldo Inicial']-['501.12 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 12']=N:['501.12 - Pagamentos de Contas a Pagar - 12'];
+
+['501.13 - Pagamentos de Contas a Pagar - 13']=N:MIN(0,['PMP - Contas a Pagar - 13']/30*['501.13 - Entradas']-['501.13 - Saldo Inicial']-['501.13 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 13']=N:['501.13 - Pagamentos de Contas a Pagar - 13'];
+
+['501.14 - Pagamentos de Contas a Pagar - 14']=N:MIN(0,['PMP - Contas a Pagar - 14']/30*['501.14 - Entradas']-['501.14 - Saldo Inicial']-['501.14 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 14']=N:['501.14 - Pagamentos de Contas a Pagar - 14'];
+
+['501.15 - Pagamentos de Contas a Pagar - 15']=N:MIN(0,['PMP - Contas a Pagar - 15']/30*['501.15 - Entradas']-['501.15 - Saldo Inicial']-['501.15 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 15']=N:['501.15 - Pagamentos de Contas a Pagar - 15'];
+
+['501.16 - Pagamentos de Contas a Pagar - 16']=N:MIN(0,['PMP - Contas a Pagar - 16']/30*['501.16 - Entradas']-['501.16 - Saldo Inicial']-['501.16 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 16']=N:['501.16 - Pagamentos de Contas a Pagar - 16'];
+
+['501.17 - Pagamentos de Contas a Pagar - 17']=N:MIN(0,['PMP - Contas a Pagar - 17']/30*['501.17 - Entradas']-['501.17 - Saldo Inicial']-['501.17 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 17']=N:['501.17 - Pagamentos de Contas a Pagar - 17'];
+
+['501.18 - Pagamentos de Contas a Pagar - 18']=N:MIN(0,['PMP - Contas a Pagar - 18']/30*['501.18 - Entradas']-['501.18 - Saldo Inicial']-['501.18 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 18']=N:['501.18 - Pagamentos de Contas a Pagar - 18'];
+
+['501.19 - Pagamentos de Contas a Pagar - 19']=N:MIN(0,['PMP - Contas a Pagar - 19']/30*['501.19 - Entradas']-['501.19 - Saldo Inicial']-['501.19 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 19']=N:['501.19 - Pagamentos de Contas a Pagar - 19'];
+
+['501.20 - Pagamentos de Contas a Pagar - 20']=N:MIN(0,['PMP - Contas a Pagar - 20']/30*['501.20 - Entradas']-['501.20 - Saldo Inicial']-['501.20 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 20']=N:['501.20 - Pagamentos de Contas a Pagar - 20'];
+
+['501.21 - Pagamentos de Contas a Pagar - 21']=N:MIN(0,['PMP - Contas a Pagar - 21']/30*['501.21 - Entradas']-['501.21 - Saldo Inicial']-['501.21 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 21']=N:['501.21 - Pagamentos de Contas a Pagar - 21'];
+
+['501.22 - Pagamentos de Contas a Pagar - 22']=N:MIN(0,['PMP - Contas a Pagar - 22']/30*['501.22 - Entradas']-['501.22 - Saldo Inicial']-['501.22 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 22']=N:['501.22 - Pagamentos de Contas a Pagar - 22'];
+
+['501.23 - Pagamentos de Contas a Pagar - 23']=N:MIN(0,['PMP - Contas a Pagar - 23']/30*['501.23 - Entradas']-['501.23 - Saldo Inicial']-['501.23 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 23']=N:['501.23 - Pagamentos de Contas a Pagar - 23'];
+
+['501.24 - Pagamentos de Contas a Pagar - 24']=N:MIN(0,['PMP - Contas a Pagar - 24']/30*['501.24 - Entradas']-['501.24 - Saldo Inicial']-['501.24 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 24']=N:['501.24 - Pagamentos de Contas a Pagar - 24'];
+
+['501.25 - Pagamentos de Contas a Pagar - 25']=N:MIN(0,['PMP - Contas a Pagar - 25']/30*['501.25 - Entradas']-['501.25 - Saldo Inicial']-['501.25 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 25']=N:['501.25 - Pagamentos de Contas a Pagar - 25'];
+
+['501.26 - Pagamentos de Contas a Pagar - 26']=N:MIN(0,['PMP - Contas a Pagar - 26']/30*['501.26 - Entradas']-['501.26 - Saldo Inicial']-['501.26 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 26']=N:['501.26 - Pagamentos de Contas a Pagar - 26'];
+
+['501.27 - Pagamentos de Contas a Pagar - 27']=N:MIN(0,['PMP - Contas a Pagar - 27']/30*['501.27 - Entradas']-['501.27 - Saldo Inicial']-['501.27 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 27']=N:['501.27 - Pagamentos de Contas a Pagar - 27'];
+
+['501.28 - Pagamentos de Contas a Pagar - 28']=N:MIN(0,['PMP - Contas a Pagar - 28']/30*['501.28 - Entradas']-['501.28 - Saldo Inicial']-['501.28 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 28']=N:['501.28 - Pagamentos de Contas a Pagar - 28'];
+
+['501.29 - Pagamentos de Contas a Pagar - 29']=N:MIN(0,['PMP - Contas a Pagar - 29']/30*['501.29 - Entradas']-['501.29 - Saldo Inicial']-['501.29 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 29']=N:['501.29 - Pagamentos de Contas a Pagar - 29'];
+
+['501.30 - Pagamentos de Contas a Pagar - 30']=N:MIN(0,['PMP - Contas a Pagar - 30']/30*['501.30 - Entradas']-['501.30 - Saldo Inicial']-['501.30 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 30']=N:['501.30 - Pagamentos de Contas a Pagar - 30'];
+
+['501.31 - Pagamentos de Contas a Pagar - 31']=N:MIN(0,['PMP - Contas a Pagar - 31']/30*['501.31 - Entradas']-['501.31 - Saldo Inicial']-['501.31 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 31']=N:['501.31 - Pagamentos de Contas a Pagar - 31'];
+
+['501.32 - Pagamentos de Contas a Pagar - 32']=N:MIN(0,['PMP - Contas a Pagar - 32']/30*['501.32 - Entradas']-['501.32 - Saldo Inicial']-['501.32 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 32']=N:['501.32 - Pagamentos de Contas a Pagar - 32'];
+
+['501.33 - Pagamentos de Contas a Pagar - 33']=N:MIN(0,['PMP - Contas a Pagar - 33']/30*['501.33 - Entradas']-['501.33 - Saldo Inicial']-['501.33 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 33']=N:['501.33 - Pagamentos de Contas a Pagar - 33'];
+
+['501.34 - Pagamentos de Contas a Pagar - 34']=N:MIN(0,['PMP - Contas a Pagar - 34']/30*['501.34 - Entradas']-['501.34 - Saldo Inicial']-['501.34 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 34']=N:['501.34 - Pagamentos de Contas a Pagar - 34'];
+
+['501.35 - Pagamentos de Contas a Pagar - 35']=N:MIN(0,['PMP - Contas a Pagar - 35']/30*['501.35 - Entradas']-['501.35 - Saldo Inicial']-['501.35 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 35']=N:['501.35 - Pagamentos de Contas a Pagar - 35'];
+
+['501.36 - Pagamentos de Contas a Pagar - 36']=N:MIN(0,['PMP - Contas a Pagar - 36']/30*['501.36 - Entradas']-['501.36 - Saldo Inicial']-['501.36 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 36']=N:['501.36 - Pagamentos de Contas a Pagar - 36'];
+
+['501.37 - Pagamentos de Contas a Pagar - 37']=N:MIN(0,['PMP - Contas a Pagar - 37']/30*['501.37 - Entradas']-['501.37 - Saldo Inicial']-['501.37 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 37']=N:['501.37 - Pagamentos de Contas a Pagar - 37'];
+
+['501.38 - Pagamentos de Contas a Pagar - 38']=N:MIN(0,['PMP - Contas a Pagar - 38']/30*['501.38 - Entradas']-['501.38 - Saldo Inicial']-['501.38 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 38']=N:['501.38 - Pagamentos de Contas a Pagar - 38'];
+
+['501.39 - Pagamentos de Contas a Pagar - 39']=N:MIN(0,['PMP - Contas a Pagar - 39']/30*['501.39 - Entradas']-['501.39 - Saldo Inicial']-['501.39 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 39']=N:['501.39 - Pagamentos de Contas a Pagar - 39'];
+
+['501.40 - Pagamentos de Contas a Pagar - 40']=N:MIN(0,['PMP - Contas a Pagar - 40']/30*['501.40 - Entradas']-['501.40 - Saldo Inicial']-['501.40 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 40']=N:['501.40 - Pagamentos de Contas a Pagar - 40'];
+
+['501.41 - Pagamentos de Contas a Pagar - 41']=N:MIN(0,['PMP - Contas a Pagar - 41']/30*['501.41 - Entradas']-['501.41 - Saldo Inicial']-['501.41 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 41']=N:['501.41 - Pagamentos de Contas a Pagar - 41'];
+
+['501.42 - Pagamentos de Contas a Pagar - 42']=N:MIN(0,['PMP - Contas a Pagar - 42']/30*['501.42 - Entradas']-['501.42 - Saldo Inicial']-['501.42 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 42']=N:['501.42 - Pagamentos de Contas a Pagar - 42'];
+
+['501.43 - Pagamentos de Contas a Pagar - 43']=N:MIN(0,['PMP - Contas a Pagar - 43']/30*['501.43 - Entradas']-['501.43 - Saldo Inicial']-['501.43 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 43']=N:['501.43 - Pagamentos de Contas a Pagar - 43'];
+
+['501.44 - Pagamentos de Contas a Pagar - 44']=N:MIN(0,['PMP - Contas a Pagar - 44']/30*['501.44 - Entradas']-['501.44 - Saldo Inicial']-['501.44 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 44']=N:['501.44 - Pagamentos de Contas a Pagar - 44'];
+
+['501.45 - Pagamentos de Contas a Pagar - 45']=N:MIN(0,['PMP - Contas a Pagar - 45']/30*['501.45 - Entradas']-['501.45 - Saldo Inicial']-['501.45 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 45']=N:['501.45 - Pagamentos de Contas a Pagar - 45'];
+
+['501.46 - Pagamentos de Contas a Pagar - 46']=N:MIN(0,['PMP - Contas a Pagar - 46']/30*['501.46 - Entradas']-['501.46 - Saldo Inicial']-['501.46 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 46']=N:['501.46 - Pagamentos de Contas a Pagar - 46'];
+
+['501.47 - Pagamentos de Contas a Pagar - 47']=N:MIN(0,['PMP - Contas a Pagar - 47']/30*['501.47 - Entradas']-['501.47 - Saldo Inicial']-['501.47 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 47']=N:['501.47 - Pagamentos de Contas a Pagar - 47'];
+
+['501.48 - Pagamentos de Contas a Pagar - 48']=N:MIN(0,['PMP - Contas a Pagar - 48']/30*['501.48 - Entradas']-['501.48 - Saldo Inicial']-['501.48 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 48']=N:['501.48 - Pagamentos de Contas a Pagar - 48'];
+
+['501.49 - Pagamentos de Contas a Pagar - 49']=N:MIN(0,['PMP - Contas a Pagar - 49']/30*['501.49 - Entradas']-['501.49 - Saldo Inicial']-['501.49 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 49']=N:['501.49 - Pagamentos de Contas a Pagar - 49'];
+
+['501.50 - Pagamentos de Contas a Pagar - 50']=N:MIN(0,['PMP - Contas a Pagar - 50']/30*['501.50 - Entradas']-['501.50 - Saldo Inicial']-['501.50 - Saldo Inicial']);
+['001 - Pagamento de Contas a Pagar - 50']=N:['501.50 - Pagamentos de Contas a Pagar - 50'];
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,0 @@
-# CAPEX
-
-OI MUNDO!

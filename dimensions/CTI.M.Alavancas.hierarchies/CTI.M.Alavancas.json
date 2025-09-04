@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CTI.M.Alavancas",
+	"Elements":
+	[
+		{
+			"Name":"GDP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FED. Funds Rate",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

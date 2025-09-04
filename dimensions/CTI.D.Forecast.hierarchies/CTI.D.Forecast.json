@@ -1,0 +1,32 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CTI.D.Forecast",
+	"Elements":
+	[
+		{
+			"Name":"Forecast - Holt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast - Facebook Prophet",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast - Random Forest",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast - Blend",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast Escolhido",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

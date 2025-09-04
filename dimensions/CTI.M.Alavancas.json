@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CTI.M.Alavancas",
+	"Hierarchies@Code.links":
+	[
+		"CTI.M.Alavancas.hierarchies/CTI.M.Alavancas.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CTI.M.Alavancas')/Hierarchies('CTI.M.Alavancas')"
+	}
+}

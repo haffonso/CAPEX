@@ -1,0 +1,44 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+cCubParam	= 'Sys.CTI.Controle_Cargas';
+vInicio = Now;
+cTimeStamp	= TimSt( vInicio, '\Y-\m-\d \hh\im\ss' );
+cProcesso 	= GetProcessName();
+
+s01 = cTimeStamp ;
+CellPutS( s01 , cCubParam, cProcesso, 'DataHoraInicio' );
+CellPutS( s01 , cCubParam, cProcesso, 'DataHoraFim' );
+
+vCommand = 'D:\TM1Models\SmartCo/Data\PYTHON_SCRIPTS\simulacoes.cmd  Budget';
+
+ExecuteCommand( vCommand, 1);
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+vFim = Now;
+cTimeFim	= TimSt( vFim, '\Y-\m-\d \hh\im\ss' );
+
+vTempo = vFim - vInicio;
+cTempo = TimSt( vTempo, '\Y-\m-\d \hh\im\ss' );
+
+s01 = cTimeFim ;
+s02 = cTempo;
+CellPutS( s01 , cCubParam, cProcesso, 'DataHoraFim' );
+CellPutS( s02 , cCubParam, cProcesso, 'TempoDeDuracao' );
+#endregion

@@ -1,0 +1,38 @@
+{
+	"@type":"MDXView",
+	"Name":"Teste_Debug_Senna",
+	"MDX@Code.link":"Teste_Debug_Senna.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Channel].[Channel]" : "MEMBER_NAME",
+			"[Revenue].[Revenue]" : "MEMBER_NAME",
+			"[Version].[Version]" : "MEMBER_NAME",
+			"[Year].[Year]" : "MEMBER_NAME",
+			"[organization].[organization]" : "MEMBER_NAME",
+			"[product].[product]" : "MEMBER_NAME"
+		},
+		"ContextSets" : 
+		{
+			"[Version].[Version]" : 
+			{
+				"Expression" : "{TM1SubsetToSet([Version].[Version],\"Current\",\"public\")}"
+			},
+			"[Year].[Year]" : 
+			{
+				"Expression" : "{[Year].[Year].[Y2]}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Channel].[Channel]" : false,
+			"[Month].[Month]" : false,
+			"[Revenue].[Revenue]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false,
+			"[organization].[organization]" : false,
+			"[product].[product]" : false
+		}
+	}
+}

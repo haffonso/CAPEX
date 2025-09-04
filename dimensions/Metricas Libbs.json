@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Metricas Libbs",
+	"Hierarchies@Code.links":
+	[
+		"Metricas Libbs.hierarchies/Metricas Libbs.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Metricas Libbs')/Hierarchies('Metricas Libbs')"
+	}
+}

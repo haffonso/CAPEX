@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"_Metrica_UF",
+	"Hierarchies@Code.links":
+	[
+		"_Metrica_UF.hierarchies/_Metrica_UF.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('_Metrica_UF')/Hierarchies('_Metrica_UF')"
+	}
+}

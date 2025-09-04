@@ -1,0 +1,67 @@
+{
+	"@type":"MDXView",
+	"Name":"Export_Rollup",
+	"MDX@Code.link":"Export_Rollup.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Channel].[Channel]" : "Caption_Default",
+			"[Revenue].[Revenue]" : "Caption_Default",
+			"[Version].[Version]" : "Caption_Default",
+			"[Year].[Year]" : "Caption_Default",
+			"[organization].[organization]" : "Caption_Default",
+			"[product].[product]" : "Caption_Default"
+		},
+		"CalculatedMembers" : 
+		{
+			"[product].[product]" : 
+			[
+				
+				{
+					"Caption" : "Soma(Phones3g4g)",
+					"InsertionPosition" : "AFTER",
+					"MemberID" : "[product].[product].[Soma(Phones3g4g)]"
+				}
+			]
+		},
+		"ContextSets" : 
+		{
+			"[Channel].[Channel]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			},
+			"[Month].[Month]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "MY"
+			},
+			"[Version].[Version]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Current"
+			},
+			"[Year].[Year]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Default"
+			},
+			"[organization].[organization]" : 
+			{
+				"IsPublic" : true,
+				"SubsetName" : "Workflow"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Channel].[Channel]" : false,
+			"[Month].[Month]" : false,
+			"[Revenue].[Revenue]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false,
+			"[organization].[organization]" : false,
+			"[product].[product]" : false
+		}
+	}
+}

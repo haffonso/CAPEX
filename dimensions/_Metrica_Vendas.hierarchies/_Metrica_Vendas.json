@@ -1,0 +1,56 @@
+{
+	"@type":"Hierarchy",
+	"Name":"_Metrica_Vendas",
+	"Elements":
+	[
+		{
+			"Name":"Volume",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Preço",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rec Brut",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ICMS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PIS COFINS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IPI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Impostos",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rec Liq",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Frete",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CPV",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Margem",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"% Margem",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

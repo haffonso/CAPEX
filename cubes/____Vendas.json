@@ -1,0 +1,21 @@
+{
+	"@type":"Cube",
+	"Name":"____Vendas",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('_Periodo')"
+		},
+		{
+			"@id":"Dimensions('_Produto')"
+		},
+		{
+			"@id":"Dimensions('_UF')"
+		},
+		{
+			"@id":"Dimensions('_Metrica_Vendas')"
+		}
+	],
+	"Rules@Code.link":"____Vendas.rules",
+	"Views@Code.links":[]
+}

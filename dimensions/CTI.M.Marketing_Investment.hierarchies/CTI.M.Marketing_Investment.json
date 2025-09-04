@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CTI.M.Marketing_Investment",
+	"Elements":
+	[
+		{
+			"Name":"Marketing Investment",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

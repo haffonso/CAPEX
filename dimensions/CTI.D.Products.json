@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CTI.D.Products",
+	"Hierarchies@Code.links":
+	[
+		"CTI.D.Products.hierarchies/CTI.D.Products.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CTI.D.Products')/Hierarchies('CTI.D.Products')"
+	}
+}

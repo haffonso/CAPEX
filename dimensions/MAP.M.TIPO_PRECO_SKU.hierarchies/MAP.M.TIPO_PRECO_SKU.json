@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"MAP.M.TIPO_PRECO_SKU",
+	"Elements":
+	[
+		{
+			"Name":"Tipo_Preco",
+			"Type":"String"
+		},
+		{
+			"Name":"Tipo_Preco_Final",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":[]
+}

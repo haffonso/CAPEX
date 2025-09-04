@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"UNI.M.Impostos",
+	"Hierarchies@Code.links":
+	[
+		"UNI.M.Impostos.hierarchies/UNI.M.Impostos.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('UNI.M.Impostos')/Hierarchies('UNI.M.Impostos')"
+	}
+}

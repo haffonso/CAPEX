@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Versao",
+	"Elements":
+	[
+		{
+			"Name":"Realizado",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Projetado",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,548 @@
+{
+	"@type":"Subset",
+	"Name":"CTI - SmartCo - Contabilizacoes",
+	"Alias":"Lancamentos",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('ÁREA DE MOVIMENTAÇÕES DE CONTAS')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('A T I V O.')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - CAIXA E BANCOS')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saldo Inicial')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Entradas de Caixa')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saída de Caixa')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001.1 - Pagamento de Fornecedores - 01')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001.2 - Pagamento de Fornecedores - 02')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001.3 - Pagamento de Fornecedores - 03')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001.4 - Pagamento de Fornecedores - 04')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001.5 - Pagamento de Fornecedores - 05')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 01')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 02')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 03')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 04')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 05')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 06')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 07')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 08')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 09')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 10')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 11')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 12')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 13')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 14')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 15')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 16')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 17')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 18')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 19')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 20')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 21')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 22')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 23')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 24')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 25')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 26')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 27')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 28')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 29')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 30')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 31')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 32')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 33')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 34')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 35')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 36')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 37')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 38')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 39')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 40')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 41')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 42')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 43')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 44')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 45')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 46')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 47')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 48')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 49')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Pagamento de Contas a Pagar - 50')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 01')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 02')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 03')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 04')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 05')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 06')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 07')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 08')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 09')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 10')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 11')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 12')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 13')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 14')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 15')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 16')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 17')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 18')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 19')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 20')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 21')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 22')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 23')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 24')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 25')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 26')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 27')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 28')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 29')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 30')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 31')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 32')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 33')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 34')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 35')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 36')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 37')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 38')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 39')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 40')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 41')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 42')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 43')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 44')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 45')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 46')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 47')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 48')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 49')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('001 - Saídas de Caixa - 50')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002 - CONTAS A RECEBER')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.1 - Contas a Receber - 01')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.2 - Contas a Receber - 02')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.3 - Contas a Receber - 03')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.4 - Contas a Receber - 04')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.5 - Contas a Receber - 05')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.6 - Contas a Receber - 06')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.7 - Contas a Receber - 07')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.8 - Contas a Receber - 08')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.9 - Contas a Receber - 09')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('002.10 - Contas a Receber - 10')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('P A S S I V O.')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500 - FORNECEDORES')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500.1 - Conta de Fornecedores - 01')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500.2 - Conta de Fornecedores - 02')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500.3 - Conta de Fornecedores - 03')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500.4 - Conta de Fornecedores - 04')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('500.5 - Conta de Fornecedores - 05')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501 - CONTAS A PAGAR')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.1 - Contas a Pagar - 01')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.2 - Contas a Pagar - 02')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.3 - Contas a Pagar - 03')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.4 - Contas a Pagar - 04')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.5 - Contas a Pagar - 05')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.6 - Contas a Pagar - 06')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.7 - Contas a Pagar - 07')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.8 - Contas a Pagar - 08')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.9 - Contas a Pagar - 09')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.10 - Contas a Pagar - 10')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.11 - Contas a Pagar - 11')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.12 - Contas a Pagar - 12')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.13 - Contas a Pagar - 13')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.14 - Contas a Pagar - 14')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.15 - Contas a Pagar - 15')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.16 - Contas a Pagar - 16')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.17 - Contas a Pagar - 17')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.18 - Contas a Pagar - 18')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.19 - Contas a Pagar - 19')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.20 - Contas a Pagar - 20')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.21 - Contas a Pagar - 21')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.22 - Contas a Pagar - 22')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.23 - Contas a Pagar - 23')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.24 - Contas a Pagar - 24')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.25 - Contas a Pagar - 25')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.26 - Contas a Pagar - 26')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.27 - Contas a Pagar - 27')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.28 - Contas a Pagar - 28')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.29 - Contas a Pagar - 29')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.30 - Contas a Pagar - 30')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.31 - Contas a Pagar - 31')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.32 - Contas a Pagar - 32')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.33 - Contas a Pagar - 33')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.34 - Contas a Pagar - 34')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.35 - Contas a Pagar - 35')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.36 - Contas a Pagar - 36')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.37 - Contas a Pagar - 37')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.38 - Contas a Pagar - 38')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.39 - Contas a Pagar - 39')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.40 - Contas a Pagar - 40')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.41 - Contas a Pagar - 41')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.42 - Contas a Pagar - 42')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.43 - Contas a Pagar - 43')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.44 - Contas a Pagar - 44')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.45 - Contas a Pagar - 45')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.46 - Contas a Pagar - 46')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.47 - Contas a Pagar - 47')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.48 - Contas a Pagar - 48')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.49 - Contas a Pagar - 49')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.DFs.Demostracoes_Financeiras')/Hierarchies('CTI.M.DFs.Demostracoes_Financeiras')/Elements('501.50 - Contas a Pagar - 50')"
+		}
+	]
+}

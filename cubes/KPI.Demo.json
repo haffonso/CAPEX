@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"KPI.Demo",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('KPI.Demo')"
+		}
+	],
+	"Views@Code.links":[]
+}

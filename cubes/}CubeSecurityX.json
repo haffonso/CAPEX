@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"}CubeSecurityX",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}Cubes')"
+		},
+		{
+			"@id":"Dimensions('}Groups')"
+		}
+	],
+	"Views@Code.links":[]
+}

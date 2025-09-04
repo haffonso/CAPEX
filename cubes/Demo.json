@@ -1,0 +1,23 @@
+{
+	"@type":"Cube",
+	"Name":"Demo",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('A_Ano')"
+		},
+		{
+			"@id":"Dimensions('Demo')"
+		},
+		{
+			"@id":"Dimensions('Account')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.Alavancas')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"Demo.views/Default.json"
+	]
+}

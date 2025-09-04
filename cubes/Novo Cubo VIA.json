@@ -1,0 +1,23 @@
+{
+	"@type":"Cube",
+	"Name":"Novo Cubo VIA",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('A_Produto')"
+		},
+		{
+			"@id":"Dimensions('A_Cliente')"
+		},
+		{
+			"@id":"Dimensions('Currency')"
+		}
+	],
+	"Views@Code.links":[]
+}

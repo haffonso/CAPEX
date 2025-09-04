@@ -1,0 +1,16 @@
+{
+	"@type":"Hierarchy",
+	"Name":"A_Ano",
+	"Elements":
+	[
+		{
+			"Name":"2004",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2005",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

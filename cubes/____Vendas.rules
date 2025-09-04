@@ -1,0 +1,3 @@
+['Rec Brut'] = ['Volume'] * ['Preço'];
+
+['Preço'] = DB( '_Premissas por Produto', !_Periodo, !_Produto, 'Preço' );

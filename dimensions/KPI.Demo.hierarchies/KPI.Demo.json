@@ -1,0 +1,80 @@
+{
+	"@type":"Hierarchy",
+	"Name":"KPI.Demo",
+	"Elements":
+	[
+		{
+			"Name":"Revenues",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Target",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"% Target",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Monthly Growth",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Customers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Orders Placed",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Purchased Items",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AVG Sales / Customer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AVG Ticket Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Cost (Sales & Marketing)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Customer Acquisition Costs (CAC)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Profit",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"% Profit",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Inquiries",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lead",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Opportunity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Conversion Rate",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

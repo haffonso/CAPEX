@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"_Phones",
+	"Alias":"Caption_Default",
+	"Expression":"{DRILLDOWNMEMBER({[product].[product].[20000]} , {[product].[product].[20000],[product].[product].[23000],[product].[product].[22000],[product].[product].[21000]} , RECURSIVE)}"
+}

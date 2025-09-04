@@ -1,0 +1,31 @@
+#region Premissas por UF
+#===================================================================================================
+['ICMS']       =N: ['Rec Brut'] * DB('_Premissas por UF', !'_Periodo', !'_UF', 'ICMS' );
+['PIS COFINS'] =N: ['Rec Brut'] * DB('_Premissas por UF', !'_Periodo', !'_UF', 'PIS COFINS');
+['IPI']        =N: ['Rec Brut'] * DB('_Premissas por UF', !'_Periodo', !'_UF', 'IPI' );
+['Frete']      =N: ['Rec Brut'] * DB('_Premissas por UF', !'_Periodo', !'_UF', 'Frete' );
+#===================================================================================================
+#endregion
+
+
+#region Premissas por Produto
+#===================================================================================================
+['Preço']      =N: DB('_Premissas por Produto', !_Periodo, !_Produto, 'Preço');
+['CPV']        =N: ['Volume']   * DB('_Premissas por Produto', !_Periodo, !_Produto, 'CPV' );
+#===================================================================================================
+#endregion
+
+
+#region Cálculos Internos
+#===================================================================================================
+['Rec Brut']   =N: ['Volume']   * ['Preço'];
+['Impostos']   =N: ['ICMS']     + ['PIS COFINS'] + ['IPI'];
+['Rec Liq']    =N: ['Rec Brut'] - ['Impostos'];
+['Margem']     =N: ['Rec Liq']  - ['Frete'] - ['CPV'];
+['% Margem']   =   ['Margem']   \ ['Rec Brut'];
+#===================================================================================================
+#endregion
+
+
+
+  

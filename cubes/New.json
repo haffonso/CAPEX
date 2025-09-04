@@ -1,0 +1,26 @@
+{
+	"@type":"Cube",
+	"Name":"New",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('Revenue')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Year')"
+		}
+	],
+	"Views@Code.links":[]
+}

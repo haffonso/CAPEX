@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"CTI_Limpa_Volume_2021_Budget",
+	"Alias":"Caption_Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y3')"
+		}
+	]
+}

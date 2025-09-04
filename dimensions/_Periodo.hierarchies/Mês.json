@@ -1,0 +1,339 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Mês",
+	"Elements":
+	[
+		{
+			"Name":"Dez 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Out 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Set 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ago 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abr 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fev 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dez",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Dez 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Nov 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Out",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Out 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Set",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Set 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ago",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Ago 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jul 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mai",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mai 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Abr",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Abr 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mar 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fev",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Fev 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jan 2022",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Mês",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Dez",
+			"ComponentName":"Dez 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dez",
+			"ComponentName":"Dez 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Out",
+			"ComponentName":"Out 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Out",
+			"ComponentName":"Out 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Set",
+			"ComponentName":"Set 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Set",
+			"ComponentName":"Set 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Ago",
+			"ComponentName":"Ago 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Ago",
+			"ComponentName":"Ago 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mai",
+			"ComponentName":"Mai 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mai",
+			"ComponentName":"Mai 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abr",
+			"ComponentName":"Abr 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Abr",
+			"ComponentName":"Abr 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fev",
+			"ComponentName":"Fev 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fev",
+			"ComponentName":"Fev 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 2022",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Fev",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Abr",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Mai",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Ago",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Set",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Out",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Mês",
+			"ComponentName":"Dez",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

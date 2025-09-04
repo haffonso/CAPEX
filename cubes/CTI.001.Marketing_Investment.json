@@ -1,0 +1,28 @@
+{
+	"@type":"Cube",
+	"Name":"CTI.001.Marketing_Investment",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('CTI.D.Products')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.Marketing_Investment')"
+		}
+	],
+	"Rules@Code.link":"CTI.001.Marketing_Investment.rules",
+	"Views@Code.links":
+	[
+		"CTI.001.Marketing_Investment.views/Default.json",
+		"CTI.001.Marketing_Investment.views/Investimento em Marketing.json"
+	]
+}

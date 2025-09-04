@@ -1,0 +1,167 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+#region Declarações
+# Definir variáveis globais
+StringGlobalVariable('sLogFile');
+StringGlobalVariable('sExportFile');
+sLogFile = 'TM1_Model_Export_Log.txt';
+sExportFile = 'D:\TM1Models\SmartCo\Export Modelo Claude 3.5\TM1_Model_Export.csv';  # Ajuste conforme necessário
+
+# Função para escrever no arquivo de log
+LogOutput:
+  sMessage = P1;
+  ASCIIOutput(sLogFile, TimSt(Now, '\Y-\m-\d \h:\i:\s') | ' - ' | sMessage);
+EndIf;
+#endregion
+
+#region Funções Auxiliares
+# Função para escapar vírgulas em strings
+EscapeCommas:
+  If(SCAN(',', P1) > 0);
+    sResult = '"' | P1 | '"';
+  Else;
+    sResult = P1;
+  EndIf;
+EndIf;
+
+# Função para escapar aspas duplas em strings
+EscapeQuotes:
+  sResult = DELET(P1, 1, '"');
+  sResult = '"' | sResult | '"';
+EndIf;
+#endregion
+
+#region Inicializar Arquivo de Exportação
+ASCIIDelete(sExportFile);
+ASCIIOutput(sExportFile, 'TM1 Model Export - ' | TimSt(Now, '\Y-\m-\d \h:\i:\s'));
+ASCIIOutput(sExportFile, '');
+#endregion
+
+#region Exportar Cubos
+ASCIIOutput(sExportFile, 'CUBOS');
+ASCIIOutput(sExportFile, 'Cube Name,Dimensions,Description');
+
+nCubeIndex = 1;
+While(nCubeIndex <= DimSiz('}Cubes'));
+  sCubeName = DimNm('}Cubes', nCubeIndex);
+  If(SubSt(sCubeName, 1, 1) @<> '}');  # Ignorar cubos de controle
+    sDesc = CellGetS('}CubeProperties', sCubeName, 'DESCRIPTION');
+    sDims = '';
+    nDimIndex = 1;
+    While(nDimIndex <= CubDim(sCubeName));
+      sDims = sDims | DimNm(sCubeName, nDimIndex) | '|';
+      nDimIndex = nDimIndex + 1;
+    End;
+    ASCIIOutput(sExportFile, EscapeCommas(sCubeName) | ',' | EscapeCommas(sDims) | ',' | EscapeCommas(sDesc));
+    ExecuteProcess('LogOutput', 'P1', 'Exported cube: ' | sCubeName);
+  EndIf;
+  nCubeIndex = nCubeIndex + 1;
+End;
+
+ASCIIOutput(sExportFile, '');
+#endregion
+
+#region Exportar Regras
+ASCIIOutput(sExportFile, 'REGRAS');
+ASCIIOutput(sExportFile, 'Cube Name,Rule');
+
+nCubeIndex = 1;
+While(nCubeIndex <= DimSiz('}Cubes'));
+  sCubeName = DimNm('}Cubes', nCubeIndex);
+  If(SubSt(sCubeName, 1, 1) @<> '}');  # Ignorar cubos de controle
+    sRule = CubeRuleGetText(sCubeName);
+    If(sRule @<> '');
+      ASCIIOutput(sExportFile, EscapeCommas(sCubeName) | ',' | EscapeQuotes(sRule));
+      ExecuteProcess('LogOutput', 'P1', 'Exported rules for cube: ' | sCubeName);
+    EndIf;
+  EndIf;
+  nCubeIndex = nCubeIndex + 1;
+End;
+
+ASCIIOutput(sExportFile, '');
+#endregion
+
+#region Exportar Dimensões
+ASCIIOutput(sExportFile, 'DIMENSÕES');
+ASCIIOutput(sExportFile, 'Dimension Name,Type,Number of Elements,Attributes');
+
+nDimIndex = 1;
+While(nDimIndex <= DimSiz('}Dimensions'));
+  sDimName = DimNm('}Dimensions', nDimIndex);
+  If(SubSt(sDimName, 1, 1) @<> '}');  # Ignorar dimensões de controle
+    sType = DType(sDimName);
+    nElements = DimSiz(sDimName);
+    sAttributes = '';
+    nAttrIndex = 1;
+    While(nAttrIndex <= DimSiz('}ElementAttributes_' | sDimName));
+      sAttributes = sAttributes | DimNm('}ElementAttributes_' | sDimName, nAttrIndex) | '|';
+      nAttrIndex = nAttrIndex + 1;
+    End;
+    ASCIIOutput(sExportFile, EscapeCommas(sDimName) | ',' | sType | ',' | NumberToString(nElements) | ',' | EscapeCommas(sAttributes));
+    ExecuteProcess('LogOutput', 'P1', 'Exported dimension: ' | sDimName);
+  EndIf;
+  nDimIndex = nDimIndex + 1;
+End;
+
+ASCIIOutput(sExportFile, '');
+#endregion
+
+#region Exportar Processos TI
+ASCIIOutput(sExportFile, 'PROCESSOS TI');
+ASCIIOutput(sExportFile, 'Process Name,Parameters,Prolog,Metadata,Data,Epilog');
+
+nProcessIndex = 1;
+While(nProcessIndex <= DimSiz('}Processes'));
+  sProcessName = DimNm('}Processes', nProcessIndex);
+  
+  # Obter parâmetros
+  sParameters = '';
+  nParamIndex = 1;
+  While(nParamIndex <= ProcessParameterCount(sProcessName));
+    sParameters = sParameters | ProcessParameterName(sProcessName, nParamIndex) | '=' | ProcessParameterType(sProcessName, nParamIndex) | '|';
+    nParamIndex = nParamIndex + 1;
+  End;
+  
+  # Obter conteúdo das seções
+  sProlog = ProcessGetContent(sProcessName, 'Prolog');
+  sMetadata = ProcessGetContent(sProcessName, 'Metadata');
+  sData = ProcessGetContent(sProcessName, 'Data');
+  sEpilog = ProcessGetContent(sProcessName, 'Epilog');
+  
+  ASCIIOutput(sExportFile, EscapeCommas(sProcessName) | ',' | 
+              EscapeCommas(sParameters) | ',' | 
+              EscapeQuotes(sProlog) | ',' | 
+              EscapeQuotes(sMetadata) | ',' | 
+              EscapeQuotes(sData) | ',' | 
+              EscapeQuotes(sEpilog));
+  
+  ExecuteProcess('LogOutput', 'P1', 'Exported process: ' | sProcessName);
+  nProcessIndex = nProcessIndex + 1;
+End;
+
+ASCIIOutput(sExportFile, '');
+#endregion
+
+#region Finalização
+ExecuteProcess('LogOutput', 'P1', 'Export completed successfully.');
+#endregion
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

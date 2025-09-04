@@ -1,0 +1,100 @@
+{
+	"@type":"Cube",
+	"Name":"Revenue",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('Channel')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Revenue')"
+		}
+	],
+	"Rules@Code.link":"Revenue.rules",
+	"DrillthroughRules@Code.link":"Revenue.drillthrough.rules",
+	"ViewStorageMaxMemory":999999999,
+	"ViewStorageMinTime":1,
+	"CellSecurityDefaultValue":"None",
+	"MeasuresDimension":
+	{
+		"@id":"Dimensions('Revenue')"
+	},
+	"TimeDimension":
+	{
+		"@id":"Dimensions('Month')"
+	},
+	"Views@Code.links":
+	[
+		"Revenue.views/a_pax.json",
+		"Revenue.views/All.json",
+		"Revenue.views/Channel Detail by Product.json",
+		"Revenue.views/Compare.json",
+		"Revenue.views/CTI - SmartCo - Revenue Volume - Units.json",
+		"Revenue.views/CTI_Limpa_Volume_2021_Budget.json",
+		"Revenue.views/Default.json",
+		"Revenue.views/Drill.json",
+		"Revenue.views/Drill_Revenue.json",
+		"Revenue.views/Garbin Spreed.json",
+		"Revenue.views/GM by Channel.json",
+		"Revenue.views/GM Report by Organization_SKU.json",
+		"Revenue.views/Input.json",
+		"Revenue.views/New Product.json",
+		"Revenue.views/Predictive Review.json",
+		"Revenue.views/Product Profitability by Channel.json",
+		"Revenue.views/Product Profitability by Quarter.json",
+		"Revenue.views/Product Profitability Chart.json",
+		"Revenue.views/Product Profitability Chart by Quarter.json",
+		"Revenue.views/Product Unit Forecast.json",
+		"Revenue.views/Revenue.json",
+		"Revenue.views/Revenue Analysis.json",
+		"Revenue.views/Revenue Analysis by Quarter.json",
+		"Revenue.views/Revenue Analysis Chart.json",
+		"Revenue.views/Revenue Budget vs Target.json",
+		"Revenue.views/Revenue Chart Test.json",
+		"Revenue.views/Test Data Loads.json",
+		"Revenue.views/Teste.json",
+		"Revenue.views/Total Product Margin by Channel.json",
+		"Revenue.views/Total Units Sold by Channel.json",
+		"Revenue.views/Unidades Vendidas Agregadas por Canal.json",
+		"Revenue.views/Unidades Vendidas Agregado.json",
+		"Revenue.views/Unidades Vendidas Agregado Projetado.json",
+		"Revenue.views/Units Sold.json",
+		"Revenue.views/Units Sold by Channel.json",
+		"Revenue.views/Units Sold by Product.json",
+		"Revenue.views/Volume of Units by YQ.json",
+		"Revenue.views/zCopyFrom.json",
+		"Revenue.views/zCopyProduct.json",
+		"Revenue.views/zExportData.json",
+		"Revenue.views/zExportUnitsSoldSPSS.json",
+		"Revenue.views/zMD_Revenue.json",
+		"Revenue.views/zUpdateIS.json",
+		"Revenue.views/zZeroPredictiveVersion.json",
+		"Revenue.views/2508.json",
+		"Revenue.views/_Braveo.json",
+		"Revenue.views/_Overview_BDC.json",
+		"Revenue.views/_Overview_BDC_Região.json",
+		"Revenue.views/_Product Unit Forecast.json",
+		"Revenue.views/Demo3.json",
+		"Revenue.views/Demo4.json",
+		"Revenue.views/Export_Rollup.json",
+		"Revenue.views/Felipy.json",
+		"Revenue.views/Revenue Analysis - AON.json",
+		"Revenue.views/Teste_Debug_Senna.json",
+		"Revenue.views/Teste_Web.json"
+	]
+}

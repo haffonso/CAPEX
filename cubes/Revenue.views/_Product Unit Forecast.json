@@ -1,0 +1,53 @@
+{
+	"@type":"MDXView",
+	"Name":"_Product Unit Forecast",
+	"MDX@Code.link":"_Product Unit Forecast.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[Version].[Version]" : "Caption_Default",
+			"[Year].[Year]" : "Caption",
+			"[product].[product]" : "Caption_Default"
+		},
+		"ContextSets" : 
+		{
+			"[Channel].[Channel]" : 
+			{
+				"Expression" : "{TM1SubsetToSet(Channel,\"Default\")}"
+			},
+			"[Revenue].[Revenue]" : 
+			{
+				"Expression" : "{TM1SubsetToSet(Revenue,\"Report\")}"
+			},
+			"[Version].[Version]" : 
+			{
+				"Expression" : "{[Version].[Version].[Actual],[Version].[Version].[Forecast],[Version].[Version].[Version 1]}"
+			},
+			"[organization].[organization]" : 
+			{
+				"Expression" : "{[organization].[organization].MEMBERS}"
+			},
+			"[product].[Color]" : 
+			{
+				"Expression" : "{Descendants({[product].[Color].DEFAULTMEMBER},1, SELF_AND_BEFORE)}"
+			},
+			"[product].[Size]" : 
+			{
+				"Expression" : "{Descendants({[product].[Size].DEFAULTMEMBER},1, SELF_AND_BEFORE)}"
+			}
+		},
+		"ExpandAboves" : 
+		{
+			"[Channel].[Channel]" : false,
+			"[Month].[Month]" : false,
+			"[Revenue].[Revenue]" : false,
+			"[Version].[Version]" : false,
+			"[Year].[Year]" : false,
+			"[organization].[organization]" : false,
+			"[product].[Color]" : false,
+			"[product].[Size]" : false,
+			"[product].[product]" : false
+		}
+	}
+}

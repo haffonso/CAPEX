@@ -1,0 +1,27 @@
+{
+	"@type":"Cube",
+	"Name":"CTI.005.Hiper_Parametros",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('Channel')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.Hiper_Parametros')"
+		}
+	],
+	"Rules@Code.link":"CTI.005.Hiper_Parametros.rules",
+	"Views@Code.links":
+	[
+		"CTI.005.Hiper_Parametros.views/CTI_HiperParametros_Modelo_Escolhido.json",
+		"CTI.005.Hiper_Parametros.views/Default.json",
+		"CTI.005.Hiper_Parametros.views/Nivel_N.json",
+		"CTI.005.Hiper_Parametros.views/Workspace.json"
+	]
+}

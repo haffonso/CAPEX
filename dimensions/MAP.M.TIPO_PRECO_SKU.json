@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"MAP.M.TIPO_PRECO_SKU",
+	"Hierarchies@Code.links":
+	[
+		"MAP.M.TIPO_PRECO_SKU.hierarchies/MAP.M.TIPO_PRECO_SKU.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('MAP.M.TIPO_PRECO_SKU')/Hierarchies('MAP.M.TIPO_PRECO_SKU')"
+	}
+}

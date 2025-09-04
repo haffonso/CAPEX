@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"UNI.M.Impostos",
+	"Elements":
+	[
+		{
+			"Name":"% Impostos",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"UNI_DIM.Material",
+	"Hierarchies@Code.links":
+	[
+		"UNI_DIM.Material.hierarchies/UNI_DIM.Material.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('UNI_DIM.Material')/Hierarchies('UNI_DIM.Material')"
+	}
+}

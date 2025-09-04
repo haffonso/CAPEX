@@ -1,0 +1,23 @@
+{
+	"@type":"Cube",
+	"Name":"Novo",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Account')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Year')"
+		}
+	],
+	"Views@Code.links":[]
+}

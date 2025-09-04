@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"KPI.Demo",
+	"Hierarchies@Code.links":
+	[
+		"KPI.Demo.hierarchies/KPI.Demo.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('KPI.Demo')/Hierarchies('KPI.Demo')"
+	}
+}

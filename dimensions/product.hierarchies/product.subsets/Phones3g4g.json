@@ -1,0 +1,26 @@
+{
+	"@type":"Subset",
+	"Name":"Phones3g4g",
+	"Alias":"Caption_Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('product')/Hierarchies('product')/Elements('21002')"
+		},
+		{
+			"@id":"Dimensions('product')/Hierarchies('product')/Elements('21004')"
+		},
+		{
+			"@id":"Dimensions('product')/Hierarchies('product')/Elements('21001')"
+		},
+		{
+			"@id":"Dimensions('product')/Hierarchies('product')/Elements('21003')"
+		},
+		{
+			"@id":"Dimensions('product')/Hierarchies('product')/Elements('22001')"
+		},
+		{
+			"@id":"Dimensions('product')/Hierarchies('product')/Elements('22002')"
+		}
+	]
+}

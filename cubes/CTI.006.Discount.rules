@@ -1,0 +1,2 @@
+[] = C:
+ConsolidatedAvg(1,'',!Year, !Month, !Version, !Channel, !organization, !product, !CTI.M.Discount);

@@ -1,0 +1,6151 @@
+{
+	"@type":"Hierarchy",
+	"Name":"QubeDocs Definition",
+	"ElementsSortType":"ByHierarchy",
+	"ComponentsSortType":"ByName",
+	"Elements":
+	[
+		{
+			"Name":"All Definitions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"All Chores",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CHO:cache_views",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CHO:Reset_Demo_FOPMImage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Cubes",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Allocation Calculation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Allocation Source Definition",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Asset Life",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Benefit Assumptions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Calendar",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Capital",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Compensation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Compensation Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Depreciation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Employee",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Exchange Rates",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:ExternalFactors",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:FcstMethod",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:GLTransactions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Income Statement",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Income Statement Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Job Code Assumptions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Job Type Assumption",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Line Item Detail",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Metrics",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Phased Costs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:QubeDocs Definitions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Rate BOM",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Relative Time",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Revenue Assumptions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Revenue Metrics",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Revenue Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Social Media",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Spread Methods",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Supply Chain",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Task Workflow",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Transaction Log",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Version Copy Control",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Version Subset Control",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Workflow Overview",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Workflow Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CUB:Z_Andre",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"All Dimensions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:A_Ano",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:A_Cliente",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:A_Produto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:A_Produto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:A_Produto>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Account",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Account",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>Caption_Base",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>Exchange Rate Type",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>Forecast Method",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>}Map_}Link_IncomeStatement_3AAllocation Calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>}Map_}Link_IncomeStatement_3ALineItemDetail",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>}Map_}Link_IncomeStatement_3ARevenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>}Map_}Link_Income Statement _3C Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Account Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Account Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>Caption_Base",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>Exchange Rate Type",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>Forecast Method",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>}Map_}Link_IncomeStatement_3AAllocation Calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>}Map_}Link_IncomeStatement_3ALineItemDetail",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>}Map_}Link_IncomeStatement_3ARevenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>}Map_}Link_Income Statement _3C Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Account Reporting>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Allocation Calculation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Allocation Calculation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Calculation>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Calculation>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Calculation>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Calculation>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Calculation>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Calculation>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Calculation>}Map_}Link_Allocation Calculation_3AAllocation Source Definition",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Allocation List",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Allocation List",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation List>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Allocation Source Definition",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Allocation Source Definition",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Source Definition>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Source Definition>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Source Definition>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Source Definition>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Source Definition>picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Allocation Source Definition>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Asset Life",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Asset Life",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Life>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Life>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Life>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Life>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Life>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Life>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Asset Types",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Asset Types",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Types>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Types>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Types>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Types>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Asset Types>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Benefit",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Benefit",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Benefit>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Benefit>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Benefit>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Benefit>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Benefit>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Benefit>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:BI Measure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:BI Measure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:BI Measure>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Calendar",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Calendar",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Calendar>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Calendar>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Calendar>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Calendar>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Calendar>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Calendar>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Capital",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Capital",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Capital>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Capital>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Capital>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Capital>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Capital>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Capital>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Capital>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:CapitalList",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:CapitalList",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:CapitalList>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:CapitalList>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:CapitalList>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:CapitalList>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:CapitalList>Label",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:CapitalList>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Channel",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Channel",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Channel>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Compensation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Compensation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Compensation>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Compensation>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Compensation>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Compensation>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Compensation>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Compensation>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Compensation>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Currency",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Currency",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Currency>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Currency>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Currency Calc",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Currency Calc",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Currency Calc>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Depreciation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Depreciation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Depreciation>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Depreciation>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Depreciation>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Depreciation>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Depreciation>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Depreciation>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Depreciation>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Employee",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Employee",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>Month",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:EmployeeList",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:EmployeeList",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:EmployeeList>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:EmployeeList>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:EmployeeList>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:EmployeeList>Employee_Name",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:EmployeeList>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:EmployeeList>Label",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:EmployeeList>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Employee Name",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Employee Name",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Employee Name>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Exchange Rate",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Exchange Rate",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Exchange Rate>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Exchange Rate>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Exchange Rate Type",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Exchange Rate Type",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Exchange Rate Type>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Exchange Rate Type>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Exchange Rate Type>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Exchange Rate Type>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Exchange Rate Type>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Exchange Rate Type>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:ExternalFactors",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:ExternalFactors",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:ExternalFactors>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:ExternalFactors>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:ExternalFactors>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:ExternalFactors>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:ExternalFactors>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:ExternalFactors>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:ExternalFactors>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:FcstMethod",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:FcstMethod",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:FcstMethod>PickList",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:jobcode",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:jobcode",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:jobcode>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:jobcode>Label",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:jobcode>Label2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:JobCodeAsmpt",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:JobCodeAsmpt",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobCodeAsmpt>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobCodeAsmpt>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobCodeAsmpt>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobCodeAsmpt>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobCodeAsmpt>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobCodeAsmpt>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:JobType",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:JobType",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobType>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobType>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobType>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobType>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobType>Label",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobType>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:JobTypeAssumption",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:JobTypeAssumption",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobTypeAssumption>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobTypeAssumption>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobTypeAssumption>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobTypeAssumption>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobTypeAssumption>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:JobTypeAssumption>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:LineItem_PickList",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:LineItemDetail",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:LineItemDetail",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemDetail>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemDetail>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemDetail>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemDetail>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemDetail>Name",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemDetail>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemDetail>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:LineItemList",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:LineItemList",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemList>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemList>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemList>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemList>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemList>Label",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:LineItemList>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Log Count",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:Log Details",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:Metrics",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Metrics",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics>derivedcalculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics>performancepattern",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics>tolerancetype",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Metrics Indicators",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Metrics Indicators",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>IndicatorType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>Renderer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>}Map_}Link_Metrics _3C Income Statement",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>}Map_}Link_Revenue_5FMetrics_3C Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>}Map_}Link_Revenue Metrics _3C Metrics",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Metrics Indicators>}Map_}Link_Revenue Metrics _3C Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Month",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Month",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>enddate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>firstperiod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>lastperiod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>nextperiod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>Number",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>previousperiod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>startdate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:MonthMap",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:MonthMap",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:MonthMap>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:MonthMap>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:MonthMap>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:MonthMap>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:MonthMap>Name",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:MonthMap>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Month Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Month Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>enddate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>firstperiod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>lastperiod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>nextperiod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>Number",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>previousperiod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>startdate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Month Reporting>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Numbered List",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Numbered List",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Numbered List>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:OpExSubset_Picklist",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:organization",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:organization",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:organization>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:organization>Caption_Base",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:organization>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:organization>Currency",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:organization>Default Plant",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:organization>id",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:organization>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:organization:By VP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:organization:Leaves",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:Organization Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Organization Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Organization Reporting>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Organization Reporting>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Organization Reporting>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:PhasedCosts",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:PhasedCosts",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:PhasedCosts>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:PhasedCosts>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:PhasedCosts>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:PhasedCosts>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:PhasedCosts>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:PhasedCosts>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Plant",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Plant",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Plant>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Plant>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Plant>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Plant>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Plant>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Plant>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Plant>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:product",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:product",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>Caption_Base",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>Color",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>NewProduct",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>performancepattern",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>Size",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>System Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>tolerancetype",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:product>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:product:Color",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:product:Leaves",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:product:Size",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:ProductSubset_PickList",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:QubeDocs Application",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:QubeDocs Definition",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:QubeDocs Definition",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QubeDocs Definition>Element",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QubeDocs Definition>Object",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QubeDocs Definition>Type",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:QUBEdocs Import Folders",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:QUBEdocs Import Folders",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QUBEdocs Import Folders>Extension",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QUBEdocs Import Folders>Parent",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QUBEdocs Import Folders>Path",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QUBEdocs Import Folders>Prefix",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:QubeDocs Measure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:QubeDocs Measure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QubeDocs Measure>PickList",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:QUBEdocs Setup Item",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:QUBEdocs Setup Item",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QUBEdocs Setup Item>Enable",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:QUBEdocs Setup Item>Notes",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Rate Measure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Rate Measure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Rate Measure>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Rate Measure>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Rate Measure>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Rate Measure>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Rate Measure>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Rate Measure>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Rate Measure>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Rate Measure>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Relative Time",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Relative Time",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Relative Time>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Relative Time>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Relative Time>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Relative Time>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Relative Time>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Relative Time>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Relative Time>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Revenue>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Revenue>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Revenue>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Revenue>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Revenue>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Revenue>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Revenue>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Revenue>}Map_}Link_Rev_3ARevAsmpt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:RevenueAsmpt",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:RevenueAsmpt>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:RevenueAsmpt>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:RevenueAsmpt>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:RevenueAsmpt>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:RevenueAsmpt>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:RevenueAsmpt>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:RevenueAsmpt>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:SM Entries",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:SM Entries",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:SM Entries>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:SM Reviews",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:SM Reviews",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:SM Reviews>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:SM Reviews>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Spread Methods",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Spread Methods",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Spread Methods>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Spread Methods>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:State Owner",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:State Owner",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:State Owner>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:State Owner>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:State Owner>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:State Owner>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:State Owner>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:State Owner>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:State Owner>}Map_}Link_Workflow State to Workflow Overview",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:String",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:String",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:String>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Supply Chain Measures",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:T_Ano",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:T_Cliente",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:T_Loja",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:T_Produto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:T_Produto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:T_Produto>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:T_Produto:Leaves",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:T_Produto:Total Produto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:Task",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Task",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Task>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Task Workflow Measure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Task Workflow Measure>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Task Workflow Measure>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Task Workflow Measure>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Task Workflow Measure>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Task Workflow Measure>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Task Workflow Measure>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Task Workflow Measure>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:TrxID",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:TrxID",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxID>Account",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxID>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxID>Desc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxID>Organization",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxID>Reference",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxID>Source",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxID>TrxDate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxID>Type",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:TrxMeasures",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:TrxMeasures",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxMeasures>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxMeasures>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxMeasures>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxMeasures>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxMeasures>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxMeasures>signswitch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:TrxMeasures>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Version",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Version",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>FcstMonth",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>LinkVersion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>permittedcalculations_n_and_c",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>System Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>VarianceFactor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>Version Type",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Version Copy Measures",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:Version Reporting",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:Version Subset Measures",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Version Subset Measures",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subset Measures>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subset Measures>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subset Measures>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subset Measures>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subset Measures>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subset Measures>}FormatType",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Version Subsets",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Version Subsets",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subsets>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subsets>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subsets>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subsets>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Version Subsets>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Workflow Info",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:Year",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTES:Year",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>calculation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Caption",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Caption_Default",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>crossdimcalc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Format",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Index",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Next",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Picklist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Prev",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Previous",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>Renderer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>}Map_}Link_IS Metrics _3C Income Statement",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM-ATTRIBUTE:Year>}SYS_TEMP_ATTRIBUTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIM:Z_Ano",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DIM:Z_Produto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"All Folders",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"All Groups",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"GRP:ADMIN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRP:Cognos\\Everyone",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRP:Cognos\\PMGroup",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRP:DataAdmin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRP:IBMDemo\\BG1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRP:IBMDemo\\BG2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRP:IBMDemo\\BG_Adm",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRP:OperationsAdmin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRP:SecurityAdmin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Other Documentation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Document 001",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 002",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 003",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 004",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 005",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 006",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 007",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 008",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 009",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 010",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 011",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 012",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 013",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 014",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Document 015",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Processes",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"PRO:Acquire_IS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Add_Product",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Add Product Vision",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:cache_views",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Complete_Target",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_Product_SupplyChain",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_RevAsmpt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_Revenue_Compare_Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_Revenue_Spread_Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_SKU_detail_BOM",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Copy_TargetSet_Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:copy_version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:copy_version_control",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:create_default_subset",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:create_transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:create_version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:cube Task Workflow reset Status",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Delete Persistent Feeders",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Dim - Copy Employee Names",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Export Dimensions to SPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Export External Factors to SPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ExportToSPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ExportToSPSSPro",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Export UnitsSold to SPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ImportFromSPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ImportFromSPSSPro",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Load_PYActuals",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Load UnitsSold from SPSS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Load Workflow Info",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Log - Reset Log Process",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Log - Update Log Cube",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:New Process",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:QUBEdocs Create Package",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:QUBEdocs Package Logfiles",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:QUBEdocs Refresh",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:RefreshMdxHierarchy",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Release_IS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:reset_alias",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:reset_demo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:reset_demo_FOPMImage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Reset Concert",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:ResetRevenueData",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Run SPSS Prediction",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:set_compare_version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:set_default_version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Set_Security_Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:SetGlobalVariables",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:SPSSCreateNewMeasures",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:test000",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Update_AcctFcstMethod",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Update_NewProduct_Fcst",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:update_organization",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:Update_RevenueAsmpts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO:UpdateISFromRevenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Users",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"USR:Admin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/admin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/administrator",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/bob",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/cognos",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/erica",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/pm",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/prismdemo1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/prismdemo2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/prismdemo3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/ross",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/spencer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/student9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/vision",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"USR:Harmony LDAP/vision1024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Orphan Elements",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"All Definitions",
+			"ComponentName":"All Chores",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Definitions",
+			"ComponentName":"All Cubes",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Definitions",
+			"ComponentName":"All Dimensions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Definitions",
+			"ComponentName":"All Folders",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Definitions",
+			"ComponentName":"All Groups",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Definitions",
+			"ComponentName":"All Other Documentation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Definitions",
+			"ComponentName":"All Processes",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Definitions",
+			"ComponentName":"All Users",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Chores",
+			"ComponentName":"CHO:cache_views",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Chores",
+			"ComponentName":"CHO:Reset_Demo_FOPMImage",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Allocation Calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Allocation Source Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Asset Life",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Benefit Assumptions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Calendar",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Capital",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Compensation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Compensation Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Depreciation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Employee",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Exchange Rates",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:ExternalFactors",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:FcstMethod",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:GLTransactions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Income Statement",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Income Statement Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Job Code Assumptions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Job Type Assumption",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Line Item Detail",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Metrics",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Phased Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:QubeDocs Definitions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Rate BOM",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Relative Time",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Revenue Assumptions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Revenue Metrics",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Revenue Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Social Media",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Spread Methods",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Supply Chain",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Task Workflow",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Transaction Log",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Version Copy Control",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Version Subset Control",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Workflow Overview",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Workflow Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Cubes",
+			"ComponentName":"CUB:Z_Andre",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:A_Ano",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:A_Cliente",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:A_Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Account",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Account Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Allocation Calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Allocation List",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Allocation Source Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Asset Life",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Asset Types",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Benefit",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:BI Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Calendar",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Capital",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:CapitalList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Channel",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Compensation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Currency",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Currency Calc",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Depreciation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Employee",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:EmployeeList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Employee Name",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Exchange Rate",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Exchange Rate Type",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:ExternalFactors",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:FcstMethod",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:jobcode",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:JobCodeAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:JobType",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:JobTypeAssumption",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:LineItem_PickList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:LineItemDetail",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:LineItemList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Log Count",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Log Details",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Metrics",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Metrics Indicators",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Month",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:MonthMap",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Month Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Numbered List",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:OpExSubset_Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:organization",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:organization:By VP",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:organization:Leaves",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Organization Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:PhasedCosts",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Plant",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:product",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:product:Color",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:product:Leaves",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:product:Size",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:ProductSubset_PickList",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QubeDocs Application",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QubeDocs Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QUBEdocs Import Folders",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QubeDocs Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:QUBEdocs Setup Item",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Rate Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Relative Time",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:RevenueAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:SM Entries",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:SM Reviews",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Spread Methods",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:State Owner",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:String",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Supply Chain Measures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Ano",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Cliente",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Loja",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Produto:Leaves",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:T_Produto:Total Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Task",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Task Workflow Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:TrxID",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:TrxMeasures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version Copy Measures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version Subset Measures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Version Subsets",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Workflow Info",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Year",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Z_Ano",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Dimensions",
+			"ComponentName":"DIM:Z_Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:A_Produto",
+			"ComponentName":"DIM-ATTRIBUTES:A_Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:A_Produto",
+			"ComponentName":"DIM-ATTRIBUTE:A_Produto>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Account",
+			"ComponentName":"DIM-ATTRIBUTES:Account",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>Caption_Base",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>Exchange Rate Type",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>Forecast Method",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>}Map_}Link_IncomeStatement_3AAllocation Calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>}Map_}Link_IncomeStatement_3ALineItemDetail",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>}Map_}Link_IncomeStatement_3ARevenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>}Map_}Link_Income Statement _3C Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account",
+			"ComponentName":"DIM-ATTRIBUTE:Account>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTES:Account Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>Caption_Base",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>Exchange Rate Type",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>Forecast Method",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>}Map_}Link_IncomeStatement_3AAllocation Calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>}Map_}Link_IncomeStatement_3ALineItemDetail",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>}Map_}Link_IncomeStatement_3ARevenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>}Map_}Link_Income Statement _3C Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Account Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Account Reporting>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Allocation Calculation",
+			"ComponentName":"DIM-ATTRIBUTES:Allocation Calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Calculation",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Calculation>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Calculation",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Calculation>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Calculation",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Calculation>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Calculation",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Calculation>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Calculation",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Calculation>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Calculation",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Calculation>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Calculation",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Calculation>}Map_}Link_Allocation Calculation_3AAllocation Source Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Allocation List",
+			"ComponentName":"DIM-ATTRIBUTES:Allocation List",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation List",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation List>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Allocation Source Definition",
+			"ComponentName":"DIM-ATTRIBUTES:Allocation Source Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Source Definition",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Source Definition>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Source Definition",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Source Definition>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Source Definition",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Source Definition>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Source Definition",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Source Definition>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Source Definition",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Source Definition>picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Allocation Source Definition",
+			"ComponentName":"DIM-ATTRIBUTE:Allocation Source Definition>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Asset Life",
+			"ComponentName":"DIM-ATTRIBUTES:Asset Life",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Life",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Life>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Life",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Life>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Life",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Life>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Life",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Life>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Life",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Life>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Life",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Life>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Asset Types",
+			"ComponentName":"DIM-ATTRIBUTES:Asset Types",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Types",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Types>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Types",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Types>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Types",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Types>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Types",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Types>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Asset Types",
+			"ComponentName":"DIM-ATTRIBUTE:Asset Types>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Benefit",
+			"ComponentName":"DIM-ATTRIBUTES:Benefit",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Benefit",
+			"ComponentName":"DIM-ATTRIBUTE:Benefit>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Benefit",
+			"ComponentName":"DIM-ATTRIBUTE:Benefit>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Benefit",
+			"ComponentName":"DIM-ATTRIBUTE:Benefit>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Benefit",
+			"ComponentName":"DIM-ATTRIBUTE:Benefit>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Benefit",
+			"ComponentName":"DIM-ATTRIBUTE:Benefit>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Benefit",
+			"ComponentName":"DIM-ATTRIBUTE:Benefit>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:BI Measure",
+			"ComponentName":"DIM-ATTRIBUTES:BI Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:BI Measure",
+			"ComponentName":"DIM-ATTRIBUTE:BI Measure>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Calendar",
+			"ComponentName":"DIM-ATTRIBUTES:Calendar",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Calendar",
+			"ComponentName":"DIM-ATTRIBUTE:Calendar>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Calendar",
+			"ComponentName":"DIM-ATTRIBUTE:Calendar>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Calendar",
+			"ComponentName":"DIM-ATTRIBUTE:Calendar>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Calendar",
+			"ComponentName":"DIM-ATTRIBUTE:Calendar>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Calendar",
+			"ComponentName":"DIM-ATTRIBUTE:Calendar>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Calendar",
+			"ComponentName":"DIM-ATTRIBUTE:Calendar>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Capital",
+			"ComponentName":"DIM-ATTRIBUTES:Capital",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Capital",
+			"ComponentName":"DIM-ATTRIBUTE:Capital>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Capital",
+			"ComponentName":"DIM-ATTRIBUTE:Capital>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Capital",
+			"ComponentName":"DIM-ATTRIBUTE:Capital>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Capital",
+			"ComponentName":"DIM-ATTRIBUTE:Capital>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Capital",
+			"ComponentName":"DIM-ATTRIBUTE:Capital>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Capital",
+			"ComponentName":"DIM-ATTRIBUTE:Capital>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Capital",
+			"ComponentName":"DIM-ATTRIBUTE:Capital>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:CapitalList",
+			"ComponentName":"DIM-ATTRIBUTES:CapitalList",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:CapitalList",
+			"ComponentName":"DIM-ATTRIBUTE:CapitalList>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:CapitalList",
+			"ComponentName":"DIM-ATTRIBUTE:CapitalList>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:CapitalList",
+			"ComponentName":"DIM-ATTRIBUTE:CapitalList>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:CapitalList",
+			"ComponentName":"DIM-ATTRIBUTE:CapitalList>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:CapitalList",
+			"ComponentName":"DIM-ATTRIBUTE:CapitalList>Label",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:CapitalList",
+			"ComponentName":"DIM-ATTRIBUTE:CapitalList>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Channel",
+			"ComponentName":"DIM-ATTRIBUTES:Channel",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Channel",
+			"ComponentName":"DIM-ATTRIBUTE:Channel>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Compensation",
+			"ComponentName":"DIM-ATTRIBUTES:Compensation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Compensation",
+			"ComponentName":"DIM-ATTRIBUTE:Compensation>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Compensation",
+			"ComponentName":"DIM-ATTRIBUTE:Compensation>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Compensation",
+			"ComponentName":"DIM-ATTRIBUTE:Compensation>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Compensation",
+			"ComponentName":"DIM-ATTRIBUTE:Compensation>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Compensation",
+			"ComponentName":"DIM-ATTRIBUTE:Compensation>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Compensation",
+			"ComponentName":"DIM-ATTRIBUTE:Compensation>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Compensation",
+			"ComponentName":"DIM-ATTRIBUTE:Compensation>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Currency",
+			"ComponentName":"DIM-ATTRIBUTES:Currency",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Currency",
+			"ComponentName":"DIM-ATTRIBUTE:Currency>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Currency",
+			"ComponentName":"DIM-ATTRIBUTE:Currency>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Currency Calc",
+			"ComponentName":"DIM-ATTRIBUTES:Currency Calc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Currency Calc",
+			"ComponentName":"DIM-ATTRIBUTE:Currency Calc>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Depreciation",
+			"ComponentName":"DIM-ATTRIBUTES:Depreciation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Depreciation",
+			"ComponentName":"DIM-ATTRIBUTE:Depreciation>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Depreciation",
+			"ComponentName":"DIM-ATTRIBUTE:Depreciation>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Depreciation",
+			"ComponentName":"DIM-ATTRIBUTE:Depreciation>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Depreciation",
+			"ComponentName":"DIM-ATTRIBUTE:Depreciation>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Depreciation",
+			"ComponentName":"DIM-ATTRIBUTE:Depreciation>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Depreciation",
+			"ComponentName":"DIM-ATTRIBUTE:Depreciation>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Depreciation",
+			"ComponentName":"DIM-ATTRIBUTE:Depreciation>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Employee",
+			"ComponentName":"DIM-ATTRIBUTES:Employee",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>Month",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee",
+			"ComponentName":"DIM-ATTRIBUTE:Employee>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:EmployeeList",
+			"ComponentName":"DIM-ATTRIBUTES:EmployeeList",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:EmployeeList",
+			"ComponentName":"DIM-ATTRIBUTE:EmployeeList>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:EmployeeList",
+			"ComponentName":"DIM-ATTRIBUTE:EmployeeList>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:EmployeeList",
+			"ComponentName":"DIM-ATTRIBUTE:EmployeeList>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:EmployeeList",
+			"ComponentName":"DIM-ATTRIBUTE:EmployeeList>Employee_Name",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:EmployeeList",
+			"ComponentName":"DIM-ATTRIBUTE:EmployeeList>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:EmployeeList",
+			"ComponentName":"DIM-ATTRIBUTE:EmployeeList>Label",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:EmployeeList",
+			"ComponentName":"DIM-ATTRIBUTE:EmployeeList>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Employee Name",
+			"ComponentName":"DIM-ATTRIBUTES:Employee Name",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Employee Name",
+			"ComponentName":"DIM-ATTRIBUTE:Employee Name>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Exchange Rate",
+			"ComponentName":"DIM-ATTRIBUTES:Exchange Rate",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Exchange Rate",
+			"ComponentName":"DIM-ATTRIBUTE:Exchange Rate>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Exchange Rate",
+			"ComponentName":"DIM-ATTRIBUTE:Exchange Rate>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Exchange Rate Type",
+			"ComponentName":"DIM-ATTRIBUTES:Exchange Rate Type",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Exchange Rate Type",
+			"ComponentName":"DIM-ATTRIBUTE:Exchange Rate Type>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Exchange Rate Type",
+			"ComponentName":"DIM-ATTRIBUTE:Exchange Rate Type>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Exchange Rate Type",
+			"ComponentName":"DIM-ATTRIBUTE:Exchange Rate Type>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Exchange Rate Type",
+			"ComponentName":"DIM-ATTRIBUTE:Exchange Rate Type>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Exchange Rate Type",
+			"ComponentName":"DIM-ATTRIBUTE:Exchange Rate Type>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Exchange Rate Type",
+			"ComponentName":"DIM-ATTRIBUTE:Exchange Rate Type>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:ExternalFactors",
+			"ComponentName":"DIM-ATTRIBUTES:ExternalFactors",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:ExternalFactors",
+			"ComponentName":"DIM-ATTRIBUTE:ExternalFactors>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:ExternalFactors",
+			"ComponentName":"DIM-ATTRIBUTE:ExternalFactors>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:ExternalFactors",
+			"ComponentName":"DIM-ATTRIBUTE:ExternalFactors>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:ExternalFactors",
+			"ComponentName":"DIM-ATTRIBUTE:ExternalFactors>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:ExternalFactors",
+			"ComponentName":"DIM-ATTRIBUTE:ExternalFactors>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:ExternalFactors",
+			"ComponentName":"DIM-ATTRIBUTE:ExternalFactors>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:ExternalFactors",
+			"ComponentName":"DIM-ATTRIBUTE:ExternalFactors>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:FcstMethod",
+			"ComponentName":"DIM-ATTRIBUTES:FcstMethod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:FcstMethod",
+			"ComponentName":"DIM-ATTRIBUTE:FcstMethod>PickList",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:jobcode",
+			"ComponentName":"DIM-ATTRIBUTES:jobcode",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:jobcode",
+			"ComponentName":"DIM-ATTRIBUTE:jobcode>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:jobcode",
+			"ComponentName":"DIM-ATTRIBUTE:jobcode>Label",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:jobcode",
+			"ComponentName":"DIM-ATTRIBUTE:jobcode>Label2",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:JobCodeAsmpt",
+			"ComponentName":"DIM-ATTRIBUTES:JobCodeAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobCodeAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:JobCodeAsmpt>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobCodeAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:JobCodeAsmpt>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobCodeAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:JobCodeAsmpt>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobCodeAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:JobCodeAsmpt>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobCodeAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:JobCodeAsmpt>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobCodeAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:JobCodeAsmpt>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:JobType",
+			"ComponentName":"DIM-ATTRIBUTES:JobType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobType",
+			"ComponentName":"DIM-ATTRIBUTE:JobType>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobType",
+			"ComponentName":"DIM-ATTRIBUTE:JobType>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobType",
+			"ComponentName":"DIM-ATTRIBUTE:JobType>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobType",
+			"ComponentName":"DIM-ATTRIBUTE:JobType>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobType",
+			"ComponentName":"DIM-ATTRIBUTE:JobType>Label",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobType",
+			"ComponentName":"DIM-ATTRIBUTE:JobType>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:JobTypeAssumption",
+			"ComponentName":"DIM-ATTRIBUTES:JobTypeAssumption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobTypeAssumption",
+			"ComponentName":"DIM-ATTRIBUTE:JobTypeAssumption>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobTypeAssumption",
+			"ComponentName":"DIM-ATTRIBUTE:JobTypeAssumption>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobTypeAssumption",
+			"ComponentName":"DIM-ATTRIBUTE:JobTypeAssumption>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobTypeAssumption",
+			"ComponentName":"DIM-ATTRIBUTE:JobTypeAssumption>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobTypeAssumption",
+			"ComponentName":"DIM-ATTRIBUTE:JobTypeAssumption>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:JobTypeAssumption",
+			"ComponentName":"DIM-ATTRIBUTE:JobTypeAssumption>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:LineItemDetail",
+			"ComponentName":"DIM-ATTRIBUTES:LineItemDetail",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemDetail",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemDetail>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemDetail",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemDetail>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemDetail",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemDetail>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemDetail",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemDetail>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemDetail",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemDetail>Name",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemDetail",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemDetail>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemDetail",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemDetail>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:LineItemList",
+			"ComponentName":"DIM-ATTRIBUTES:LineItemList",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemList",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemList>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemList",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemList>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemList",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemList>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemList",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemList>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemList",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemList>Label",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:LineItemList",
+			"ComponentName":"DIM-ATTRIBUTE:LineItemList>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Metrics",
+			"ComponentName":"DIM-ATTRIBUTES:Metrics",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics>derivedcalculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics>performancepattern",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics>tolerancetype",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>IndicatorType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>Renderer",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>}Map_}Link_Metrics _3C Income Statement",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>}Map_}Link_Revenue_5FMetrics_3C Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>}Map_}Link_Revenue Metrics _3C Metrics",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Metrics Indicators",
+			"ComponentName":"DIM-ATTRIBUTE:Metrics Indicators>}Map_}Link_Revenue Metrics _3C Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Month",
+			"ComponentName":"DIM-ATTRIBUTES:Month",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>enddate",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>firstperiod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>lastperiod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>nextperiod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>Number",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>previousperiod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>startdate",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month",
+			"ComponentName":"DIM-ATTRIBUTE:Month>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:MonthMap",
+			"ComponentName":"DIM-ATTRIBUTES:MonthMap",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:MonthMap",
+			"ComponentName":"DIM-ATTRIBUTE:MonthMap>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:MonthMap",
+			"ComponentName":"DIM-ATTRIBUTE:MonthMap>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:MonthMap",
+			"ComponentName":"DIM-ATTRIBUTE:MonthMap>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:MonthMap",
+			"ComponentName":"DIM-ATTRIBUTE:MonthMap>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:MonthMap",
+			"ComponentName":"DIM-ATTRIBUTE:MonthMap>Name",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:MonthMap",
+			"ComponentName":"DIM-ATTRIBUTE:MonthMap>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTES:Month Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>enddate",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>firstperiod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>lastperiod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>nextperiod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>Number",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>previousperiod",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>startdate",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Month Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Month Reporting>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Numbered List",
+			"ComponentName":"DIM-ATTRIBUTES:Numbered List",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Numbered List",
+			"ComponentName":"DIM-ATTRIBUTE:Numbered List>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:organization",
+			"ComponentName":"DIM-ATTRIBUTES:organization",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:organization",
+			"ComponentName":"DIM-ATTRIBUTE:organization>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:organization",
+			"ComponentName":"DIM-ATTRIBUTE:organization>Caption_Base",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:organization",
+			"ComponentName":"DIM-ATTRIBUTE:organization>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:organization",
+			"ComponentName":"DIM-ATTRIBUTE:organization>Currency",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:organization",
+			"ComponentName":"DIM-ATTRIBUTE:organization>Default Plant",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:organization",
+			"ComponentName":"DIM-ATTRIBUTE:organization>id",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:organization",
+			"ComponentName":"DIM-ATTRIBUTE:organization>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Organization Reporting",
+			"ComponentName":"DIM-ATTRIBUTES:Organization Reporting",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Organization Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Organization Reporting>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Organization Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Organization Reporting>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Organization Reporting",
+			"ComponentName":"DIM-ATTRIBUTE:Organization Reporting>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:PhasedCosts",
+			"ComponentName":"DIM-ATTRIBUTES:PhasedCosts",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:PhasedCosts",
+			"ComponentName":"DIM-ATTRIBUTE:PhasedCosts>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:PhasedCosts",
+			"ComponentName":"DIM-ATTRIBUTE:PhasedCosts>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:PhasedCosts",
+			"ComponentName":"DIM-ATTRIBUTE:PhasedCosts>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:PhasedCosts",
+			"ComponentName":"DIM-ATTRIBUTE:PhasedCosts>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:PhasedCosts",
+			"ComponentName":"DIM-ATTRIBUTE:PhasedCosts>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:PhasedCosts",
+			"ComponentName":"DIM-ATTRIBUTE:PhasedCosts>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Plant",
+			"ComponentName":"DIM-ATTRIBUTES:Plant",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Plant",
+			"ComponentName":"DIM-ATTRIBUTE:Plant>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Plant",
+			"ComponentName":"DIM-ATTRIBUTE:Plant>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Plant",
+			"ComponentName":"DIM-ATTRIBUTE:Plant>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Plant",
+			"ComponentName":"DIM-ATTRIBUTE:Plant>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Plant",
+			"ComponentName":"DIM-ATTRIBUTE:Plant>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Plant",
+			"ComponentName":"DIM-ATTRIBUTE:Plant>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Plant",
+			"ComponentName":"DIM-ATTRIBUTE:Plant>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:product",
+			"ComponentName":"DIM-ATTRIBUTES:product",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>Caption_Base",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>Color",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>NewProduct",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>performancepattern",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>Size",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>System Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>tolerancetype",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:product",
+			"ComponentName":"DIM-ATTRIBUTE:product>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:QubeDocs Definition",
+			"ComponentName":"DIM-ATTRIBUTES:QubeDocs Definition",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QubeDocs Definition",
+			"ComponentName":"DIM-ATTRIBUTE:QubeDocs Definition>Element",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QubeDocs Definition",
+			"ComponentName":"DIM-ATTRIBUTE:QubeDocs Definition>Object",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QubeDocs Definition",
+			"ComponentName":"DIM-ATTRIBUTE:QubeDocs Definition>Type",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:QUBEdocs Import Folders",
+			"ComponentName":"DIM-ATTRIBUTES:QUBEdocs Import Folders",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QUBEdocs Import Folders",
+			"ComponentName":"DIM-ATTRIBUTE:QUBEdocs Import Folders>Extension",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QUBEdocs Import Folders",
+			"ComponentName":"DIM-ATTRIBUTE:QUBEdocs Import Folders>Parent",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QUBEdocs Import Folders",
+			"ComponentName":"DIM-ATTRIBUTE:QUBEdocs Import Folders>Path",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QUBEdocs Import Folders",
+			"ComponentName":"DIM-ATTRIBUTE:QUBEdocs Import Folders>Prefix",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:QubeDocs Measure",
+			"ComponentName":"DIM-ATTRIBUTES:QubeDocs Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QubeDocs Measure",
+			"ComponentName":"DIM-ATTRIBUTE:QubeDocs Measure>PickList",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:QUBEdocs Setup Item",
+			"ComponentName":"DIM-ATTRIBUTES:QUBEdocs Setup Item",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QUBEdocs Setup Item",
+			"ComponentName":"DIM-ATTRIBUTE:QUBEdocs Setup Item>Enable",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:QUBEdocs Setup Item",
+			"ComponentName":"DIM-ATTRIBUTE:QUBEdocs Setup Item>Notes",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTES:Rate Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Rate Measure>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Rate Measure>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Rate Measure>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Rate Measure>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Rate Measure>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Rate Measure>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Rate Measure>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Rate Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Rate Measure>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Relative Time",
+			"ComponentName":"DIM-ATTRIBUTES:Relative Time",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Relative Time",
+			"ComponentName":"DIM-ATTRIBUTE:Relative Time>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Relative Time",
+			"ComponentName":"DIM-ATTRIBUTE:Relative Time>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Relative Time",
+			"ComponentName":"DIM-ATTRIBUTE:Relative Time>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Relative Time",
+			"ComponentName":"DIM-ATTRIBUTE:Relative Time>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Relative Time",
+			"ComponentName":"DIM-ATTRIBUTE:Relative Time>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Relative Time",
+			"ComponentName":"DIM-ATTRIBUTE:Relative Time>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Relative Time",
+			"ComponentName":"DIM-ATTRIBUTE:Relative Time>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Revenue",
+			"ComponentName":"DIM-ATTRIBUTES:Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Revenue",
+			"ComponentName":"DIM-ATTRIBUTE:Revenue>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Revenue",
+			"ComponentName":"DIM-ATTRIBUTE:Revenue>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Revenue",
+			"ComponentName":"DIM-ATTRIBUTE:Revenue>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Revenue",
+			"ComponentName":"DIM-ATTRIBUTE:Revenue>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Revenue",
+			"ComponentName":"DIM-ATTRIBUTE:Revenue>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Revenue",
+			"ComponentName":"DIM-ATTRIBUTE:Revenue>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Revenue",
+			"ComponentName":"DIM-ATTRIBUTE:Revenue>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Revenue",
+			"ComponentName":"DIM-ATTRIBUTE:Revenue>}Map_}Link_Rev_3ARevAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:RevenueAsmpt",
+			"ComponentName":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:RevenueAsmpt>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:RevenueAsmpt>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:RevenueAsmpt>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:RevenueAsmpt>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:RevenueAsmpt>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:RevenueAsmpt>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:RevenueAsmpt",
+			"ComponentName":"DIM-ATTRIBUTE:RevenueAsmpt>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:SM Entries",
+			"ComponentName":"DIM-ATTRIBUTES:SM Entries",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:SM Entries",
+			"ComponentName":"DIM-ATTRIBUTE:SM Entries>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:SM Reviews",
+			"ComponentName":"DIM-ATTRIBUTES:SM Reviews",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:SM Reviews",
+			"ComponentName":"DIM-ATTRIBUTE:SM Reviews>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:SM Reviews",
+			"ComponentName":"DIM-ATTRIBUTE:SM Reviews>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Spread Methods",
+			"ComponentName":"DIM-ATTRIBUTES:Spread Methods",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Spread Methods",
+			"ComponentName":"DIM-ATTRIBUTE:Spread Methods>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Spread Methods",
+			"ComponentName":"DIM-ATTRIBUTE:Spread Methods>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:State Owner",
+			"ComponentName":"DIM-ATTRIBUTES:State Owner",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:State Owner",
+			"ComponentName":"DIM-ATTRIBUTE:State Owner>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:State Owner",
+			"ComponentName":"DIM-ATTRIBUTE:State Owner>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:State Owner",
+			"ComponentName":"DIM-ATTRIBUTE:State Owner>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:State Owner",
+			"ComponentName":"DIM-ATTRIBUTE:State Owner>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:State Owner",
+			"ComponentName":"DIM-ATTRIBUTE:State Owner>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:State Owner",
+			"ComponentName":"DIM-ATTRIBUTE:State Owner>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:State Owner",
+			"ComponentName":"DIM-ATTRIBUTE:State Owner>}Map_}Link_Workflow State to Workflow Overview",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:String",
+			"ComponentName":"DIM-ATTRIBUTES:String",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:String",
+			"ComponentName":"DIM-ATTRIBUTE:String>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:T_Produto",
+			"ComponentName":"DIM-ATTRIBUTES:T_Produto",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:T_Produto",
+			"ComponentName":"DIM-ATTRIBUTE:T_Produto>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Task",
+			"ComponentName":"DIM-ATTRIBUTES:Task",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Task",
+			"ComponentName":"DIM-ATTRIBUTE:Task>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Task Workflow Measure",
+			"ComponentName":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Task Workflow Measure>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Task Workflow Measure>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Task Workflow Measure>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Task Workflow Measure>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Task Workflow Measure>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Task Workflow Measure>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Task Workflow Measure",
+			"ComponentName":"DIM-ATTRIBUTE:Task Workflow Measure>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:TrxID",
+			"ComponentName":"DIM-ATTRIBUTES:TrxID",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxID",
+			"ComponentName":"DIM-ATTRIBUTE:TrxID>Account",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxID",
+			"ComponentName":"DIM-ATTRIBUTE:TrxID>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxID",
+			"ComponentName":"DIM-ATTRIBUTE:TrxID>Desc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxID",
+			"ComponentName":"DIM-ATTRIBUTE:TrxID>Organization",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxID",
+			"ComponentName":"DIM-ATTRIBUTE:TrxID>Reference",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxID",
+			"ComponentName":"DIM-ATTRIBUTE:TrxID>Source",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxID",
+			"ComponentName":"DIM-ATTRIBUTE:TrxID>TrxDate",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxID",
+			"ComponentName":"DIM-ATTRIBUTE:TrxID>Type",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:TrxMeasures",
+			"ComponentName":"DIM-ATTRIBUTES:TrxMeasures",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxMeasures",
+			"ComponentName":"DIM-ATTRIBUTE:TrxMeasures>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxMeasures",
+			"ComponentName":"DIM-ATTRIBUTE:TrxMeasures>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxMeasures",
+			"ComponentName":"DIM-ATTRIBUTE:TrxMeasures>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxMeasures",
+			"ComponentName":"DIM-ATTRIBUTE:TrxMeasures>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxMeasures",
+			"ComponentName":"DIM-ATTRIBUTE:TrxMeasures>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxMeasures",
+			"ComponentName":"DIM-ATTRIBUTE:TrxMeasures>signswitch",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:TrxMeasures",
+			"ComponentName":"DIM-ATTRIBUTE:TrxMeasures>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Version",
+			"ComponentName":"DIM-ATTRIBUTES:Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>FcstMonth",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>LinkVersion",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>permittedcalculations_n_and_c",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>System Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>VarianceFactor",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>Version Type",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version",
+			"ComponentName":"DIM-ATTRIBUTE:Version>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Version Subset Measures",
+			"ComponentName":"DIM-ATTRIBUTES:Version Subset Measures",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subset Measures",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subset Measures>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subset Measures",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subset Measures>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subset Measures",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subset Measures>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subset Measures",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subset Measures>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subset Measures",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subset Measures>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subset Measures",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subset Measures>}FormatType",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Version Subsets",
+			"ComponentName":"DIM-ATTRIBUTES:Version Subsets",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subsets",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subsets>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subsets",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subsets>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subsets",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subsets>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subsets",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subsets>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Version Subsets",
+			"ComponentName":"DIM-ATTRIBUTE:Version Subsets>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM:Year",
+			"ComponentName":"DIM-ATTRIBUTES:Year",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>calculation",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Caption",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Caption_Default",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>crossdimcalc",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Format",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Index",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Next",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Picklist",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Prev",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Previous",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>Renderer",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>}Map_}Link_IS Metrics _3C Income Statement",
+			"Weight":1
+		},
+		{
+			"ParentName":"DIM-ATTRIBUTES:Year",
+			"ComponentName":"DIM-ATTRIBUTE:Year>}SYS_TEMP_ATTRIBUTE",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:ADMIN",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:Cognos\\Everyone",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:Cognos\\PMGroup",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:DataAdmin",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:IBMDemo\\BG1",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:IBMDemo\\BG2",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:IBMDemo\\BG_Adm",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:OperationsAdmin",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Groups",
+			"ComponentName":"GRP:SecurityAdmin",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 001",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 002",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 003",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 004",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 005",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 006",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 007",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 008",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 009",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 010",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 011",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 012",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 013",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 014",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Other Documentation",
+			"ComponentName":"Document 015",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Acquire_IS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Add_Product",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Add Product Vision",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:cache_views",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Complete_Target",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_Product_SupplyChain",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_RevAsmpt",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_Revenue_Compare_Units",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_Revenue_Spread_Units",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_SKU_detail_BOM",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Copy_TargetSet_Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:copy_version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:copy_version_control",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:create_default_subset",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:create_transactions",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:create_version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:cube Task Workflow reset Status",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Delete Persistent Feeders",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Dim - Copy Employee Names",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Export Dimensions to SPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Export External Factors to SPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ExportToSPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ExportToSPSSPro",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Export UnitsSold to SPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ImportFromSPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ImportFromSPSSPro",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Load_PYActuals",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Load UnitsSold from SPSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Load Workflow Info",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Log - Reset Log Process",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Log - Update Log Cube",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:New Process",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:QUBEdocs Create Package",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:QUBEdocs Package Logfiles",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:QUBEdocs Refresh",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:RefreshMdxHierarchy",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Release_IS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:reset_alias",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:reset_demo",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:reset_demo_FOPMImage",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Reset Concert",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:ResetRevenueData",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Run SPSS Prediction",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:set_compare_version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:set_default_version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Set_Security_Version",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:SetGlobalVariables",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:SPSSCreateNewMeasures",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:test000",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Update_AcctFcstMethod",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Update_NewProduct_Fcst",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:update_organization",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:Update_RevenueAsmpts",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Processes",
+			"ComponentName":"PRO:UpdateISFromRevenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Admin",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/admin",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/administrator",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/bob",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/cognos",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/erica",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/pm",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/prismdemo1",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/prismdemo2",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/prismdemo3",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/ross",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/spencer",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student1",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student10",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student11",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student12",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student13",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student14",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student15",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student16",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student17",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student18",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student19",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student2",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student20",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student3",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student4",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student5",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student6",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student7",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student8",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/student9",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/vision",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Users",
+			"ComponentName":"USR:Harmony LDAP/vision1024",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"QubeDocs Definition.subsets/Default.json",
+		"QubeDocs Definition.subsets/Level0.json",
+		"QubeDocs Definition.subsets/QubeDocs.All.json",
+		"QubeDocs Definition.subsets/QubeDocs.All Definitions.json",
+		"QubeDocs Definition.subsets/QubeDocs.Cubes.json",
+		"QubeDocs Definition.subsets/QubeDocs.Dimensions.json",
+		"QubeDocs Definition.subsets/QUBEdocs.Other Documentation.json",
+		"QubeDocs Definition.subsets/QUBEdocs.Summary.json",
+		"QubeDocs Definition.subsets/QUBEDocs Definition.json",
+		"QubeDocs Definition.subsets/SYS.Level0.json",
+		"QubeDocs Definition.subsets/}SYS.2_QUBEdocsApplications.qson.json",
+		"QubeDocs Definition.subsets/}SYS.QUBEdocs.json",
+		"QubeDocs Definition.subsets/}SYS.QUBEdocsApps.json",
+		"QubeDocs Definition.subsets/}SYS.QUBEdocsApps2.json",
+		"QubeDocs Definition.subsets/}SYS.QUBEdocsDef.json",
+		"QubeDocs Definition.subsets/}SYS.QUBEdocsDef3.json",
+		"QubeDocs Definition.subsets/}SYS.QUBEdocsDef4.json"
+	]
+}

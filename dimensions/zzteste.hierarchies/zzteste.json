@@ -1,0 +1,87 @@
+{
+	"@type":"Hierarchy",
+	"Name":"zzteste",
+	"Elements":
+	[
+		{
+			"Name":"Total",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Pai",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Filho",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Neto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Elm",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Elm2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Neto 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Elm 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Elm 4",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total",
+			"ComponentName":"Pai",
+			"Weight":1
+		},
+		{
+			"ParentName":"Pai",
+			"ComponentName":"Filho",
+			"Weight":1
+		},
+		{
+			"ParentName":"Filho",
+			"ComponentName":"Neto 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Filho",
+			"ComponentName":"Neto",
+			"Weight":1
+		},
+		{
+			"ParentName":"Neto",
+			"ComponentName":"Elm2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Neto",
+			"ComponentName":"Elm",
+			"Weight":1
+		},
+		{
+			"ParentName":"Neto 2",
+			"ComponentName":"Elm 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Neto 2",
+			"ComponentName":"Elm 4",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,15 @@
+SkipCheck;
+['Actual'] = N:
+If( AttrS('CTI.D.Year_Month', !CTI.D.Year_Month, 'Year') @< '2021'
+	,DB('Revenue',!organization,!Channel,!product,AttrS('CTI.D.Year_Month',!CTI.D.Year_Month,'Month'),AttrS('CTI.D.Year_Month',!CTI.D.Year_Month,'Year'),!Version,!Revenue)
+	,Stet
+);
+
+['Budget'] = N:
+If( AttrS('CTI.D.Year_Month', !CTI.D.Year_Month, 'Year') @> '2020'
+	,DB('Revenue',!organization,!Channel,!product,AttrS('CTI.D.Year_Month',!CTI.D.Year_Month,'Month'),AttrS('CTI.D.Year_Month',!CTI.D.Year_Month,'Year'),!Version,!Revenue)
+	,Stet
+);
+
+[] = N:
+DB('Revenue',!organization,!Channel,!product,AttrS('CTI.D.Year_Month',!CTI.D.Year_Month,'Month'),AttrS('CTI.D.Year_Month',!CTI.D.Year_Month,'Year'),!Version,!Revenue);

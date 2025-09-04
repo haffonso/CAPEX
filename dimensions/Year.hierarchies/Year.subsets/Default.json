@@ -1,0 +1,23 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"Caption_Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y-1')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y0')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y1')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y2')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y3')"
+		}
+	]
+}

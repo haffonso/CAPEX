@@ -1,0 +1,330 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}QUBEdocs Client",
+	"Elements":
+	[
+		{
+			"Name":"All Clients",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Server",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Admin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=pm\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=spencer\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=prismdemo3\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=erica\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=vision1024\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=ross\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=administrator\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=prismdemo1\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=prismdemo2\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=cognos\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=bob\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=vision\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=admin\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student7\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student1\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student6\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student3\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student8\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student2\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student10\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student5\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student4\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student9\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student12\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student14\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student20\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student15\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student17\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student13\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student11\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student18\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student16\")",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAMID(\"Harmony LDAP:u:cn=student19\")",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"Server",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"Admin",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=pm\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=spencer\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=prismdemo3\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=erica\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=vision1024\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=ross\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=administrator\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=prismdemo1\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=prismdemo2\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=cognos\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=bob\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=vision\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=admin\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student7\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student1\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student6\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student3\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student8\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student2\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student10\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student5\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student4\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student9\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student12\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student14\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student20\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student15\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student17\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student13\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student11\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student18\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student16\")",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Clients",
+			"ComponentName":"CAMID(\"Harmony LDAP:u:cn=student19\")",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

@@ -1,0 +1,18 @@
+#region Prolog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Metadata
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+CellPutN( v5 + 1 , 'zzteste' , v1 , v2 , v3 , 'Discount Test 2');
+#endregion
+#region Epilog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

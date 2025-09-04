@@ -1,0 +1,17 @@
+{
+	"@type":"Cube",
+	"Name":"Teste AON",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('CTI.M.Marketing_Investment')"
+		}
+	],
+	"Views@Code.links":[]
+}

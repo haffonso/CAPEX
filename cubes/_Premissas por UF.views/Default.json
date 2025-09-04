@@ -1,0 +1,19 @@
+{
+	"@type":"MDXView",
+	"Name":"Default",
+	"MDX@Code.link":"Default.mdx",
+	"Meta" : 
+	{
+		"Aliases" : 
+		{
+			"[_Periodo].[_Periodo]" : "MEMBER_NAME"
+		},
+		"ContextSets" : {},
+		"ExpandAboves" : 
+		{
+			"[_Metrica_UF].[_Metrica_UF]" : false,
+			"[_Periodo].[_Periodo]" : false,
+			"[_UF].[_UF]" : false
+		}
+	}
+}

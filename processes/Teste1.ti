@@ -1,0 +1,12 @@
+#region Prolog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+IF(pExecutar @='Sim');
+	CellPutS ('2021_03_12' ,'Sys.CTI.Controle_CargaS', 'Teste1', 'DataHoraInicio');
+Endif;
+#endregion

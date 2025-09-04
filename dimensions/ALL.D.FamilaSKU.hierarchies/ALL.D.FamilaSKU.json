@@ -1,0 +1,95 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ALL.D.FamilaSKU",
+	"Elements":
+	[
+		{
+			"Name":"Phones",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"3G Smart Phones",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4G Smart Phones",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Phone Only",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PCs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Desktops",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Laptops",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gaming",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tablets",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"10 Inch Tablets",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"8 Inch Tablets",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Phones",
+			"ComponentName":"3G Smart Phones",
+			"Weight":1
+		},
+		{
+			"ParentName":"Phones",
+			"ComponentName":"4G Smart Phones",
+			"Weight":1
+		},
+		{
+			"ParentName":"Phones",
+			"ComponentName":"Phone Only",
+			"Weight":1
+		},
+		{
+			"ParentName":"PCs",
+			"ComponentName":"Desktops",
+			"Weight":1
+		},
+		{
+			"ParentName":"PCs",
+			"ComponentName":"Laptops",
+			"Weight":1
+		},
+		{
+			"ParentName":"PCs",
+			"ComponentName":"Gaming",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tablets",
+			"ComponentName":"10 Inch Tablets",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tablets",
+			"ComponentName":"8 Inch Tablets",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

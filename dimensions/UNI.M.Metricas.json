@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"UNI.M.Metricas",
+	"Hierarchies@Code.links":
+	[
+		"UNI.M.Metricas.hierarchies/UNI.M.Metricas.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('UNI.M.Metricas')/Hierarchies('UNI.M.Metricas')"
+	}
+}

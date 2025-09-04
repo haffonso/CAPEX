@@ -1,0 +1,20 @@
+{
+	"@type":"Hierarchy",
+	"Name":"MetricaPreditivo",
+	"Elements":
+	[
+		{
+			"Name":"Valor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Alavanca 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Avalanca 2",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

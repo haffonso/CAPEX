@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Realizado",
+	"Alias":"PT_BR",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Actual')"
+		}
+	]
+}

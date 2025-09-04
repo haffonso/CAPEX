@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"CTI.002.Escolher_Modelo",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"CTI.002.Escolher_Modelo.ti",
+	"UIData":"CubeAction=1511\fDataAction=1503\fCubeLogChanges=0\f_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

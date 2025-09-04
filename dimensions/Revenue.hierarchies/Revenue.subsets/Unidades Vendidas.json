@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Unidades Vendidas",
+	"Alias":"PT_BR",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Revenue')/Hierarchies('Revenue')/Elements('Units Sold')"
+		}
+	]
+}

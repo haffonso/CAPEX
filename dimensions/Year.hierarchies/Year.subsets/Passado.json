@@ -1,0 +1,20 @@
+{
+	"@type":"Subset",
+	"Name":"Passado",
+	"Alias":"Caption",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y-1')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y0')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y1')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('Y2')"
+		}
+	]
+}

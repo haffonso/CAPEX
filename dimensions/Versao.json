@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Versao",
+	"Hierarchies@Code.links":
+	[
+		"Versao.hierarchies/Versao.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Versao')/Hierarchies('Versao')"
+	}
+}

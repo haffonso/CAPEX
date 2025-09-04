@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"CTI.005.Simulacoes",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"CTI.005.Simulacoes.ti",
+	"UIData":"CubeAction=1511\fDataAction=1503\fCubeLogChanges=0\f_ParameterConstraints=e30=\f",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"% Discount",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CTI.M.Discount')/Hierarchies('CTI.M.Discount')/Elements('% Discount')"
+		}
+	]
+}

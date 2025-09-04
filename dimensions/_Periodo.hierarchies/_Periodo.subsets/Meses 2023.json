@@ -1,0 +1,43 @@
+{
+	"@type":"Subset",
+	"Name":"Meses 2023",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Jan 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Fev 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Mar 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Abr 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Mai 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Jun 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Jul 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Ago 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Set 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Out 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Nov 2023')"
+		},
+		{
+			"@id":"Dimensions('_Periodo')/Hierarchies('_Periodo')/Elements('Dez 2023')"
+		}
+	]
+}

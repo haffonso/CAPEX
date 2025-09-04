@@ -1,0 +1,36 @@
+{
+	"@type":"Cube",
+	"Name":"CTI.003.01.Line_Item_Detail_SKU_AUX",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Month')"
+		},
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('organization')"
+		},
+		{
+			"@id":"Dimensions('LineItemList')"
+		},
+		{
+			"@id":"Dimensions('Account')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('LineItemDetail')"
+		}
+	],
+	"Rules@Code.link":"CTI.003.01.Line_Item_Detail_SKU_AUX.rules",
+	"Views@Code.links":
+	[
+		"CTI.003.01.Line_Item_Detail_SKU_AUX.views/Default.json"
+	]
+}

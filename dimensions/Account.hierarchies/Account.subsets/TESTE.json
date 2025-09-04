@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"TESTE",
+	"Alias":"Caption_Default",
+	"Expression":"{EXCEPT(DRILLUPMEMBER(TM1TOGGLEDRILLSTATE(TM1SubsetToSet([Account].[Account] , \"Default\") , {[Account].[Account].[6099],[Account].[Account].[6199]} , EXPAND_BELOW , RECURSIVE) , {[Account].[Account].[6099],[Account].[Account].[6199]}) , {[Account].[Account].[6099]})}"
+}

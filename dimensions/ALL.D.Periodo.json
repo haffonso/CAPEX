@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"ALL.D.Periodo",
+	"Hierarchies@Code.links":
+	[
+		"ALL.D.Periodo.hierarchies/ALL.D.Periodo.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ALL.D.Periodo')/Hierarchies('ALL.D.Periodo')"
+	}
+}

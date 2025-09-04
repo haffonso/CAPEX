@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"Libbs Demo Forecast",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Versao')"
+		},
+		{
+			"@id":"Dimensions('Periodo')"
+		},
+		{
+			"@id":"Dimensions('SKU')"
+		},
+		{
+			"@id":"Dimensions('Metricas Libbs')"
+		}
+	],
+	"Views@Code.links":[]
+}
